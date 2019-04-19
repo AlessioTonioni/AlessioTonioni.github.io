@@ -13,7 +13,7 @@ citation: 'Tonioni, A., & Di Stefano, L. (2017, September). Product recognition 
 
 The arrangement of products in store shelves is carefully planned to maximize sales and keep customers happy. Verifying compliance of real shelves to the ideal layout, however, is a costly task currently routinely performed by the store personnel. In this paper, we propose a computer vision pipeline to recognize products on shelves and verify compliance to the planned layout. We deploy local invariant features together with a novel formulation of the product recognition problem as a sub-graph isomorphism between the items appearing in the given image and the ideal layout. This allows for auto-localizing the given image within aisles of the store and improves recognition dramatically.
 
-[Paper](https://arxiv.org/pdf/1707.08378)
+[Paper](https://arxiv.org/pdf/1707.08378) | [Annotations](http://vision.deis.unibo.it/joomla/images/research/Product-recognition/PlanogramDataset.zip)
 
 
 ## BibTex
