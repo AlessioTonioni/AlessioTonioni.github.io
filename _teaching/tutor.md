@@ -4,7 +4,6 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/tutor
 venue: "University of Bologna, computer engineering course"
-date: 2016-Present
 location: "Bologna, Italy"
 ---
 

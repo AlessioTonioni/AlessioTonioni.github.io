@@ -4,7 +4,6 @@ collection: teaching
 type: "Corporate Training Course"
 permalink: /teaching/corsoML
 venue: "Fondazione Aldini Valeriani"
-date: 2018-Present
 location: "City, Country"
 ---
 
