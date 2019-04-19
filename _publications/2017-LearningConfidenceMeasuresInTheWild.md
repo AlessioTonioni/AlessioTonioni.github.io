@@ -13,8 +13,8 @@ citation: 'Tosi, F., Poggi, M., Tonioni, A., Di Stefano, L., & Mattoccia, S. (20
 
 Confidence measures for stereo earned increasing popularity in most recent works concerning stereo, being effectively deployed to improve its accuracy. While most measures are obtained by processing cues from the cost volume, top-performing ones usually leverage on random-forests or CNNs to predict match reliability. Therefore, a proper amount of labeled data is required to effectively train such confidence measures. Being such ground-truth labels not always available in practical applications, in this paper we propose a methodology suited for training confidence measures in a self-supervised manner. Leveraging on a pool of properly selected conventional measures, we automatically detect a subset of very reliable pixels as well as a subset of erroneous samples from the output of a stereo algorithm. This strategy provides labels for training confidence measures based on machine-learning technique without ground-truth labels. Compared to state-of-the-art, our method is neither constrained to image sequences nor to image content. Experimental results on three challenging datasets with three stereo algorithms and three state-of-the-art confidence measures based on machine-learning techniques confirm the effectiveness of our proposal for self-supervised training.
 
-| [Download paper here](https://vision.disi.unibo.it/~mpoggi/papers/bmvc2017.pdf) | 
-[Download code here](https://github.com/fabiotosi92/Unsupervised-Confidence-Measures) | 
+| [Paper](https://vision.disi.unibo.it/~mpoggi/papers/bmvc2017.pdf) | 
+[Code](https://github.com/fabiotosi92/Unsupervised-Confidence-Measures) | 
 
 ## BibTex 
 ```

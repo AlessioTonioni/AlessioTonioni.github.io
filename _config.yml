@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Alessio Tonioni"
   avatar           : "profile.png"
-  bio              : "Research fellow at Computer Vison Laboratory, University of Bologna. I have mainly worked on depth estimation, product detection and domain adaptation for deep learning algorithms"
+  bio              : "Research fellow at Computer Vison Laboratory, University of Bologna."
   location         : "Bologna, Italy"
   employer         :
   googlescholar    : "https://scholar.google.it/citations?user=ry_BLFUAAAAJ&hl=en"
