@@ -3,7 +3,7 @@ title: "Learning confidence measures in the wild"
 collection: 'Depth Estimation'
 permalink: /publication/confidenceWild
 excerpt: 'In this paper we propose a methodology suited for training a confidence measure for stereo in a self-supervised manner.'
-date: 2017
+date: 2017-09-04
 venue: '28th British Machine Vision Conference (BMVC 2017)'
 paperurl: 'https://vision.disi.unibo.it/~mpoggi/papers/bmvc2017.pdf'
 citation: 'Tosi, F., Poggi, M., Tonioni, A., Di Stefano, L., & Mattoccia, S. (2017, September). Learning confidence measures in the wild. In 28th British Machine Vision Conference (BMVC 2017) (Vol. 2, No. 4).'

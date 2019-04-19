@@ -3,7 +3,7 @@ title: "Real-time self-adaptive deep stereo"
 collection: 'Depth Estimation'
 permalink: /publication/realTime
 excerpt: 'In this paper we propose a real-time self adaptive deep stereo system.'
-date: 2019
+date: 2019-06-16
 venue: 'Conference on Computer Vision and Pattern Recognitio'
 paperurl: 'https://arxiv.org/pdf/1810.05424'
 citation: 'Tonioni, A., Tosi, F., Poggi, M., Mattoccia, S., & Di Stefano, L. (2019). The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019'
