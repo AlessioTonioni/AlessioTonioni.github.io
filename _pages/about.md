@@ -10,7 +10,7 @@ redirect_from:
 
 Hello!
 
-I'm a researcher in computer vision and deep learning currently enrolled as a post doc at the Computer Vision Lab of the university of Bologna under the supervision of Professor Luigi Di Stefano.
+I'm a researcher in computer vision and deep learning. I'm currently enrolled as a post doc at the [Computer Vision Lab](https://www.vision.deis.unibo.it/) of the university of Bologna under the supervision of Professor Luigi Di Stefano.
 
 I received my PhD in Computer Science and Engineering from University of Bologna on April 2019. 
 During my PhD I have worked on deep learning solutions for product detection and recognition in retail environments and on deep learning applied to depth estimation from stereo and monocular cameras.
@@ -21,9 +21,12 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 ## News
 __2019__:
 
-  * I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral)](publication/realTime)  and [Learning To Adapt for Stereo](publication/L2A).
-  * On the 22nd of May Me, Matteo Poggi and Oscar Rahnama will be at BMVA meeting on High-Performance Computing for Computer Vision to present our recent works on efficient depth estimation. See you there!
-  * We have just released our last work where we show how it is possible to transform deep representation across domains and tasks. I believe it is a really exciting and under developed research field, check out our work! [Learning Across Tasks and Domains](publication/ATDT)
+  * I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral)](publication/realTime)  and [Learning To Adapt for Stereo](publication/L2A). See you there!
+  * Me, [__Matteo Poggi__](https://vision.disi.unibo.it/~mpoggi/) and __Oscar Rahnama__ will be on the 22nd of May at BMVA meeting on High-Performance Computing for Computer Vision to present our recent works on efficient depth estimation. See you there!
+  * We have just released our last work where we show how it is possible to transform deep representation across domains and tasks. I believe it is a really exciting and under developed research field, check it out! [Learning Across Tasks and Domains](publication/ATDT)
   * Our last work on Grocery Product Recognition has been published on CVIU, check it out: [Domain invariant hierarchical embedding for grocery products recognition](publication/DIHE).
   * Our paper on designing an efficient stereo systems for FPGA has been published on IEEE Transactions on Circuits and Systems II: Express Briefs, check it out: [Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC](publication/FPGA).
-  * 
+  * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friend for helping me during the last three years! 
+  
+## Random Bonus Pick
+![](images/budapest.jpg)
