@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download pdf version](files/CV.pdf)
+[Download pdf version](https://alessiotonioni.github.io/files/CV.pdf)
 
 Education
 ======
