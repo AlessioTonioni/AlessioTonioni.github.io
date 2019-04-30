@@ -7,6 +7,7 @@ date: 2019-06-16
 venue: 'Conference on Computer Vision and Pattern Recognition'
 paperurl: 'https://arxiv.org/pdf/1810.05424'
 citation: 'Tonioni, A., Tosi, F., Poggi, M., Mattoccia, S., & Di Stefano, L. (2019). The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019'
+pubtype: 'conference'
 ---
 
 ## Abstract

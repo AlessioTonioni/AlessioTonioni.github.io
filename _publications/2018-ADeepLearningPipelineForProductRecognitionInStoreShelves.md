@@ -7,6 +7,7 @@ date: 2018-12-12
 venue: 'International Conference on Image Processing, Applications and Systems'
 paperurl: 'https://arxiv.org/pdf/1810.01733'
 citation: 'Tonioni, Alessio, Eugenio Serra, and Luigi Di Stefano. "A deep learning pipeline for product recognition in store shelves." In International Conference on Image Processing, Applications and Systems, 2018'
+pubtype: 'conference'
 ---
 
 ## Abstract

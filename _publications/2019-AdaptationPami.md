@@ -6,6 +6,7 @@ excerpt: 'In this paper we extend our previous unsupervised adaptation approach 
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
 paperurl: ''
 citation: 'Tonioni, A., Poggi, M., Mattoccia, S., & Di Stefano, L. (2019). Unsupervised Domain Adaptation for Depth Prediction from Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019'
+pubtype: 'review'
 ---
 ## Abstract
 

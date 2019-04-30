@@ -7,6 +7,7 @@ date: 2019-04-03
 venue: ' IEEE Transactions on Circuits and Systems II: Express Briefs '
 paperurl: 'https://ieeexplore.ieee.org/document/8681073'
 citation: 'O. Rahnama et al., "Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC," in IEEE Transactions on Circuits and Systems II: Express Briefs.'
+pubtype: 'journal'
 ---
 ## Abstract
 
