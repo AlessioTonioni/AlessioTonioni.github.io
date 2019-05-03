@@ -1,5 +1,6 @@
 ---
 title: "Learning to detect good 3D keypoints"
+authors: 'Alessio Tonioni, Samuele Salti, Federico Tombari, Riccardo Spezialetti and Luigi Di Stefano'
 collection: "3D Computer Vision"
 permalink: /publication/kpl
 excerpt: 'In this paper we learn a descriptor-specific 3D keypoint detector so as to optimize the end-to-end performance of a feature matching pipeline'

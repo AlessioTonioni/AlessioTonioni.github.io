@@ -1,5 +1,6 @@
 ---
 title: "Real-time self-adaptive deep stereo"
+authors: 'Alessio Tonioni, Fabio Tosi, Matteo Poggi, Stefano Mattoccia and Luigi Di Stefano'
 collection: 'Depth Estimation'
 permalink: /publication/realTime
 excerpt: 'In this paper we propose a real-time self adaptive deep stereo system.'

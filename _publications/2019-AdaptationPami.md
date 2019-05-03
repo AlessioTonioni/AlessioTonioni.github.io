@@ -1,5 +1,6 @@
 ---
 title: "Unsupervised Domain Adaptation for Depth Prediction from Images"
+authors: 'Alessio Tonioni, Matteo Poggi, Stefano Mattoccia and Luigi Di Stefano'
 collection: 'Depth Estimation'
 permalink: /publication/AdaptationJournal
 excerpt: 'In this paper we extend our previous unsupervised adaptation approach to fine-tune a deep learning stereo or mono model without any ground-truth information.'

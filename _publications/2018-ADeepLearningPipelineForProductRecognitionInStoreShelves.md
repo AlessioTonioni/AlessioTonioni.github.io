@@ -1,5 +1,6 @@
 ---
 title: "A deep learning pipeline for product recognition in store shelves"
+authors: 'Alessio Tonioni, Eugenio Serra and Luigi Di Stefano.'
 collection: 'Product Detection and Recognition'
 permalink: /publication/deepProduct
 excerpt: 'In this paper, we propose a deep learning pipeline to recognize products on grocery shelves that can scale effortlessly to thousand of different products to recognize.'

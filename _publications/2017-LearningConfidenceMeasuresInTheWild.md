@@ -1,5 +1,6 @@
 ---
 title: "Learning confidence measures in the wild"
+authors: 'Fabio Tosi, Matteo Poggi, Alessio Tonioni, Luigi Di Stefano, & Stefano Mattoccia'
 collection: 'Depth Estimation'
 permalink: /publication/confidenceWild
 excerpt: 'In this paper we propose a methodology suited for training a confidence measure for stereo in a self-supervised manner.'

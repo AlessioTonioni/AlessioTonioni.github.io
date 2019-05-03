@@ -1,5 +1,6 @@
 ---
 title: "Product recognition in store shelves as a sub-graph isomorphism problem"
+authors: 'Alessio Tonioni and Luigi Di Stefano'
 collection: 'Product Detection and Recognition'
 permalink: /publication/planogram
 excerpt: 'In this paper, we propose a computer vision pipeline to recognize products on shelves and verify compliance to the planned layout.'
