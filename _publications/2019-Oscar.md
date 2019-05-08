@@ -1,12 +1,14 @@
 ---
 title: "Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC"
+authors: 'Oscar Rahnama, Tommaso Cavallari, Stuart Golodetz, Alessio Tonioni, Thomas Joy, Luigi Di Stefano, Simon Walker, and Philip HS Torr'
 collection: 'Depth Estimation'
 permalink: /publication/FPGA
 excerpt: 'In this paper, we leverage a FPGA-CPU chip to propose a novel, sophisticated, stereo approach that combines the best features of SGM and ELAS-based methods to compute highly accurate dense depth in real time.'
 date: 2019-04-03
 venue: ' IEEE Transactions on Circuits and Systems II: Express Briefs '
 paperurl: 'https://ieeexplore.ieee.org/document/8681073'
-citation: 'O. Rahnama et al., "Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC," in IEEE Transactions on Circuits and Systems II: Express Briefs.'
+citation: 'Rahnama, Oscar, Tommaso Cavallari, Stuart Golodetz, Alessio Tonioni, Thomas Joy, Luigi Di Stefano, Simon Walker, and Philip HS Torr, "Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC," in IEEE Transactions on Circuits and Systems II: Express Briefs.'
+pubtype: 'journal'
 ---
 ## Abstract
 

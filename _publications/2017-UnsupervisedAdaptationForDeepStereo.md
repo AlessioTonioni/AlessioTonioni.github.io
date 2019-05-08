@@ -1,5 +1,6 @@
 ---
 title: "Unsupervised Adaptation For Deep Stereo"
+authors: 'Alessio Tonioni, Matteo Poggi, stefano Mattoccia and Luigi Di Stefano'
 collection: 'Depth Estimation'
 permalink: /publication/Adaptation
 excerpt: 'In this paper we propose a novel unsupervised adaptation approach that enables to fine-tune a deep learning stereo model without any ground-truth information.'
@@ -7,6 +8,7 @@ date: 2017-10-22
 venue: 'Proceedings of the IEEE International Conference on Computer Vision'
 paperurl: 'http://openaccess.thecvf.com/content_ICCV_2017/papers/Tonioni_Unsupervised_Adaptation_for_ICCV_2017_paper.pdf'
 citation: 'Tonioni, A., Poggi, M., Mattoccia, S., & Di Stefano, L. (2017). Unsupervised adaptation for deep stereo. In Proceedings of the IEEE International Conference on Computer Vision (pp. 1605-1613).'
+pubtype: 'conference'
 ---
 
 ## Abstract

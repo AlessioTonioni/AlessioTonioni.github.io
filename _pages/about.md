@@ -20,8 +20,7 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2019__:
-
-  * I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral)](publication/realTime)  and [Learning To Adapt for Stereo](publication/L2A). See you there!
+  * I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral+Poster+Demo)](publication/realTime)  and [Learning To Adapt for Stereo (Poster)](publication/L2A). See you there!
   * Me, [__Matteo Poggi__](https://vision.disi.unibo.it/~mpoggi/) and __Oscar Rahnama__ will be on the 22nd of May at BMVA meeting on High-Performance Computing for Computer Vision to present our recent works on efficient depth estimation. See you there!
   * We have just released our last work where we show how it is possible to transform deep representation across domains and tasks. I believe it is a really exciting and under developed research field, check it out! [Learning Across Tasks and Domains](publication/ATDT)
   * Our last work on Grocery Product Recognition has been published on CVIU, check it out: [Domain invariant hierarchical embedding for grocery products recognition](publication/DIHE).
