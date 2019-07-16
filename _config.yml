@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Alessio Tonioni"
   avatar           : "profile.png"
-  bio              : "Research fellow at Computer Vison Laboratory, University of Bologna."
-  location         : "Bologna, Italy"
-  employer         : "University of Bologna"
+  bio              : "Computer Vision Post Doc."
+  location         : "Zurich, Switzerland"
+  employer         : ""
   googlescholar    : "https://scholar.google.it/citations?user=ry_BLFUAAAAJ&hl=en"
-  email            : "alessio.tonioni@unibo.it"
+  email            : "alex23settembre@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Alessio_Tonioni"
   uri              :
   bitbucket        :
@@ -98,7 +98,7 @@ author:
   github           : "AlessioTonioni"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/commutinggiraffe/"
   lastfm           :
   linkedin         : "https://it.linkedin.com/in/alessio-tonioni-16261668"
   orcid            : "https://orcid.org/0000-0003-3358-9686"

@@ -10,7 +10,8 @@ redirect_from:
 
 Hello!
 
-I'm a researcher in computer vision and deep learning. I'm currently enrolled as a post doc at the [Computer Vision Lab](https://www.vision.deis.unibo.it/) of the university of Bologna under the supervision of Professor Luigi Di Stefano.
+I'm a researcher in computer vision and deep learning and I'm currently working with Federico Tombari at Google Zurich. 
+Previously I was enrolled as a post doc at the [Computer Vision Lab](https://www.vision.deis.unibo.it/) of the university of Bologna under the supervision of Professor Luigi Di Stefano.
 
 I received my PhD in Computer Science and Engineering from University of Bologna on April 2019. 
 During my PhD I have worked on deep learning solutions for product detection and recognition in retail environments and on deep learning applied to depth estimation from stereo and monocular cameras.
@@ -29,7 +30,7 @@ __2019__:
   * Our paper on designing an efficient stereo systems for FPGA has been published on IEEE Transactions on Circuits and Systems II: Express Briefs, check it out: [Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC](publication/FPGA).
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
   
-## Bonus Pic & Song 
-[Soundtrack](https://www.youtube.com/watch?v=wk28cgCG3Ho)
-![Budapest](images/budapest.jpg)
+## Bonus Pics & Song 
+[Soundtrack](https://www.youtube.com/watch?v=lua-N4OrPKA)
+![Budapest](images/zurigo.jpg)
 
