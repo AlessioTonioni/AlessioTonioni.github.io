@@ -21,9 +21,10 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2019__:
+  * Our paper [Learning Across Tasks and Domains](publication/2019-ATDT) got accepted at ICCV 2019 for a poster presentation! I wish to thank [Pierluigi](https://www.unibo.it/sitoweb/pierluigi.zama) for the wonderful work. Stay tuned for the code release.
   * After 3.5 wonderful years at the Computer Vision Lab of Bologna it's time to move on, from July I will start a collaboration with the computer vision team of Federico Tombari at Google Zurich! So long Bologna, and thank you for all the fish!
   * My Phd thesis is finally online and provided with open access by UniBO [link](http://amsdottorato.unibo.it/8970/).
-  * I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral+Poster+Demo)](publication/realTime)  and [Learning To Adapt for Stereo (Poster)](publication/L2A). See you there!
+  * I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral+Poster+Demo)](publication/realTime)  and [Learning To Adapt for Stereo (Poster)](publication/2019-L2A). See you there!
   * Me, [__Matteo Poggi__](https://vision.disi.unibo.it/~mpoggi/) and __Oscar Rahnama__ will be on the 22nd of May at BMVA meeting on High-Performance Computing for Computer Vision to present our recent works on efficient depth estimation. See you there!
   * We have just released our last work where we show how it is possible to transform deep representation across domains and tasks. I believe it is a really exciting and under developed research field, check it out! [Learning Across Tasks and Domains](publication/ATDT)
   * Our last work on Grocery Product Recognition has been published on CVIU, check it out: [Domain invariant hierarchical embedding for grocery products recognition](publication/DIHE).
