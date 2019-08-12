@@ -21,7 +21,7 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2019__:
-  * Our paper [Semi-Automatic Labeling for Deep Learning in Robotics](publications/ARS) got accepted for publication in the IEEE Transactions on Automation Science and Engineering journal. The code will be released soon as well!
+  * Our paper [Semi-Automatic Labeling for Deep Learning in Robotics](publication/ARS) got accepted for publication in the IEEE Transactions on Automation Science and Engineering journal. The code will be released soon as well!
   * Our paper [Learning Across Tasks and Domains](publication/ATDT) got accepted at ICCV 2019 for a poster presentation! I wish to thank [Pierluigi](https://www.unibo.it/sitoweb/pierluigi.zama) for the wonderful work. Stay tuned for the code release.
   * After 3.5 wonderful years at the Computer Vision Lab of Bologna it's time to move on, from July I will start a collaboration with the computer vision team of Federico Tombari at Google Zurich! So long Bologna, and thank you for all the fish!
   * My Phd thesis is finally online and provided with open access by UniBO [link](http://amsdottorato.unibo.it/8970/).
