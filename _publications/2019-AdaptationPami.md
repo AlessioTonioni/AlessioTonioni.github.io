@@ -5,10 +5,10 @@ collection: 'Depth Estimation'
 permalink: /publication/AdaptationJournal
 excerpt: 'In this paper we extend our previous unsupervised adaptation approach to fine-tune a deep learning stereo or mono model without any ground-truth information.'
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/1909.03943'
 date: 2019-12-31
 citation: 'Tonioni, A., Poggi, M., Mattoccia, S., & Di Stefano, L. (2019). Unsupervised Domain Adaptation for Depth Prediction from Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019'
-pubtype: 'review'
+pubtype: 'journal'
 ---
 ## Abstract
 
@@ -17,7 +17,7 @@ Therefore, we propose an unsupervised domain adaptation technique which does not
 We propose to fine-tune both depth-from-stereo as well as depth-from-mono architectures by a novel confidence-guided loss function that handles the measured disparities as noisy labels weighted according to the estimated confidence.  
 Extensive experimental results based on standard datasets and evaluation protocols prove that our technique can address effectively the domain shift issue with both  stereo and monocular depth prediction architectures  and  outperforms  other state-of-the-art unsupervised loss functions that may be alternatively deployed to pursue domain adaptation.
 
-Paper under review and not yet available...
+[Paper](https://arxiv.org/abs/1909.03943) 
 
 ## BibTex
 ```
