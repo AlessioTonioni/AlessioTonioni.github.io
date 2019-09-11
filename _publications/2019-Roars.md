@@ -6,7 +6,7 @@ permalink: /publication/ARS
 excerpt: 'In this paper, we propose Augmented Reality Semi-automatic labeling (ARS), a semi-automatic method to create large labeled datasets with minimal human intervention'
 date: 2019-08-11
 venue: ' IEEE Transactions on Automation Science and Engineering  '
-paperurl: 'https://ieeexplore.ieee.org/document/8681073'
+paperurl: 'https://arxiv.org/abs/1908.01862'
 citation: 'Daniele De Gregorio, Alessio Tonioni, Gianluca Palli and Luigi Di Stefano, "Semi-Automatic Labeling for Deep Learning in Robotics," in IEEE Transactions on Automation Science and Engineering.'
 pubtype: 'journal'
 ---
