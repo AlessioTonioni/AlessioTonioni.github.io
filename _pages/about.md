@@ -34,6 +34,6 @@ __2019__:
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
   
 ## Bonus Pics & Song 
-[Soundtrack](https://www.youtube.com/watch?v=04B0k9atrmI)
-![Budapest](images/seoul.jpg)
+[Soundtrack](https://www.youtube.com/watch?v=sWwnjsVKHuk)
+![Seoul](images/seoul.jpg)
 
