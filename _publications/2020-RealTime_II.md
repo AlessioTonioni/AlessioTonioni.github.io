@@ -2,7 +2,7 @@
 title: "Continual Adaptation for Deep Stereo"
 authors: ' Matteo Poggi, Alessio Tonioni, Fabio Tosi, Stefano Mattoccia and Luigi Di Stefano'
 collection: 'Depth Estimation'
-permalink: /publication/realTimII
+permalink: /publication/realTimeII
 excerpt: 'In this paper we propose an etension of our real-time self adaptive deep stereo system.'
 date: 2020-07-14
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
