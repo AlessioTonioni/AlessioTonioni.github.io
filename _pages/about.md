@@ -20,6 +20,9 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 
 ## News
+__2020__:
+  * Come meet me on the 26th of August at the Virtual Google Booth at ECCV2020 to chat about what is it like to work and do research in Google. From 6:30 to 8:30 pm CEST.
+  * We just submitted to TPAMI an extended version of our CVPR2019 work on online self-supervision for stereo depth estimation. You can find more details on our newer work [Continual Online Adaptation for Deep Stereo](publication/realTimeII).
 __2019__:
   * Our paper [Unsupervised Domain Adaptation for Depth Prediction from Images](publication/AdaptationJournal) has been accepted for publication on the RGBD special issue of TPAMI. We will release the code soon!
   * Our paper [Semi-Automatic Labeling for Deep Learning in Robotics](publication/ARS) has been accepted for publication in the IEEE Transactions on Automation Science and Engineering journal.
@@ -34,6 +37,6 @@ __2019__:
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
   
 ## Bonus Pic & Song 
-[Soundtrack](https://www.youtube.com/watch?v=spDYJef3tKM)
-![SanFrancisco](../images/SanFrancisco.jpeg)
+[Soundtrack](https://www.youtube.com/watch?v=AsKSaq3hA3c)
+![SanFrancisco](../images/iceland.jpg)
 
