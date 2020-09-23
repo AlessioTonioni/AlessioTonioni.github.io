@@ -4,7 +4,8 @@ collection: teaching
 type: "Corporate Training Course"
 permalink: /teaching/corsoML
 venue: "Fondazione Aldini Valeriani"
-location: "City, Country"
+date: 2019-05-02
+location: "Bologna, Italy"
 ---
 
 Corporate Trainer for Fondazione Aldini Valeriani on Machine-Deep Learning.
