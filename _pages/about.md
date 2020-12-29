@@ -21,7 +21,10 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2020__:
+  * We uploaded to arxive our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE).
+  * I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
   * Our paper [A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views](publication/DivideEtImpera) has been accepted as oral to 3DV 2020! Here we show how to use deep learning and traditional multi-view geometry wisdom to solve multi view reconstruction in an end to end way. 
+  * I was awarded as **Outstanding Reviewer at ECCV2020**, thank you to all the organizers!
   * Come meet me on the 26th of August at the Virtual Google Booth at ECCV2020 to chat about what is it like to work and do research in Google. From 6:30 to 8:30 pm CEST.
   * We just submitted to TPAMI an extended version of our CVPR2019 work on online self-supervision for stereo depth estimation. You can find more details on our newer work [Continual Online Adaptation for Deep Stereo](publication/realTimeII). The online code will be updated soon, stay tuned. 
   
@@ -39,6 +42,6 @@ __2019__:
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
   
 ## Bonus Pic & Song 
-[Soundtrack](https://www.youtube.com/watch?v=AsKSaq3hA3c)
-![SanFrancisco](../images/iceland.jpg)
+[Soundtrack](https://www.youtube.com/watch?v=7c5QuFnAjaI)
+![DoorHandle](../images/door.jpg)
 
