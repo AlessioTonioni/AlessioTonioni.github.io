@@ -19,7 +19,15 @@ Education
 
 Work experience
 ======
-* Jan. 2019 - Present: Post-doc researcher
+* Dec. 2020 - Present: Research Scientist
+  * Google Zurich
+  * Research Group: Federico Tombari
+  
+* Jul. 2019 - Dec. 2020: Visiting Researcher
+  * Google Zurich
+  * Research Group: Federico Tombari
+
+* Jan. 2019 - Jun. 2019: Post-doc researcher
   * CVLAB, University of Bologna
   * Supervisor: Luigi Di Stefano
 
