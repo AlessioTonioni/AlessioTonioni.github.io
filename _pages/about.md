@@ -23,8 +23,10 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 ![DoorHandle](../images/door.jpg)
 
 ## News
+__2021__:
+  * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publications/NVS).
 __2020__:
-  * We uploaded to arxive our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE).
+  * We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE).
   * I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
   * Our paper [A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views](publication/DivideEtImpera) has been accepted as oral to 3DV 2020! Here we show how to use deep learning and traditional multi-view geometry wisdom to solve multi view reconstruction in an end to end way. 
   * I was awarded as **Outstanding Reviewer at ECCV2020**, thank you to all the organizers!
