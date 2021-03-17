@@ -18,13 +18,10 @@ During my PhD I have worked on deep learning solutions for product detection and
 
 I am still working on depth estimation, but I'm also starting to explore more general research subjects like domain adaptation and meta learning.
 
-## Bonus Pic & Song 
-[Soundtrack](https://www.youtube.com/watch?v=7c5QuFnAjaI)
-![DoorHandle](../images/door.jpg)
-
 ## News
 __2021__:
   * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publications/NVS).
+
 __2020__:
   * We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE).
   * I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
@@ -46,5 +43,7 @@ __2019__:
   * Our paper on designing an efficient stereo systems for FPGA has been published on IEEE Transactions on Circuits and Systems II: Express Briefs, check it out: [Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC](publication/FPGA).
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
   
-
+## Bonus Pic & Song 
+[Soundtrack](https://www.youtube.com/watch?v=7c5QuFnAjaI)
+![DoorHandle](../images/door.jpg)
 
