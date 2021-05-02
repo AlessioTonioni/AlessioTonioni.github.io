@@ -20,6 +20,7 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2021__:
+  * The [extended version](publication/realTimeII) of our CVPR 2019 oral paper has been accepted to TPAMI!
   * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publications/NVS).
 
 __2020__:
