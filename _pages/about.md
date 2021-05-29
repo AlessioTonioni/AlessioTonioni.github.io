@@ -20,6 +20,7 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2021__:
+  * Our [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE) will be presented during CVPR21 at the [L2ID workshop](https://l2id.github.io/index.html#people) 
   * The [extended version](publication/realTimeII) of our CVPR 2019 oral paper has been accepted to TPAMI!
   * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publications/NVS).
 
