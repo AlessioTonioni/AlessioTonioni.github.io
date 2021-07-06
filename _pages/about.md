@@ -20,14 +20,14 @@ I am still working on depth estimation, but I'm also starting to explore more ge
 
 ## News
 __2021__:
-  * We uploaded to arxiv our latest work [LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction](publications/LegoFormer) together with an open source implementation for it. 
+  * We uploaded to arxiv our latest work [LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction](publication/LegoFormer) together with an open source implementation for it. 
   * I was acknowledged as [**Outstanding Reviewer at CVPR2021**](http://cvpr2021.thecvf.com/node/184), thank you to all the organizers!
-  * Our [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE) will be presented during CVPR21 at the [L2ID workshop](https://l2id.github.io/index.html#people) 
+  * Our [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE) will be presented during CVPR21 at the [L2ID workshop](https://l2id.github.io/index.html#people) 
   * The [extended version](publication/realTimeII) of our CVPR 2019 oral paper has been accepted to TPAMI!
-  * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publications/NVS).
+  * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publication/NVS).
 
 __2020__:
-  * We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publications/BNE).
+  * We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE).
   * I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
   * Our paper [A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views](publication/DivideEtImpera) has been accepted as oral to 3DV 2020! Here we show how to use deep learning and traditional multi-view geometry wisdom to solve multi view reconstruction in an end to end way. 
   * I was awarded as **Outstanding Reviewer at ECCV2020**, thank you to all the organizers!
