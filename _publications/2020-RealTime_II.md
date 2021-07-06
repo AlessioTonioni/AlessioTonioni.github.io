@@ -8,7 +8,7 @@ date: 2020-07-14
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
 paperurl: 'https://arxiv.org/pdf/1810.05424'
 citation: 'Poggi, M., Tonioni, A., Tosi, F., Mattoccia, S., & Di Stefano, L. (2019). IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020'
-pubtype: 'review'
+pubtype: 'journal'
 ---
 
 ## Abstract
@@ -20,11 +20,12 @@ Depth estimation from stereo images is carried out with unmatched results by con
 ## BibTex 
 
 ```
-@article{poggi2020continual,
+@article{poggi2021continual,
   title={Continual Adaptation for Deep Stereo},
   author={Poggi, Matteo and Tonioni, Alessio and Tosi, Fabio and Mattoccia, Stefano and Di Stefano, Luigi},
-  journal={arXiv preprint arXiv:2007.05233},
-  year={2020}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2021},
+  publisher={IEEE}
 }
 
 ```
