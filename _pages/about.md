@@ -28,6 +28,7 @@ __2023__:
 __2022__:
   * We have uploaded to Arxive our latest work that enables editing of 3D aware Nerf based GAN: [LatentSwap3D](publication/LS3D), [code available](https://enisimsar.github.io/latentswap3d/)
   * We have uploaded to Arxive an old work which never made it out of the review process, the idea was simple but effective: making. a CycleGAN parametrizable --> [ParGAN](publication/ParGAN)
+  * I was interviewed for the ProfessionAI podcast to share my experience as CV researcher, you can find the interview [here](https://www.youtube.com/watch?v=GfEJxyedtJQ)(italian only :/)
   * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
   * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
 
