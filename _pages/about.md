@@ -16,9 +16,21 @@ Previously I was enrolled as a post doc at the [Computer Vision Lab](https://www
 I received my PhD in Computer Science and Engineering from University of Bologna on April 2019. 
 During my PhD I have worked on deep learning solutions for product detection and recognition in retail environments and on deep learning applied to depth estimation from stereo and monocular cameras.
 
-I am still working on depth estimation, but I'm also starting to explore more general research subjects like domain adaptation and meta learning.
+I am currently working on depth estimation, multimodal learning, generative models for images (and more) and complex text understanding tasks. 
+If you are interested in working with me feel free to reach out!
+
+P.S.: I also like to take photos, besides working with them, check [my seldomly updated Flickr](https://www.flickr.com/photos/196993770@N03/)
 
 ## News
+__2023__:
+  * [AT/DT++](publication/ATDT2) has been accepted for publication on TPAMI.
+
+__2022__:
+  * We have uploaded to Arxive our latest work that enables editing of 3D aware Nerf based GAN: [LatentSwap3D](publication/LS3D), [code available](https://enisimsar.github.io/latentswap3d/)
+  * We have uploaded to Arxive an old work which never made it out of the review process, the idea was simple but effective: making. a CycleGAN parametrizable --> [ParGAN](publication/ParGAN)
+  * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
+  * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
+
 __2021__:
   * We uploaded to arxiv our latest work [LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction](publication/LegoFormer) together with an open source implementation for it. 
   * I was acknowledged as [**Outstanding Reviewer at CVPR2021**](http://cvpr2021.thecvf.com/node/184), thank you to all the organizers!
@@ -48,6 +60,6 @@ __2019__:
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
   
 ## Bonus Pic & Song 
-[Soundtrack](https://www.youtube.com/watch?v=7c5QuFnAjaI)
-![DoorHandle](../images/door.jpg)
+[Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk)
+![DoorHandle](../images/beach.jpg)
 
