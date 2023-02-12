@@ -32,22 +32,32 @@ __2022__:
   * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
   * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
 
-__2021__:
+<details>
+  <summary>2021:</summary>
+
   * We uploaded to arxiv our latest work [LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction](publication/LegoFormer) together with an open source implementation for it. 
   * I was acknowledged as [**Outstanding Reviewer at CVPR2021**](http://cvpr2021.thecvf.com/node/184), thank you to all the organizers!
   * Our [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE) will be presented during CVPR21 at the [L2ID workshop](https://l2id.github.io/index.html#people) 
   * The [extended version](publication/realTimeII) of our CVPR 2019 oral paper has been accepted to TPAMI!
   * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publication/NVS).
 
-__2020__:
+</details>
+
+<details>
+  <summary>2020:</summary>
+
   * We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE).
   * I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
   * Our paper [A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views](publication/DivideEtImpera) has been accepted as oral to 3DV 2020! Here we show how to use deep learning and traditional multi-view geometry wisdom to solve multi view reconstruction in an end to end way. 
   * I was awarded as **Outstanding Reviewer at ECCV2020**, thank you to all the organizers!
   * Come meet me on the 26th of August at the Virtual Google Booth at ECCV2020 to chat about what is it like to work and do research in Google. From 6:30 to 8:30 pm CEST.
   * We just submitted to TPAMI an extended version of our CVPR2019 work on online self-supervision for stereo depth estimation. You can find more details on our newer work [Continual Online Adaptation for Deep Stereo](publication/realTimeII). The online code will be updated soon, stay tuned. 
-  
-__2019__:
+
+</details>
+
+<details>
+  <summary>2019: </summary>
+
   * Our paper [Unsupervised Domain Adaptation for Depth Prediction from Images](publication/AdaptationJournal) has been accepted for publication on the RGBD special issue of TPAMI. We will release the code soon!
   * Our paper [Semi-Automatic Labeling for Deep Learning in Robotics](publication/ARS) has been accepted for publication in the IEEE Transactions on Automation Science and Engineering journal.
   * Our paper [Learning Across Tasks and Domains](publication/ATDT) got accepted at ICCV 2019 for a poster presentation! I wish to thank [Pierluigi](https://www.unibo.it/sitoweb/pierluigi.zama) for the wonderful work. Stay tuned for the code release.
@@ -59,8 +69,10 @@ __2019__:
   * Our last work on Grocery Product Recognition has been published on CVIU, check it out: [Domain invariant hierarchical embedding for grocery products recognition](publication/DIHE).
   * Our paper on designing an efficient stereo systems for FPGA has been published on IEEE Transactions on Circuits and Systems II: Express Briefs, check it out: [Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC](publication/FPGA).
   * I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
-  
+
+</details>
+
 ## Bonus Pic & Song 
-[Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk)
-![DoorHandle](../images/beach.jpg)
+| [Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk) |
+![South_African_Beach](../images/beach.jpg)
 
