@@ -33,18 +33,17 @@ __2022__:
   * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
 
 <details>
-  <summary>2021:</summary>
+  <summary>Older News</summary>
+
+  __2021__:
 
   * We uploaded to arxiv our latest work [LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction](publication/LegoFormer) together with an open source implementation for it. 
   * I was acknowledged as [**Outstanding Reviewer at CVPR2021**](http://cvpr2021.thecvf.com/node/184), thank you to all the organizers!
   * Our [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE) will be presented during CVPR21 at the [L2ID workshop](https://l2id.github.io/index.html#people) 
   * The [extended version](publication/realTimeII) of our CVPR 2019 oral paper has been accepted to TPAMI!
   * We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publication/NVS).
-
-</details>
-
-<details>
-  <summary>2020:</summary>
+  
+  __2020__:
 
   * We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE).
   * I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
@@ -53,10 +52,7 @@ __2022__:
   * Come meet me on the 26th of August at the Virtual Google Booth at ECCV2020 to chat about what is it like to work and do research in Google. From 6:30 to 8:30 pm CEST.
   * We just submitted to TPAMI an extended version of our CVPR2019 work on online self-supervision for stereo depth estimation. You can find more details on our newer work [Continual Online Adaptation for Deep Stereo](publication/realTimeII). The online code will be updated soon, stay tuned. 
 
-</details>
-
-<details>
-  <summary>2019: </summary>
+  __2019__:
 
   * Our paper [Unsupervised Domain Adaptation for Depth Prediction from Images](publication/AdaptationJournal) has been accepted for publication on the RGBD special issue of TPAMI. We will release the code soon!
   * Our paper [Semi-Automatic Labeling for Deep Learning in Robotics](publication/ARS) has been accepted for publication in the IEEE Transactions on Automation Science and Engineering journal.
