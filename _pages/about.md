@@ -32,6 +32,10 @@ __2022__:
   * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
   * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
 
+## Bonus Pic & Song 
+| [Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk) |
+![South_African_Beach](../images/beach.jpg)
+
 <details>
 <summary>Older News</summary>
 
@@ -72,9 +76,3 @@ __2022__:
 <li> I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! </li>
 </ul>
 </details>
-
-
-## Bonus Pic & Song 
-| [Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk) |
-![South_African_Beach](../images/beach.jpg)
-
