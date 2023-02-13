@@ -39,7 +39,9 @@ __2022__:
 <details>
 <summary>Older News</summary>
 
-<b>2021:</b>
+<ul>
+
+<li><b>2021:</b></li>
 
 <ul>
 <li> We uploaded to arxiv our latest work <a href="publication/LegoFormer">LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction]( together with an open source implementation for it.</li> 
@@ -49,7 +51,7 @@ __2022__:
 <li> We uploaded to arxiv our latest work <a href="publication/NVS">Unsupervised Novel View Synthesis from a Single Image</a>.</li>
 </ul>
 
-<b>2020:</b>
+<li><b>2020:</b></li>
 
 <ul>
 <li> We uploaded to arxiv our latest work <a href="publication/BNE">Batch Normalization Embeddings for Deep Domain Generalization</a>.</li>
@@ -60,7 +62,7 @@ __2022__:
 <li> We just submitted to TPAMI an extended version of our CVPR2019 work on online self-supervision for stereo depth estimation. You can find more details on our newer work <a href="publication/realTimeII">Continual Online Adaptation for Deep Stereo</a>. The online code will be updated soon, stay tuned. </li>
 </ul>
 
-<b>2019:</b>
+<li><b>2019:</b></li>
 
 <ul>
 <li> Our paper <a href="publication/AdaptationJournal">Unsupervised Domain Adaptation for Depth Prediction from Images</a> has been accepted for publication on the RGBD special issue of TPAMI. We will release the code soon!</li>
@@ -74,5 +76,6 @@ __2022__:
 <li> Our last work on Grocery Product Recognition has been published on CVIU, check it out: <a href="publication/DIHE">Domain invariant hierarchical embedding for grocery products recognition</a>.</li>
 <li> Our paper on designing an efficient stereo systems for FPGA has been published on IEEE Transactions on Circuits and Systems II: Express Briefs, check it out: <a href="publication/FPGA">Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC</a>.</li>
 <li> I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! </li>
+</ul>
 </ul>
 </details>
