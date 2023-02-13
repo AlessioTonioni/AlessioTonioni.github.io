@@ -42,7 +42,7 @@ __2022__:
   <li> I was acknowledged as <a href="http://cvpr2021.thecvf.com/node/184">Outstanding Reviewer at CVPR2021</a>, thank you to all the organizers!</li>
   <li> Our <a href="publication/BNE">Batch Normalization Embeddings for Deep Domain Generalization</a> will be presented during CVPR21 at the <a href="https://l2id.github.io/index.html#people">L2ID workshop</a> </li>
   <li> The <a href="publication/realTimeII">extended version</a> of our CVPR 2019 oral paper has been accepted to TPAMI!</li>
-  <li> We uploaded to arxiv our latest work <a href=>Unsupervised Novel View Synthesis from a Single Image</a>(publication/NVS).</li>
+  <li> We uploaded to arxiv our latest work <a href="publication/NVS">Unsupervised Novel View Synthesis from a Single Image</a>.</li>
   </ul>
 
   <b>2020</b>:
@@ -73,6 +73,7 @@ __2022__:
   </ul>
 
 </details>
+
 
 ## Bonus Pic & Song 
 | [Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk) |
