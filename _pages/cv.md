@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[Download pdf version](https://alessiotonioni.github.io/files/CV.pdf)
-
 Education
 ======
 * B.S. in Computer Engineering, University of Bologna, 2013
