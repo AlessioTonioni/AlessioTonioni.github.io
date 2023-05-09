@@ -23,6 +23,9 @@ P.S.: I also like to take photos, besides working with them, check [my seldomly 
 
 ## News
 __2023__:
+  * Have you ever wondered what "A squirrel-octpus hybrid" would look like in 3D? Come check out our [text to mesh generation model](/publication/TextMesh) in our [project page](https://fabi92.github.io/textmesh/).
+  * Our work [NeRF-supervised Deep Stereo](/publication/NerfStereo) has been accepted at CVPR 2023, see you in Vancouver!
+  * In [NeRF-GAN Distillation](publication/NerfGanDistillation) we show how NeRF volumetric rendering can sucesfully be approximated with plain convolutions for generative models.
   * [AT/DT++](publication/ATDT2) has been accepted for publication on TPAMI.
 
 __2022__:
