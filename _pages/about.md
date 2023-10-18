@@ -23,11 +23,18 @@ P.S.: I also like to take photos, besides working with them, check [my seldomly 
 
 ## News
 __2023__:
+  * Our [TextMesh](/publication/TextMesh) work has been accepted to 3DV!
+  * Our works [NeRF-GAN Distillation](publication/NerfGanDistillation) and [LatentSwap3D](publication/LS3D) have been presented at the [ICCV AI3DCC 2023 workshop](https://ai3dcc.github.io/). 
   * Have you ever wondered what "A squirrel-octpus hybrid" would look like in 3D? Come check out our [text to mesh generation model](/publication/TextMesh) in our [project page](https://fabi92.github.io/textmesh/).
   * Our work [NeRF-supervised Deep Stereo](/publication/NerfStereo) has been accepted at CVPR 2023, see you in Vancouver!
   * In [NeRF-GAN Distillation](publication/NerfGanDistillation) we show how NeRF volumetric rendering can sucesfully be approximated with plain convolutions for generative models.
   * [AT/DT++](publication/ATDT2) has been accepted for publication on TPAMI.
 
+## Bonus Pic & Song 
+| [Soundtrack](https://www.youtube.com/watch?v=BPqQtliprjk) |
+![Head_Statue_In_Norway](../images/head.jpg)
+
+## Older News
 __2022__:
   * We have uploaded to Arxive our latest work that enables editing of 3D aware Nerf based GAN: [LatentSwap3D](publication/LS3D), [code available](https://enisimsar.github.io/latentswap3d/)
   * We have uploaded to Arxive an old work which never made it out of the review process, the idea was simple but effective: making. a CycleGAN parametrizable --> [ParGAN](publication/ParGAN)
@@ -35,11 +42,6 @@ __2022__:
   * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
   * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
 
-## Bonus Pic & Song 
-| [Soundtrack](https://www.youtube.com/watch?v=8eGtcauqFBk) |
-![South_African_Beach](../images/beach.jpg)
-
-## Older News
 
 __2021__:
 
