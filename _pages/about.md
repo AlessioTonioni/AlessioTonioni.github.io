@@ -10,18 +10,31 @@ redirect_from:
 
 Hello!
 
-I'm a researcher in computer vision and deep learning and I'm currently working with Federico Tombari at Google Zurich. 
-Previously I was enrolled as a post doc at the [Computer Vision Lab](https://www.vision.deis.unibo.it/) of the university of Bologna under the supervision of Professor Luigi Di Stefano.
+I'm a researcher in computer vision and deep learning and I'm currently working with [Federico Tombari](https://federicotombari.github.io/) at Google Zurich where I lead a small team of researchers dealing with fundamental research as well as research to production transformation. 
+Previously I was enrolled as a post doc at the [Computer Vision Lab](https://www.vision.deis.unibo.it/) of the university of Bologna under the supervision of Professor [Luigi Di Stefano](https://scholar.google.ch/citations?user=xZVTzyAAAAAJ&hl=de).
 
 I received my PhD in Computer Science and Engineering from University of Bologna on April 2019. 
 During my PhD I have worked on deep learning solutions for product detection and recognition in retail environments and on deep learning applied to depth estimation from stereo and monocular cameras.
 
-I am currently working on depth estimation, multimodal learning, generative models for images (and more) and complex text understanding tasks. 
+I am currently working on multimodal learning, generative models for images (and more) and complex text understanding tasks. 
 If you are interested in working with me feel free to reach out!
 
 P.S.: I also like to take photos, besides working with them, check [my seldomly updated Flickr](https://www.flickr.com/photos/196993770@N03/)
 
 ## News
+
+__2024__:
+  * Our [TouchSDF paper](/publication/TouchSDF) has been accepted for publication in RAL! Check also the follow up work we just uploaded to Arxiv where we integrate touch with a gaussian splatting reconstruction pipeline [SnapTapSplat](publciation/SnapTapSplat).
+  * Check our latest work on interfacing LLM with multiple visual encoder to have a broader view on the visual world: [BRAVE](publication/Brave).
+  * Exciting new works uploaded to Arxiv: [Lime](publication/LIME) for image editing, [InseRF](publication/InseRF) for NeRF Editing, [Text Conditioned Resamppler](publication/TCR) for interfacing LLM to videos. 
+
+
+## Bonus Pic & Song 
+| [Soundtrack](https://www.youtube.com/watch?v=MszWj039ZvA) |
+![Head_Statue_In_Norway](../images/window.jpg)
+
+## Older News
+
 __2023__:
   * Our [TextMesh](/publication/TextMesh) work has been accepted to 3DV!
   * Our works [NeRF-GAN Distillation](publication/NerfGanDistillation) and [LatentSwap3D](publication/LS3D) have been presented at the [ICCV AI3DCC 2023 workshop](https://ai3dcc.github.io/). 
@@ -30,18 +43,12 @@ __2023__:
   * In [NeRF-GAN Distillation](publication/NerfGanDistillation) we show how NeRF volumetric rendering can sucesfully be approximated with plain convolutions for generative models.
   * [AT/DT++](publication/ATDT2) has been accepted for publication on TPAMI.
 
-## Bonus Pic & Song 
-| [Soundtrack](https://www.youtube.com/watch?v=BPqQtliprjk) |
-![Head_Statue_In_Norway](../images/head.jpg)
-
-## Older News
 __2022__:
   * We have uploaded to Arxive our latest work that enables editing of 3D aware Nerf based GAN: [LatentSwap3D](publication/LS3D), [code available](https://enisimsar.github.io/latentswap3d/)
   * We have uploaded to Arxive an old work which never made it out of the review process, the idea was simple but effective: making. a CycleGAN parametrizable --> [ParGAN](publication/ParGAN)
   * I was interviewed for the ProfessionAI podcast to share my experience as CV researcher, you can find the interview [here](https://www.youtube.com/watch?v=GfEJxyedtJQ)(italian only :/)
   * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
   * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
-
 
 __2021__:
 
