@@ -24,7 +24,7 @@ P.S.: I also like to take photos, besides working with them, check [my seldomly 
 ## News
 
 __2024__:
-  * Our [TouchSDF paper](/publication/TouchSDF) has been accepted for publication in RAL! Check also the follow up work we just uploaded to Arxiv where we integrate touch with a gaussian splatting reconstruction pipeline [SnapTapSplat](publciation/SnapTapSplat).
+  * Our [TouchSDF paper](/publication/TouchSDF) has been accepted for publication in RAL! Check also the follow up work we just uploaded to Arxiv where we integrate touch with a gaussian splatting reconstruction pipeline [SnapTapSplat](publication/SnapTapSplat).
   * Check our latest work on interfacing LLM with multiple visual encoder to have a broader view on the visual world: [BRAVE](publication/Brave).
   * Exciting new works uploaded to Arxiv: [Lime](publication/LIME) for image editing, [InseRF](publication/InseRF) for NeRF Editing, [Text Conditioned Resamppler](publication/TCR) for interfacing LLM to videos. 
 

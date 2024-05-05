@@ -5,10 +5,10 @@ collection: "3D Computer Vision"
 permalink: /publication/LS3D
 excerpt: 'Semantic edits in the latent space of Nerf based gan.'
 date: 2022-12-02
-venue: 'CVPR23'
+venue: 'ICCV23W'
 paperurl: 'https://arxiv.org/pdf/2212.01381'
 citation: 'Simsar, Enis, et al. "LatentSwap3D: Semantic Edits on 3D Image GANs." arXiv preprint arXiv:2212.01381 (2022).'
-pubtype: 'review'
+pubtype: 'conference'
 ---
 
 ## Abstract

@@ -5,10 +5,10 @@ collection: "3D Computer Vision"
 permalink: /publication/LegoFormer
 excerpt: 'Transformers for voxel based 3D reconstruction.'
 date: 2021-07-06
-venue: 'Neurip21'
+venue: 'Arxive'
 paperurl: 'https://arxiv.org/abs/2106.12102'
 citation: 'Yagubbayli, Farid, Alessio Tonioni, and Federico Tombari. "LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction." arXiv preprint arXiv:2106.12102 (2021).'
-pubtype: 'review'
+pubtype: 'conference'
 ---
 
 ## Abstract

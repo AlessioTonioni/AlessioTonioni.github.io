@@ -5,10 +5,10 @@ collection: "Generative Models"
 permalink: "/publication/TouchSDF"
 excerpt: 'Touch sensors meet 3D computer vision'
 date: 2023-11-21
-venue: 'Arxive'
+venue: 'IEEE Robotics and Automation Letters (2024)'
 paperurl: 'https://arxiv.org/pdf/2311.12602'
 citation: 'Comi, Mauro, et al. "Touchsdf: A deepsdf approach for 3d shape reconstruction using vision-based tactile sensing." IEEE Robotics and Automation Letters (2024).'
-pubtype: 'Journal'
+pubtype: 'journal'
 ---
 
 ## Abstract
