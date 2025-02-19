@@ -28,7 +28,7 @@ __2025__:
 
 ## Bonus Pic & Song 
 | [Soundtrack](https://www.youtube.com/watch?v=PS9Bc_GQBEs) |
-![Head_Statue_In_Norway](../images/graffiti.jpg)
+![Graffiti in Santo Antao](../images/graffiti.jpg)
 
 ## Older News
 
