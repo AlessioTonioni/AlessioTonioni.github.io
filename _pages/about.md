@@ -23,18 +23,21 @@ P.S.: I also like to take photos, besides working with them, check [my seldomly 
 
 ## News
 
+__2025__:
+  * [LIME](publication/LIME) will be presented as oral presentation at WACV2025! Congratulation to [Enis](https://enisimsar.github.io/) for the great achievement!
+
+## Bonus Pic & Song 
+| [Soundtrack](https://www.youtube.com/watch?v=PS9Bc_GQBEs) |
+![Head_Statue_In_Norway](../images/graffiti.jpg)
+
+## Older News
+
 __2024__:
+  * 2 new papers uploaded to Arxive: [UIP2P](publication/UIP2P) showing how to train image editing models without supervision and [ACED](publication/ACED) unveiling a correlation between data curation and knowledge distillation and a better way to train small multimodal models. 
   * 2 papers on building better VLM accepted at ECCV24! Check [TCR](publication/TCR) and [BRAVE](publication/Brave) and a huge thanks to my awesome co-authors [Bruno](https://www.kor.bar/) and [Oguzhan](https://ofkar.github.io/).
   * Our [TouchSDF paper](/publication/TouchSDF) has been accepted for publication in RAL! Check also the follow up work we just uploaded to Arxiv where we integrate touch with a gaussian splatting reconstruction pipeline [SnapTapSplat](publication/SnapTapSplat).
   * Check our latest work on interfacing LLM with multiple visual encoder to have a broader view on the visual world: [BRAVE](publication/Brave).
   * Exciting new works uploaded to Arxiv: [Lime](publication/LIME) for image editing, [InseRF](publication/InseRF) for NeRF Editing, [Text Conditioned Resamppler](publication/TCR) for interfacing LLM to videos. 
-
-
-## Bonus Pic & Song 
-| [Soundtrack](https://www.youtube.com/watch?v=MszWj039ZvA) |
-![Head_Statue_In_Norway](../images/window.jpg)
-
-## Older News
 
 __2023__:
   * Our [TextMesh](/publication/TextMesh) work has been accepted to 3DV!
