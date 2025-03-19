@@ -8,7 +8,7 @@ date: 2024-04-10
 venue: 'Arxive'
 paperurl: 'https://arxiv.org/pdf/2404.07204'
 citation: 'Kar, Oğuzhan Fatih, et al. "BRAVE: Broadening the visual encoding of vision-language models." arXiv preprint arXiv:2404.07204 (2024).'
-pubtype: 'review'
+pubtype: 'conference'
 ---
 
 ## Abstract

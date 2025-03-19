@@ -24,6 +24,8 @@ P.S.: I also like to take photos, besides working with them, check [my seldomly 
 ## News
 
 __2025__:
+  * Another one of our CVPR works is now online, check our [EgoTempo Benchmark](publication/egotempo) if you working on Egocentric long form video understanding. A huge thanks to [Chiara Plizzari](https://chiaraplizz.github.io/) for the amazing work she did while she was a student in our team at Google Zurich!  
+  * 4 works have been accepted to CVPR, 1 is already online [ACED](publication/ACED), 3 more to come 👀 
   * [LIME](publication/LIME) will be presented as oral presentation at WACV2025! Congratulation to [Enis](https://enisimsar.github.io/) for the great achievement!
 
 ## Bonus Pic & Song 
