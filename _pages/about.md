@@ -24,6 +24,8 @@ P.S.: I also like to take photos, besides working with them, check [my seldomly 
 ## News
 
 __2025__:
+  * [Eruku](publication/eruku) got accepted to WACV2026, congrats to all my co-authors! In this work we improve on the handwriting generation capabilities of our previous work [Emuru](publication/emuru) by making the model more robust and flexible in its usage. 
+  * Congratulations to [Luca Zanella](https://lucazanella.github.io/) for having our joint work on online video step grounding: [BagLM](publication/baglm) presented at Neurips2025. 
   * [Gemini 2.5 report](https://arxiv.org/pdf/2507.06261) is out! Proud to see me and few of my team members in the contributors list. 
   * Congratulations to [Enis](https://enisimsar.github.io/) for having [UIP2P](publication/UIP2P) accepted at ICCV25! 
   * See you at CVPR 2025 where we will present 4 works: [EgoTempo Benchmark](publication/egotempo), [ACED](publication/ACED), [VICT](publication/VICT) and [Emuru](publication/emuru). Also honored to be recognized as outstanding reviewer! 
@@ -32,7 +34,7 @@ __2025__:
   * [LIME](publication/LIME) will be presented as oral presentation at WACV2025! Congratulation to [Enis](https://enisimsar.github.io/) for the great achievement!
 
 ## Bonus Pic & Song 
-| [Soundtrack](https://www.youtube.com/watch?v=yn1aJ784w84) |
+| [Soundtrack](https://www.youtube.com/watch?v=c6jNvlC2nKY) |
 ![Graffiti in Santo Antao](../images/graffiti.jpg)
 
 ## Older News
