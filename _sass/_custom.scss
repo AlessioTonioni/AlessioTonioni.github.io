@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Custom Styles
+   ========================================================================== */
+
+.ai-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px rgba(108, 92, 231, 0.2);
+}
+
+.ai-badge i {
+    margin-right: 4px;
+    font-size: 1.1em;
+}
+
+.human-badge {
+    /* Optional: hidden by default or a subtle gray link */
+    display: none;
+}

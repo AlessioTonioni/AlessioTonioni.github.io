@@ -63,7 +63,12 @@ author_profile: true
   {% endif %}
 
   <div class="news-item">
-    <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span>
+    <div style="display: flex; align-items: center; margin-bottom: 5px;">
+      <span class="news-date">{{ item.date | date: "%B %d, %Y" }}</span>
+      {% if item.ai_generated %}
+        <span class="ai-badge"><i class="fas fa-robot"></i> AI Generated</span>
+      {% endif %}
+    </div>
     <div class="news-content">
       {{ item.content | markdownify }}
     </div>

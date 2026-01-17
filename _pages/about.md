@@ -260,7 +260,12 @@ redirect_from:
   {% for item in latest_news %}
     <div class="news-card">
       <div class="news-dot"></div>
-      <span style="display: block; font-size: 0.8em; color: #b2bec3; margin-bottom: 5px; font-weight: 600;">{{ item.date | date: "%B %Y" }}</span>
+      <div style="display: flex; align-items: center; margin-bottom: 5px;">
+        <span style="font-size: 0.8em; color: #b2bec3; font-weight: 600;">{{ item.date | date: "%B %Y" }}</span>
+        {% if item.ai_generated %}
+          <span class="ai-badge"><i class="fas fa-robot"></i> AI Generated</span>
+        {% endif %}
+      </div>
       <div style="color: #2d3436; line-height: 1.5;">
         {{ item.content | markdownify }}
       </div>
