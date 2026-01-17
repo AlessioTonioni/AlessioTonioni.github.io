@@ -1,0 +1,52 @@
+{% include base_path %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="teaching-card"
+    style="position: relative; background: #fff; border-radius: 8px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 10px rgba(0,0,0,0.03); border: 1px solid #f1f2f6; border-left: 4px solid #e17055; transition: transform 0.2s, box-shadow 0.2s;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+        <h2 class="archive__item-title" itemprop="headline" style="margin: 0; font-size: 1.4em; color: #2d3436;">
+            {% if post.link %}
+            <a href="{{ post.link }}" style="text-decoration: none; color: inherit;">{{ title }}</a> <a
+                href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true"
+                    title="permalink"></i><span class="sr-only">Permalink</span></a>
+            {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: inherit;">{{
+                title }}</a>
+            {% endif %}
+        </h2>
+        <span
+            style="background: #fab1a0; color: #d35400; padding: 4px 10px; border-radius: 12px; font-size: 0.75em; font-weight: 700; text-transform: uppercase;">
+            {{ post.type | default: "Teaching" }}
+        </span>
+    </div>
+
+    <div class="teaching-meta" style="font-size: 0.95em; color: #636e72; margin-bottom: 15px;">
+        <p style="margin: 0;"><i class="fas fa-university"
+                style="width: 20px; text-align: center; margin-right: 5px;"></i> <strong>{{ post.venue }}</strong></p>
+        {% if post.date %}
+        <p style="margin: 5px 0 0;"><i class="fas fa-calendar-alt"
+                style="width: 20px; text-align: center; margin-right: 5px;"></i> {{ post.date | default: "1900-01-01" |
+            date: "%Y" }}</p>
+        {% endif %}
+        {% if post.location %}
+        <p style="margin: 5px 0 0;"><i class="fas fa-map-marker-alt"
+                style="width: 20px; text-align: center; margin-right: 5px;"></i> {{ post.location }}</p>
+        {% endif %}
+    </div>
+
+    <div class="teaching-content" style="color: #2d3436; font-size: 1em; line-height: 1.6;">
+        {{ post.content | markdownify | truncate: 300 }}
+    </div>
+
+    <style>
+        .teaching-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</div>
