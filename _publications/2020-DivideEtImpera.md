@@ -5,7 +5,7 @@ collection: "3D Computer Vision"
 permalink: /publication/DivideEtImpera
 excerpt: 'A deep learning pipeline for multi view reconstruction.'
 date: 2020-11-25
-venue: 'International Conference on 3D Vision'
+venue: '3DV'
 paperurl: 'https://arxiv.org/pdf/2011.08534.pdf'
 citation: 'Spezialetti, R., Tan, D.J., Tonioni, A., Tateno, K. and Tombari, F., 2020. A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views. 3DV20.'
 pubtype: 'conference'

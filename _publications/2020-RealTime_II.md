@@ -5,7 +5,7 @@ collection: 'Depth Estimation'
 permalink: /publication/realTimeII
 excerpt: 'In this paper we propose an etension of our real-time self adaptive deep stereo system.'
 date: 2020-07-14
-venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
+venue: 'PAMI'
 paperurl: 'https://arxiv.org/pdf/1810.05424'
 citation: 'Poggi, M., Tonioni, A., Tosi, F., Mattoccia, S., & Di Stefano, L. (2019). IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020'
 pubtype: 'journal'

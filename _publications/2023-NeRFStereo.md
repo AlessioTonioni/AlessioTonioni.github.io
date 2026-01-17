@@ -5,7 +5,7 @@ collection: "Depth Estimation"
 permalink: /publication/NerfStereo
 excerpt: 'NeRF makes great groundtruth for stereo systems.'
 date: 2023-03-30
-venue: 'CVPR23'
+venue: 'CVPR'
 paperurl: 'https://arxiv.org/pdf/2303.17603'
 citation: 'Tosi, Fabio, et al. "NeRF-Supervised Deep Stereo." arXiv preprint arXiv:2303.17603 (2023).'
 pubtype: 'conference'

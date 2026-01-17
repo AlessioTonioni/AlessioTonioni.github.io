@@ -1,0 +1,59 @@
+{% include base_path %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="pub-card">
+
+  <!-- Thumbnail / Acronym Placeholder -->
+  <div class="pub-thumbnail">
+    {% if post.header.teaser %}
+    <img src="{{ post.header.teaser | prepend: " /images/" | prepend: base_path }}" alt=""
+      style="width: 100%; height: 100%; object-fit: cover;">
+    {% else %}
+    {% assign acronym = post.venue | split: " " | first %}
+    <span
+      style="font-weight: 900; color: #cbd5e0; font-size: 1.5em; text-transform: uppercase; line-height: 1.1; word-break: break-word; width: 100%;">{{
+      acronym | default: "PAPER" }}</span>
+    {% endif %}
+  </div>
+
+  <!-- Content -->
+  <div class="pub-content" style="flex-grow: 1;">
+    <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0; margin-bottom: 8px; font-size: 1.15em;">
+      {% if post.link %}
+      <a href="{{ post.link }}" style="text-decoration: none; color: inherit;">{{ title }}</a> <a
+        href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true"
+          title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: inherit;">{{ title
+        }}</a>
+      {% endif %}
+    </h3>
+
+    <div class="pub-meta" style="font-size: 0.9em; color: #666; margin-bottom: 10px;">
+      <div class="pub-authors" style="margin-bottom: 4px;">{{ post.authors }}</div>
+      <div class="pub-venue">
+        <span style="font-style: italic; color: #2d3436;">{{ post.venue }}</span>, {{ post.date | default: "1900-01-01"
+        | date: "%Y" }}
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="pub-actions" style="display: flex; gap: 10px; margin-top: 12px;">
+      {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" class="btn btn--primary btn--sm" style="font-size: 0.8em; padding: 4px 10px;"><i
+          class="fas fa-file-pdf"></i> PDF</a>
+      {% endif %}
+      {% if post.code %}
+      <a href="{{ post.code }}" class="btn btn--primary btn--sm" style="font-size: 0.8em; padding: 4px 10px;"><i
+          class="fab fa-github"></i> Code</a>
+      {% endif %}
+      <a href="{{ base_path }}{{ post.url }}" class="btn btn--primary btn--sm"
+        style="font-size: 0.8em; padding: 4px 10px;">Details</a>
+    </div>
+  </div>
+</div>

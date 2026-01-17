@@ -8,7 +8,7 @@ date: 2024-01-10
 venue: 'Arxive'
 paperurl: 'https://arxiv.org/pdf/2401.05335v1'
 citation: 'Shahbazi, Mohamad, et al. "InseRF: Text-Driven Generative Object Insertion in Neural 3D Scenes." arXiv preprint arXiv:2401.05335 (2024).'
-pubtype: 'review'
+pubtype: 'conference'
 ---
 
 ## Abstract

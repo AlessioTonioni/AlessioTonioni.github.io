@@ -5,7 +5,7 @@ collection: "Generative Models"
 permalink: "/publication/SnapTapSplat"
 excerpt: 'Touch meet vision for 3D reconstrunction'
 date: 2024-03-29
-venue: 'Arxive'
+venue: '3DV'
 paperurl: 'https://arxiv.org/pdf/2403.20275'
 citation: 'Comi, Mauro, et al. "Snap-it, Tap-it, Splat-it: Tactile-Informed 3D Gaussian Splatting for Reconstructing Challenging Surfaces." arXiv preprint arXiv:2403.20275 (2024).'
 pubtype: 'conference'

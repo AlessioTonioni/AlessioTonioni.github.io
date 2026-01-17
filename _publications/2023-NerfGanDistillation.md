@@ -5,7 +5,7 @@ collection: "Generative Models"
 permalink: /publication/NerfGanDistillation
 excerpt: 'StyleGan like network can approximate NerfGAN.'
 date: 2023-03-22
-venue: 'ICCV23W'
+venue: 'ICCV-W'
 paperurl: 'https://arxiv.org/pdf/2303.12865'
 citation: 'Shahbazi, Mohamad, et al. "NeRF-GAN Distillation for Efficient 3D-Aware Generation with Convolutions." arXiv preprint arXiv:2303.12865 (2023).'
 pubtype: 'conference'

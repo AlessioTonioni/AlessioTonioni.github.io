@@ -5,7 +5,7 @@ collection: "3D Computer Vision"
 permalink: /publication/kpl
 excerpt: 'In this paper we learn a descriptor-specific 3D keypoint detector so as to optimize the end-to-end performance of a feature matching pipeline'
 date: 2018-01-01
-venue: 'International Journal of Computer Vision'
+venue: 'IJCV'
 paperurl: 'https://link.springer.com/epdf/10.1007/s11263-017-1037-3?author_access_token=A6mZlEoOjxZGyCHCohv2S_e4RwlQNchNByi7wbcMAY6YMRbUoetNXq7aaaAeIQvsChPHezwOevTcWH93kQ_Yjjv2XMTn9nAxPBQNdENkj7GMNBAtgtyEM5XnOFDXn4M5rzzUKa_cxrklnPH7XFDXQg%3D%3D'
 citation: 'Tonioni, A., Salti, S., Tombari, F., Spezialetti, R., & Di Stefano, L. (2018). Learning to detect good 3D keypoints. International Journal of Computer Vision, 126(1), 1-20.'
 pubtype: 'journal'

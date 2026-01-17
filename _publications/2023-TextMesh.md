@@ -5,7 +5,7 @@ collection: "Generative Models"
 permalink: /publication/TextMesh
 excerpt: 'Turning Tetx prompt into full 3D meshes'
 date: 2023-04-24
-venue: '3DV24'
+venue: '3DV'
 paperurl: 'https://arxiv.org/pdf/2304.12439'
 citation: 'Tsalicoglou, Christina, et al. "TextMesh: Generation of Realistic 3D Meshes From Text Prompts." arXiv preprint arXiv:2304.12439 (2023).'
 pubtype: 'conference'
