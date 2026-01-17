@@ -22,6 +22,7 @@ A collection of photography and soundtracks that inspire me.
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
   }
   .mood-card:hover {
     transform: translateY(-5px);
@@ -32,6 +33,7 @@ A collection of photography and soundtracks that inspire me.
     aspect-ratio: 4 / 3;
     overflow: hidden;
     background: #f0f0f0;
+    position: relative;
   }
   .mood-image-container img {
     width: 100%;
@@ -41,6 +43,24 @@ A collection of photography and soundtracks that inspire me.
   }
   .mood-card:hover .mood-image-container img {
     transform: scale(1.05);
+  }
+  .mood-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 1.5em;
+  }
+  .mood-card:hover .mood-overlay {
+    opacity: 1;
   }
   .mood-info {
     padding: 15px;
@@ -85,13 +105,18 @@ A collection of photography and soundtracks that inspire me.
   }
 </style>
 
-<div class="mood-grid">
+<div class="mood-grid gallery">
 {% for mood in site.data.moods %}
   <div class="mood-card">
     {% if mood.image %}
-    <div class="mood-image-container">
-      <img src="{{ mood.image | relative_url }}" alt="{{ mood.title }}" loading="lazy">
-    </div>
+    <a href="{{ mood.image | relative_url }}" class="mood-image-link" title="{{ mood.title }}{% if mood.description %} - {{ mood.description }}{% endif %}">
+      <div class="mood-image-container">
+        <img src="{{ mood.image | relative_url }}" alt="{{ mood.title }}" loading="lazy">
+        <div class="mood-overlay">
+          <i class="fas fa-search-plus"></i>
+        </div>
+      </div>
+    </a>
     {% endif %}
     <div class="mood-info">
       <div>
@@ -110,3 +135,32 @@ A collection of photography and soundtracks that inspire me.
   </div>
 {% endfor %}
 </div>
+
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+      delegate: '.mood-image-link',
+      type: 'image',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1]
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: function(item) {
+          return item.el.attr('title');
+        }
+      },
+      mainClass: 'mfp-with-zoom',
+      zoom: {
+        enabled: true,
+        duration: 300,
+        easing: 'ease-in-out',
+        opener: function(openerElement) {
+          return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      }
+    });
+  });
+</script>
