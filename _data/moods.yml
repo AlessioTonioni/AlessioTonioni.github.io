@@ -1,6 +1,13 @@
+- date: 2026-01-17
+  title: "Uphill"
+  image: "images/uphill.jpg"
+  spotify_id: "" # Optional: Spotify track ID
+  youtube_id: "pyUOSaQZmxw" # Optional: YouTube video ID
+  description: "Always learning something new..."
+
 - date: 2025-11-01
-  title: "Graffiti in Santo Antao"
+  title: "Unexpected Murales"
   image: "images/graffiti.jpg"
   spotify_id: "" # Optional: Spotify track ID
   youtube_id: "c6jNvlC2nKY" # Optional: YouTube video ID
-  description: "Chill portuguese vibes."
+  description: "Chill vibes."
