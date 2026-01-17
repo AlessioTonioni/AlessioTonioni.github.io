@@ -1,0 +1,131 @@
+- date: 2025-10-15
+  content: "[Eruku](publication/eruku) got accepted to WACV2026, congrats to all my co-authors! In this work we improve on the handwriting generation capabilities of our previous work [Emuru](publication/emuru) by making the model more robust and flexible in its usage."
+  highlight: true
+
+- date: 2025-08-01
+  content: "Congratulations to [Luca Zanella](https://lucazanella.github.io/) for having our joint work on online video step grounding: [BagLM](publication/baglm) presented at Neurips2025."
+  highlight: true
+
+- date: 2025-07-15
+  content: "[Gemini 2.5 report](https://arxiv.org/pdf/2507.06261) is out! Proud to see me and my team in the contributors list."
+  highlight: true
+
+- date: 2025-06-15
+  content: "**CVPR 2025**: Presenting 4 works: [EgoTempo Benchmark](publication/egotempo), [ACED](publication/ACED), [VICT](publication/VICT), and [Emuru](publication/emuru). Honored to be recognized as outstanding reviewer!"
+  highlight: false
+
+- date: 2025-06-20
+  content: "Congratulations to [Enis](https://enisimsar.github.io/) for having [UIP2P](publication/UIP2P) accepted at ICCV25!"
+  highlight: false
+
+- date: 2025-05-10
+  content: "Another of our CVPR works is now online, check our [EgoTempo Benchmark](publication/egotempo) if you working on Egocentric long form video understanding. A huge thanks to [Chiara Plizzari](https://chiaraplizz.github.io/) for the amazing work she did while she was a student in our team at Google Zurich!"
+  highlight: false
+
+- date: 2025-04-01
+  content: "4 works have been accepted to CVPR, 1 is already online [ACED](publication/ACED), 3 more to come 👀 "
+  highlight: false
+
+- date: 2025-01-02
+  content: "**WACV 2025**: [LIME](publication/LIME) will be presented as oral! Congratulation to [Enis](https://enisimsar.github.io/)."
+  highlight: false
+
+- date: 2024-11-01
+  content: "New papers on Arxiv: [UIP2P](publication/UIP2P) (unsupervised image editing) and [ACED](publication/ACED) (data curation for small VLM)."
+  highlight: false
+
+- date: 2024-09-01
+  content: "**ECCV 2024**: 2 papers on building better VLM accepted! Check [TCR](publication/TCR) and [BRAVE](publication/Brave)."
+  highlight: false
+
+- date: 2024-06-01
+  content: "[TouchSDF](publication/TouchSDF) accepted in RAL! Check also the follow-up [SnapTapSplat](publication/SnapTapSplat) on Arxiv."
+  highlight: false
+
+- date: 2024-03-01
+  content: "Check our latest works on Arxiv: [Lime](publication/LIME), [InseRF](publication/InseRF), and [TCR](publication/TCR)."
+  highlight: false
+
+- date: 2023-11-01
+  content: "**3DV**: Our [TextMesh](publication/TextMesh) work has been accepted!"
+  highlight: false
+
+- date: 2023-09-01
+  content: "**ICCV 2023**: [NeRF-GAN Distillation](publication/NerfGanDistillation) and [LatentSwap3D](publication/LS3D) presented at the AI3DCC workshop."
+  highlight: false
+
+- date: 2023-06-01
+  content: "**CVPR 2023**: [NeRF-supervised Deep Stereo](publication/NerfStereo) accepted. See you in Vancouver!"
+  highlight: false
+
+- date: 2023-01-01
+  content: "[AT/DT++](publication/ATDT2) has been accepted for publication on **TPAMI**."
+  highlight: false
+
+- date: 2022-10-01
+  content: "Honored to be recognized as **Outstanding Reviewer at ECCV 2022!"
+  highlight: false
+
+- date: 2022-08-01
+  content: "Interviewed for the **ProfessionAI podcast** sharing experience as a CV researcher ([link](https://www.youtube.com/watch?v=GfEJxyedtJQ))."
+  highlight: false
+
+- date: 2022-06-01
+  content: "Uploading new works to Arxiv: [LatentSwap3D](publication/LS3D) and [ParGAN](publication/ParGAN)."
+  highlight: false
+
+- date: 2022-03-01
+  content: "[BNE](publication/BNE) accepted for publication on **Pattern Recognition**."
+  highlight: false
+
+- date: 2021-11-01
+  content: "**CVPR 2021**: [BNE](publication/BNE) presented at the L2ID workshop. Honored to be **Outstanding Reviewer at CVPR 2021**!"
+  highlight: false
+
+- date: 2021-08-01
+  content: "[LegoFormer](publication/LegoFormer) uploaded to Arxiv with open source code."
+  highlight: false
+
+- date: 2021-06-01
+  content: "Extended version of our CVPR 2019 oral accepted to **TPAMI** ([realTimeII](publication/realTimeII))."
+  highlight: false
+
+- date: 2020-11-01
+  content: "**3DV 2020**: [Divide et Impera](publication/DivideEtImpera) accepted as an **Oral** presentation!"
+  highlight: false
+
+- date: 2020-09-01
+  content: "Recognized as **Outstanding Reviewer at ECCV 2020** and **ACCV 2020**."
+  highlight: false
+
+- date: 2020-06-01
+  content: "[BNE](publication/BNE) and [Continual Online Adaptation for Deep Stereo](publication/realTimeII) (TPAMI sub) uploaded to Arxiv."
+  highlight: false
+
+- date: 2019-12-01
+  content: "[AdaptationJournal](publication/AdaptationJournal) accepted for publication on the RGBD special issue of **TPAMI**."
+  highlight: false
+
+- date: 2019-11-01
+  content: "[Semi-Automatic Labeling for Deep Learning in Robotics](publication/ARS) accepted for publication in **IEEE TASE**."
+  highlight: false
+
+- date: 2019-09-01
+  content: "**ICCV 2019**: [Learning Across Tasks and Domains (ATDT)](publication/ATDT) accepted for poster presentation."
+  highlight: false
+
+- date: 2019-07-01
+  content: "Started collaboration with Federico Tombari's team at **Google Zurich**. So long Bologna, and thank you for all the fish!"
+  highlight: false
+
+- date: 2019-06-01
+  content: "**CVPR 2019**: Presenting [Real-time self-adaptive deep Stereo](publication/realTime) (Oral) and [Learning To Adapt for Stereo](publication/2019-L2A) (Poster)."
+  highlight: false
+
+- date: 2019-04-01
+  content: "Successfully defended my **Ph.D. Thesis**: [Computer Vision and Deep Learning for Retail Store Management](http://amsdottorato.unibo.it/8970/)."
+  highlight: false
+
+- date: 2019-01-01
+  content: "[DIHE](publication/DIHE) published on **CVIU** and [FPGA Dense Depth](publication/FPGA) published on **IEEE TCAS II**."
+  highlight: false

@@ -10,85 +10,108 @@ redirect_from:
 
 Hello!
 
-I'm a researcher in computer vision and deep learning and I'm currently working with [Federico Tombari](https://federicotombari.github.io/) at Google Zurich where I lead a small team of researchers dealing with fundamental research as well as research to production transformation. 
-Previously I was enrolled as a post doc at the [Computer Vision Lab](https://www.vision.deis.unibo.it/) of the university of Bologna under the supervision of Professor [Luigi Di Stefano](https://scholar.google.ch/citations?user=xZVTzyAAAAAJ&hl=de).
+I am an **AI Researcher** at **Google XR Zurich** in [Federico Tombari](https://federicotombari.github.io/)'s team. I lead my own applied research team focused on AI technologies for the current and next generation of XR devices. We work on the whole stack ranging from the integration of AI technologies to improving Gemini for egocentric assistant use cases.  
 
-I received my PhD in Computer Science and Engineering from University of Bologna on April 2019. 
-During my PhD I have worked on deep learning solutions for product detection and recognition in retail environments and on deep learning applied to depth estimation from stereo and monocular cameras.
+I earned my Ph.D. in Computer Science and Engineering from the **University of Bologna** in 2019 at the [Computer Vision Lab](https://www.vision.deis.unibo.it/), advised by Professor [Luigi Di Stefano](https://scholar.google.ch/citations?user=xZVTzyAAAAAJ&hl=de). 
 
-I am currently working on multimodal learning, generative models for images (and more) and complex text understanding tasks. 
-If you are interested in working with me feel free to reach out!
+My research journey began with deep learning for retail environments and depth estimation for autonomous driving. Since then, it has evolved through several different topics, ranging from implementing some of the visual translation stack powering Google Lens and Google translate to  different image understanding tasks without forgetting some of my early 3D reconstruction and generation works. My current focus is on **multimodal video/image understanding and generation** using LLMs and Diffusion models.
 
-P.S.: I also like to take photos, besides working with them, check [my seldomly updated Flickr](https://www.flickr.com/photos/196993770@N03/)
+I'm always excited to discuss new ideas or explore emerging topics. If you find any of our work interesting, please don't hesitate to reach out! 
 
-## News
+---
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+  <a href="mailto:alessio.tonioni.91@gmail.com" class="btn btn--primary">Email Me</a>
+  <a href="https://www.linkedin.com/in/alessio-tonioni-16261668" class="btn btn--info">LinkedIn</a>
+  <a href="https://github.com/AlessioTonioni" class="btn btn--inverse">GitHub</a>
+  <a href="https://scholar.google.it/citations?user=ry_BLFUAAAAJ&hl=en" class="btn btn--warning">Google Scholar</a>
+</div>
 
-__2025__:
-  * [Eruku](publication/eruku) got accepted to WACV2026, congrats to all my co-authors! In this work we improve on the handwriting generation capabilities of our previous work [Emuru](publication/emuru) by making the model more robust and flexible in its usage. 
-  * Congratulations to [Luca Zanella](https://lucazanella.github.io/) for having our joint work on online video step grounding: [BagLM](publication/baglm) presented at Neurips2025. 
-  * [Gemini 2.5 report](https://arxiv.org/pdf/2507.06261) is out! Proud to see me and few of my team members in the contributors list. 
-  * Congratulations to [Enis](https://enisimsar.github.io/) for having [UIP2P](publication/UIP2P) accepted at ICCV25! 
-  * See you at CVPR 2025 where we will present 4 works: [EgoTempo Benchmark](publication/egotempo), [ACED](publication/ACED), [VICT](publication/VICT) and [Emuru](publication/emuru). Also honored to be recognized as outstanding reviewer! 
-  * Another of our CVPR works is now online, check our [EgoTempo Benchmark](publication/egotempo) if you working on Egocentric long form video understanding. A huge thanks to [Chiara Plizzari](https://chiaraplizz.github.io/) for the amazing work she did while she was a student in our team at Google Zurich!  
-  * 4 works have been accepted to CVPR, 1 is already online [ACED](publication/ACED), 3 more to come 👀 
-  * [LIME](publication/LIME) will be presented as oral presentation at WACV2025! Congratulation to [Enis](https://enisimsar.github.io/) for the great achievement!
+---
 
-## Bonus Pic & Song 
-| [Soundtrack](https://www.youtube.com/watch?v=c6jNvlC2nKY) |
-![Graffiti in Santo Antao](../images/graffiti.jpg)
+<style>
+  .news-container {
+    margin-top: 20px;
+    border-left: 2px solid #3498db;
+    padding-left: 20px;
+  }
+  .news-item {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .news-item::before {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background: #3498db;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  .news-date {
+    font-size: 0.85em;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .news-content {
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+  .news-content p {
+    margin: 0;
+  }
+  .btn--light--outline {
+    margin-top: 10px;
+    display: inline-block;
+  }
+</style>
 
-## Older News
+## 📢 Latest News
 
-__2024__:
-  * 2 new papers uploaded to Arxive: [UIP2P](publication/UIP2P) showing how to train image editing models without supervision and [ACED](publication/ACED) unveiling a correlation between data curation and knowledge distillation and a better way to train small multimodal models. 
-  * 2 papers on building better VLM accepted at ECCV24! Check [TCR](publication/TCR) and [BRAVE](publication/Brave) and a huge thanks to my awesome co-authors [Bruno](https://www.kor.bar/) and [Oguzhan](https://ofkar.github.io/).
-  * Our [TouchSDF paper](/publication/TouchSDF) has been accepted for publication in RAL! Check also the follow up work we just uploaded to Arxiv where we integrate touch with a gaussian splatting reconstruction pipeline [SnapTapSplat](publication/SnapTapSplat).
-  * Check our latest work on interfacing LLM with multiple visual encoder to have a broader view on the visual world: [BRAVE](publication/Brave).
-  * Exciting new works uploaded to Arxiv: [Lime](publication/LIME) for image editing, [InseRF](publication/InseRF) for NeRF Editing, [Text Conditioned Resamppler](publication/TCR) for interfacing LLM to videos. 
+<div class="news-container">
+{% assign latest_news = site.data.news | sort: "date" | reverse | slice: 0, 5 %}
+{% for item in latest_news %}
+  <div class="news-item">
+    <span class="news-date">{{ item.date | date: "%B %Y" }}</span>
+    <div class="news-content">
+      {{ item.content | markdownify }}
+    </div>
+  </div>
+{% endfor %}
+</div>
 
-__2023__:
-  * Our [TextMesh](/publication/TextMesh) work has been accepted to 3DV!
-  * Our works [NeRF-GAN Distillation](publication/NerfGanDistillation) and [LatentSwap3D](publication/LS3D) have been presented at the [ICCV AI3DCC 2023 workshop](https://ai3dcc.github.io/). 
-  * Have you ever wondered what "A squirrel-octpus hybrid" would look like in 3D? Come check out our [text to mesh generation model](/publication/TextMesh) in our [project page](https://fabi92.github.io/textmesh/).
-  * Our work [NeRF-supervised Deep Stereo](/publication/NerfStereo) has been accepted at CVPR 2023, see you in Vancouver!
-  * In [NeRF-GAN Distillation](publication/NerfGanDistillation) we show how NeRF volumetric rendering can sucesfully be approximated with plain convolutions for generative models.
-  * [AT/DT++](publication/ATDT2) has been accepted for publication on TPAMI.
+[All News & Archive →]({{ '/news/' | relative_url }}){: .btn .btn--light--outline}
 
-__2022__:
-  * We have uploaded to Arxive our latest work that enables editing of 3D aware Nerf based GAN: [LatentSwap3D](publication/LS3D), [code available](https://enisimsar.github.io/latentswap3d/)
-  * We have uploaded to Arxive an old work which never made it out of the review process, the idea was simple but effective: making. a CycleGAN parametrizable --> [ParGAN](publication/ParGAN)
-  * I was interviewed for the ProfessionAI podcast to share my experience as CV researcher, you can find the interview [here](https://www.youtube.com/watch?v=GfEJxyedtJQ)(italian only :/)
-  * I was acknowledged as [**outstanding reviewer at ECCV22**](https://eccv2022.ecva.net/program/outstanding-reviewers/)!
-  * [BNE](publication/BNE) has been accepted for publication on Pattern Recognition.
+---
 
-__2021__:
+## 🎵 Current Mood
 
-* We uploaded to arxiv our latest work [LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction](publication/LegoFormer) together with an open source implementation for it. 
-* I was acknowledged as [**Outstanding Reviewer at CVPR2021**](http://cvpr2021.thecvf.com/node/184), thank you to all the organizers!
-* Our [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE) will be presented during CVPR21 at the [L2ID workshop](https://l2id.github.io/index.html#people) 
-* The [extended version](publication/realTimeII) of our CVPR 2019 oral paper has been accepted to TPAMI!
-* We uploaded to arxiv our latest work [Unsupervised Novel View Synthesis from a Single Image](publication/NVS).
+{% assign current_mood = site.data.moods | first %}
 
+<div class="mood-spotlight" style="border: 1px solid #eee; padding: 20px; border-radius: 8px; background: #fafafa;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 5px;">
+    <div style="flex: 1;">
+      <h3 style="margin-top: 0; margin-bottom: 5px;">{{ current_mood.title }}</h3>
+      <p style="margin-bottom: 0;"><em>{{ current_mood.description }}</em></p>
+    </div>
+    {% if current_mood.youtube_id %}
+    <div style="flex-shrink: 0;">
+      <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" class="btn btn--danger" style="margin: 0; display: flex; align-items: center; gap: 8px;">
+        <i class="fas fa-play" aria-hidden="true"></i> Play Soundtrack
+      </a>
+    </div>
+    {% endif %}
+  </div>
+  
+  {% if current_mood.image %}
+  <div style="width: 100%;">
+    <img src="{{ current_mood.image | relative_url }}" alt="{{ current_mood.title }}" style="width: 100%; max-height: 600px; object-fit: cover; border-radius: 8px; display: block; margin-top: 10px;">
+  </div>
+  {% endif %}
+</div>
 
-__2020__:
-
-* We uploaded to arxiv our latest work [Batch Normalization Embeddings for Deep Domain Generalization](publication/BNE).
-* I was acknowledged as **Outstanding Reviewer at ACCV2020**, thank you to all the organizers! 
-* Our paper [A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views](publication/DivideEtImpera) has been accepted as oral to 3DV 2020! Here we show how to use deep learning and traditional multi-view geometry wisdom to solve multi view reconstruction in an end to end way. 
-* I was awarded as **Outstanding Reviewer at ECCV2020**, thank you to all the organizers!
-* Come meet me on the 26th of August at the Virtual Google Booth at ECCV2020 to chat about what is it like to work and do research in Google. From 6:30 to 8:30 pm CEST.
-* We just submitted to TPAMI an extended version of our CVPR2019 work on online self-supervision for stereo depth estimation. You can find more details on our newer work [Continual Online Adaptation for Deep Stereo](publication/realTimeII). The online code will be updated soon, stay tuned. 
-
-__2019__:
-
-* Our paper [Unsupervised Domain Adaptation for Depth Prediction from Images](publication/AdaptationJournal) has been accepted for publication on the RGBD special issue of TPAMI. We will release the code soon!
-* Our paper [Semi-Automatic Labeling for Deep Learning in Robotics](publication/ARS) has been accepted for publication in the IEEE Transactions on Automation Science and Engineering journal.
-* Our paper [Learning Across Tasks and Domains](publication/ATDT) got accepted at ICCV 2019 for a poster presentation! I wish to thank [Pierluigi](https://www.unibo.it/sitoweb/pierluigi.zama) for the wonderful work. Stay tuned for the code release.
-* After 3.5 wonderful years at the Computer Vision Lab of Bologna it's time to move on, from July I will start a collaboration with the computer vision team of Federico Tombari at Google Zurich! So long Bologna, and thank you for all the fish!
-* My Phd thesis is finally online and provided with open access by UniBO [link](http://amsdottorato.unibo.it/8970/).
-* I will be at CVPR 2019 to present our two works on stereo depth estimation: [Real-time self-adaptive deep Stereo (Oral+Poster+Demo)](publication/realTime)  and [Learning To Adapt for Stereo (Poster)](publication/2019-L2A). See you there!
-* Me, [__Matteo Poggi__](https://vision.disi.unibo.it/~mpoggi/) and __Oscar Rahnama__ will be on the 22nd of May at BMVA meeting on High-Performance Computing for Computer Vision to present our recent works on efficient depth estimation. See you there!
-* We have just released our last work where we show how it is possible to transform deep representation across domains and tasks. I believe it is a really exciting and under developed research field, check it out! [Learning Across Tasks and Domains](publication/ATDT)
-* Our last work on Grocery Product Recognition has been published on CVIU, check it out: [Domain invariant hierarchical embedding for grocery products recognition](publication/DIHE).
-* Our paper on designing an efficient stereo systems for FPGA has been published on IEEE Transactions on Circuits and Systems II: Express Briefs, check it out: [Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC](publication/FPGA).
-* I have successfully defended my Ph.D. Thesis titled "Computer Vision and Deep Learning for Retail Store Management", thank to Centro Studi for financing my Ph.D and to all my colleagues and friends for helping me during the last three years! 
+[See full moodboard →]({{ '/moodboard/' | relative_url }}){: .btn .btn--light--outline}
