@@ -159,7 +159,8 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
     if not api_key:
         return None, None
         
-    for attempt in range(2):
+    print(f"Generating news for: {title[:50]}...")
+    for attempt in range(3):
         try:
             client = genai.Client(api_key=api_key)
             prompt = f"""
@@ -182,6 +183,7 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
                 "snippet": "..."
             }}
             """
+            # Add a safety timeout via context if possible, or just rely on the bounded loop
             response = client.models.generate_content(
                 model='gemini-3-flash-preview',
                 contents=prompt,
@@ -189,7 +191,6 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
             
             import json
             text = response.text.strip()
-            # Clean up potential markdown wrapper
             if "```json" in text:
                 text = text.split("```json")[1].split("```")[0].strip()
             elif "```" in text:
@@ -198,10 +199,12 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
             data = json.loads(text)
             return data.get("short_title"), data.get("snippet")
         except Exception as e:
-            if "429" in str(e):
+            print(f"Gemini attempt {attempt+1} failed: {e}")
+            if "429" in str(e) or "500" in str(e):
                 time.sleep(10)
                 continue
             break
+    print("Gemini failed after retries, using fallback.")
     return None, None
 
 def extract_short_title(title):
@@ -283,11 +286,19 @@ def main():
     updates = []
     
     try:
+        print(f"Searching for author ID: {SCHOLAR_ID}...")
         author = scholarly.search_author_id(SCHOLAR_ID)
+        print("Filling author data (this may take a minute)...")
         author_data = scholarly.fill(author, sections=['publications'])
         publications = author_data['publications']
+        print(f"Found {len(publications)} total publications. Checking for new ones...")
         
-        for pub in publications:
+        for i, pub in enumerate(publications):
+            title = pub.get('bib', {}).get('title', 'Unknown Title')
+            # Only log every 5 or so to keep output clean but active
+            if i % 5 == 0:
+                print(f"Processing publication {i+1}/{len(publications)}: {title[:50]}...")
+            
             res = create_markdown(pub, existing_titles)
             if res:
                 updates.append(res)
