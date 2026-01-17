@@ -25,6 +25,7 @@ jobs:
       - name: Run update script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: |
           python scripts/update_publications.py
 
