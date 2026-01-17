@@ -278,46 +278,16 @@ def create_news(title, clean_title, author_str, abstract=""):
     except Exception:
         return content
 
-def setup_proxy():
-    """Sets up a proxy for scholarly to avoid being blocked by Google Scholar."""
-    from scholarly import ProxyGenerator
-    pg = ProxyGenerator()
-    
-    scraper_api_key = os.environ.get("SCRAPERAPI_KEY")
-    if scraper_api_key:
-        print("Using ScraperAPI for Google Scholar access...")
-        pg.ScraperAPI(scraper_api_key)
-        scholarly.use_proxy(pg)
-        return True
-    
-    # Optional: Try free proxies if no key is provided
-    # WARNING: This can be slow and unreliable in GHA environment
-    try:
-        print("No SCRAPERAPI_KEY found. Attempting to use free proxies (may be slow)...")
-        if pg.FreeProxies():
-            scholarly.use_proxy(pg)
-            return True
-    except:
-        print("Failed to initialize free proxies.")
-    
-    print("Proceeding without proxy (likely to be blocked on GitHub Actions).")
-    return False
-
 def main():
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
-    
-    setup_proxy()
+        
     existing_titles = get_existing_titles()
     updates = []
     
     try:
         print(f"Searching for author ID: {SCHOLAR_ID}...")
-        try:
-            author = scholarly.search_author_id(SCHOLAR_ID)
-        except Exception as scholar_err:
-            raise Exception(f"Google Scholar search failed: {scholar_err}. This usually means your IP is blocked. Please consider adding a SCRAPERAPI_KEY to your GitHub Secrets.")
-            
+        author = scholarly.search_author_id(SCHOLAR_ID)
         print("Filling author data (this may take a minute)...")
         author_data = scholarly.fill(author, sections=['publications'])
         publications = author_data['publications']
@@ -325,7 +295,7 @@ def main():
         
         for i, pub in enumerate(publications):
             title = pub.get('bib', {}).get('title', 'Unknown Title')
-            # Only log every 5 or so to keep output clean but active
+            # Only log progress to keep terminal informative
             if i % 5 == 0:
                 print(f"Processing publication {i+1}/{len(publications)}: {title[:50]}...")
             
@@ -335,20 +305,9 @@ def main():
             
         if updates:
             print(f"Update finished. Processed {len(updates)} new entries.")
-            # Write summary for GitHub Issues
-            with open("summary.md", "w") as f:
-                f.write(f"### 🚀 {len(updates)} New Publication(s) Added\n\n")
-                for up in updates:
-                    f.write(f"#### {up['title']}\n")
-                    f.write(f"> {up['news']}\n\n")
-                f.write("---\n")
-                f.write("Review them at: https://alessiotonioni.github.io/news/")
             
     except Exception as e:
         print(f"Error: {e}")
-        with open("summary.md", "w") as f:
-            f.write("### ❌ Publication Update Failed\n\n")
-            f.write(f"```python\n{e}\n```")
 
 if __name__ == "__main__":
     main()
