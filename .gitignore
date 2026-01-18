@@ -7,5 +7,5 @@ __pycache__/
 # Cache for publication stats and PDFs
 _pdf_cache/
 _data/stats_cache.json
-_data/publications_cache.json
+_data/ai_results_cache.json
 assets/data/publications_enhanced.json
