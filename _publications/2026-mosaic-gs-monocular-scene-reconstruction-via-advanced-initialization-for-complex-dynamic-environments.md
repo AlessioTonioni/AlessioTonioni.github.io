@@ -7,7 +7,7 @@ collection: publications
 permalink: /publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments
 excerpt: We present MOSAIC-GS, a novel, fully explicit, and computationally efficient
   approach for high-fidelity dynamic scene reconstruction from monocular vi...
-date: 2026-01-17
+date: 2026-01-18
 venue: ArXiv
 paperurl: https://arxiv.org/pdf/2601.05368.pdf
 citation: 'Svitlana Morkva, Michael Oechsle, **Alessio Tonioni**, Marco Hutter, Vaishakh
