@@ -1,0 +1,2281 @@
+{
+  "publications": [
+    {
+      "title": "Autoregressive Styled Text Image Generation, but Make it Reliable",
+      "authors": "Carmine Zaccagnino, Fabio Quattrini, Vittorio Pippi, Silvia Cascianelli, Alessio Tonioni, Rita Cucchiara",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/eruku",
+      "excerpt": "Better autoregressive handwriting generation",
+      "date": "2025-10-27",
+      "venue": "WACV",
+      "paperurl": "https://arxiv.org/abs/2510.23240",
+      "citation": "Zaccagnino, C., Quattrini, F., Pippi, V., Cascianelli, S., Tonioni, A., & Cucchiara, R. (2025). Autoregressive Styled Text Image Generation, but Make it Reliable. arXiv preprint arXiv:2510.23240.",
+      "pubtype": "conference",
+      "local_file": "_publications/2025_Eruku.md",
+      "abstract": "Generating faithful and readable styled text images (especially for Styled Handwritten Text generation - HTG) is an open problem with several possible applications across graphic design, document understanding, and image editing. A lot of research effort in this task is dedicated to developing strategies that reproduce the stylistic characteristics of a given writer, with promising results in terms of style fidelity and generalization achieved by the recently proposed Autoregressive Transformer paradigm for HTG. However, this method requires additional inputs, lacks a proper stop mechanism, and might end up in repetition loops, generating visual artifacts. In this work, we rethink the autoregressive formulation by framing HTG as a multimodal prompt-conditioned generation task, and tackle the content controllability issues by introducing special textual input tokens for better alignment with the visual ones. Moreover, we devise a Classifier-Free-Guidance-based strategy for our autoregressive model. Through extensive experimental validation, we demonstrate that our approach, dubbed Eruku, compared to previous solutions requires fewer inputs, generalizes better to unseen styles, and follows more faithfully the textual prompt, improving content adherence.",
+      "pdf_path": "_pdf_cache/autoregressive-styled-text-image-generation-but-make-it-reliable.pdf",
+      "s2_id": "66befc9421ed370905ecea5145b36bd936837584",
+      "s2_metadata": {
+        "paperId": "66befc9421ed370905ecea5145b36bd936837584",
+        "title": "Autoregressive Styled Text Image Generation, but Make it Reliable",
+        "year": 2025,
+        "referenceCount": 70,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "2317114164",
+            "name": "Carmine Zaccagnino"
+          },
+          {
+            "authorId": "2230651468",
+            "name": "Fabio Quattrini"
+          },
+          {
+            "authorId": "2181654381",
+            "name": "Vittorio Pippi"
+          },
+          {
+            "authorId": "3492481",
+            "name": "Silvia Cascianelli"
+          },
+          {
+            "authorId": "2387867204",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "2303850502",
+            "name": "Rita Cucchiara"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Eruku: Making styled handwritten text generation reliable and flexible via special tokens and classifier-free guidance.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.29154890748530726,
+          "y": 0.03456568088205005
+        },
+        "umap": {
+          "x": -3.123398542404175,
+          "y": 11.844928741455078
+        }
+      }
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Depth Prediction from Images",
+      "authors": "Alessio Tonioni, Matteo Poggi, Stefano Mattoccia and Luigi Di Stefano",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/AdaptationJournal",
+      "excerpt": "In this paper we extend our previous unsupervised adaptation approach to fine-tune a deep learning stereo or mono model without any ground-truth information.",
+      "venue": "TPAMI",
+      "paperurl": "https://arxiv.org/abs/1909.03943",
+      "date": "2019-12-31",
+      "citation": "Tonioni, A., Poggi, M., Mattoccia, S., & Di Stefano, L. (2019). Unsupervised Domain Adaptation for Depth Prediction from Images. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019",
+      "pubtype": "journal",
+      "local_file": "_publications/2019-AdaptationPami.md",
+      "abstract": "State-of-the-art approaches to infer dense depth measurements from images rely on CNNs trained end-to-end on a vast amount of data. However, these approaches suffer a drastic drop in accuracy when dealing with environments much different in appearance and/or context from those observed at training time. This domain shift issue is usually addressed by fine-tuning on smaller sets of images from the target domain annotated with depth labels. Unfortunately, relying on such supervised labeling is seldom feasible in most practical settings. \nTherefore, we propose an unsupervised domain adaptation technique which does not require groundtruth labels. Our method relies only on image pairs and leverages on classical stereo algorithms to produce disparity measurements alongside with confidence estimators to assess upon their reliability.\nWe propose to fine-tune both depth-from-stereo as well as depth-from-mono architectures by a novel confidence-guided loss function that handles the measured disparities as noisy labels weighted according to the estimated confidence.  \nExtensive experimental results based on standard datasets and evaluation protocols prove that our technique can address effectively the domain shift issue with both  stereo and monocular depth prediction architectures  and  outperforms  other state-of-the-art unsupervised loss functions that may be alternatively deployed to pursue domain adaptation.",
+      "pdf_path": "_pdf_cache/unsupervised-domain-adaptation-for-depth-prediction-from-images.pdf",
+      "s2_id": "cd0f05ff32abf554d9dfb606efa535669e125adf",
+      "s2_metadata": {
+        "paperId": "cd0f05ff32abf554d9dfb606efa535669e125adf",
+        "title": "Unsupervised Domain Adaptation for Depth Prediction from Images",
+        "year": 2019,
+        "referenceCount": 82,
+        "citationCount": 88,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2509750",
+            "name": "Matteo Poggi"
+          },
+          {
+            "authorId": "10261545",
+            "name": "Stefano Mattoccia"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Adapt depth prediction CNNs to new domains unsupervisedly using classical stereo algorithms and a novel confidence-guided loss function.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.3743959132595488,
+          "y": 0.05221128587640466
+        },
+        "umap": {
+          "x": -2.4752955436706543,
+          "y": 7.828561305999756
+        }
+      }
+    },
+    {
+      "title": "Active data curation effectively distills large-scale multimodal models",
+      "authors": "Vishaal Udandarao, Nikhil Parthasarathy, Muhammad Ferjad Naeem, Talfan Evans, Samuel Albanie, Federico Tombari, Yongqin Xian, Alessio Tonioni, Olivier J H\u00e9naff",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/ACED",
+      "excerpt": "Active Data Curation beats Distillation",
+      "date": "2024-11-27",
+      "venue": "CVPR",
+      "paperurl": "https://arxiv.org/pdf/2411.18674",
+      "citation": "Udandarao, Vishaal, et al. \"Active data curation effectively distills large-scale multimodal models.\" arXiv preprint arXiv:2411.18674 (2024).",
+      "pubtype": "conference",
+      "local_file": "_publications/2024-ACED.md",
+      "abstract": "Knowledge distillation (KD) is the de facto standard for compressing large-scale models into smaller ones. Prior works have explored ever more complex KD strategies involving different objective functions, teacher-ensembles, and weight inheritance. In this work we explore an alternative, yet simple approach -- active data curation as effective distillation for contrastive multimodal pretraining. Our simple online batch selection method, ACID, outperforms strong KD baselines across various model-, data- and compute-configurations. Further, we find such an active data curation strategy to in fact be complementary to standard KD, and can be effectively combined to train highly performant inference-efficient models. Our simple and scalable pretraining framework, ACED, achieves state-of-the-art results across 27 zero-shot classification and retrieval tasks with upto 11% less inference FLOPs. We further demonstrate that our ACED models yield strong vision-encoders for training generative multimodal models in the LiT-Decoder setting, outperforming larger vision encoders for image-captioning and visual question-answering tasks.",
+      "pdf_path": "_pdf_cache/active-data-curation-effectively-distills-large-scale-multimodal-models.pdf",
+      "s2_id": "81bd7e7c60bfd145a422ec948716ee548131348f",
+      "s2_metadata": {
+        "paperId": "81bd7e7c60bfd145a422ec948716ee548131348f",
+        "title": "Active Data Curation Effectively Distills Large-Scale Multimodal Models",
+        "year": 2024,
+        "referenceCount": 200,
+        "citationCount": 14,
+        "authors": [
+          {
+            "authorId": "114284760",
+            "name": "Vishaal Udandarao"
+          },
+          {
+            "authorId": "2333232774",
+            "name": "Nikhil Parthasarathy"
+          },
+          {
+            "authorId": "2057127601",
+            "name": "Muhammad Ferjad Naeem"
+          },
+          {
+            "authorId": "2273325006",
+            "name": "Talfan Evans"
+          },
+          {
+            "authorId": "7641268",
+            "name": "Samuel Albanie"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "2256223080",
+            "name": "Yongqin Xian"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2066734400",
+            "name": "Olivier J. H'enaff"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "ACED uses active data curation as a powerful distillation strategy to build SOTA, compute-efficient multimodal models.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.06954952993737776,
+          "y": 0.22473289464018112
+        },
+        "umap": {
+          "x": -1.6178338527679443,
+          "y": 10.191632270812988
+        }
+      }
+    },
+    {
+      "title": "Batch Normalization Embeddings for Deep Domain Generalization",
+      "authors": "Mattia Seg\u00f9, Alessio Tonioni and Federico Tombari",
+      "collection": "Domain Adaptation",
+      "permalink": "/publication/BNE",
+      "excerpt": "An embedding based approach for deep domain generalization.",
+      "date": "2023-3-1",
+      "venue": "PR",
+      "paperurl": "https://arxiv.org/abs/2011.12672",
+      "citation": "Segu, Mattia, Alessio Tonioni, and Federico Tombari. \"Batch normalization embeddings for deep domain generalization.\" Pattern Recognition 135 (2023): 109115.",
+      "pubtype": "journal",
+      "local_file": "_publications/2020-BNE.md",
+      "abstract": "Domain generalization aims at training machine learning models to perform robustly across different and unseen domains. Several recent methods use multiple datasets to train models to extract domain-invariant features, hoping to generalize to unseen domains. Instead, first we explicitly train domain-dependant representations by using ad-hoc batch normalization layers to collect independent domain's statistics. Then, we propose to use these statistics to map domains in a shared latent space, where membership to a domain can be measured by means of a distance function. At test time, we project samples from an unknown domain into the same space and infer properties of their domain as a linear combination of the known ones. We apply the same mapping strategy at training and test time, learning both a latent representation and a powerful but lightweight ensemble model. We show a significant increase in classification accuracy over current state-of-the-art techniques on popular domain generalization benchmarks: PACS, Office-31 and Office-Caltech.",
+      "pdf_path": "_pdf_cache/batch-normalization-embeddings-for-deep-domain-generalization.pdf",
+      "s2_id": "33aebdc77d18cbe1414db520bfe010a05bdbfb45",
+      "s2_metadata": {
+        "paperId": "33aebdc77d18cbe1414db520bfe010a05bdbfb45",
+        "title": "Batch Normalization Embeddings for Deep Domain Generalization",
+        "year": 2020,
+        "referenceCount": 55,
+        "citationCount": 156,
+        "authors": [
+          {
+            "authorId": "151136071",
+            "name": "Mattia Segu"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2266326",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "BNE leverages batch normalization statistics to map unknown domains into a latent space for robust, distance-weighted ensemble classification.",
+        "category": "Domain Adaptation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.06282091612550729,
+          "y": 0.29569094135230745
+        },
+        "umap": {
+          "x": -1.487586498260498,
+          "y": 8.964353561401367
+        }
+      }
+    },
+    {
+      "title": "Test-Time Visual In-Context Tuning",
+      "authors": "Jiahao Xie, Alessio Tonioni, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/VICT",
+      "excerpt": "test time cycle",
+      "date": "2025-06-15",
+      "venue": "CVPR",
+      "paperurl": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xie_Test-Time_Visual_In-Context_Tuning_CVPR_2025_paper.pdf",
+      "citation": "Xie, Jiahao, et al. \"Test-Time Visual In-Context Tuning.\" Proceedings of the Computer Vision and Pattern Recognition Conference. 2025.",
+      "pubtype": "conference",
+      "local_file": "_publications/2025-VICT.md",
+      "pdf_path": "_pdf_cache/test-time-visual-in-context-tuning.pdf",
+      "s2_id": "bc74141d3547ccf0855c6592ce06615b3316545a",
+      "s2_metadata": {
+        "paperId": "bc74141d3547ccf0855c6592ce06615b3316545a",
+        "title": "Test-Time Visual In-Context Tuning",
+        "year": 2025,
+        "referenceCount": 66,
+        "citationCount": 4,
+        "authors": [
+          {
+            "authorId": "2352261932",
+            "name": "Jiahao Xie"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "120529492",
+            "name": "N. Rauschmayr"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "48920094",
+            "name": "B. Schiele"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "VICT adapts generalist vision models on the fly using cycle consistency to conquer distribution shifts and unseen tasks at test time.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.0366288159650046,
+          "y": 0.2647257351943175
+        },
+        "umap": {
+          "x": -2.018718719482422,
+          "y": 9.2272310256958
+        }
+      }
+    },
+    {
+      "title": "Unsupervised Novel View Synthesis from a Single Image",
+      "authors": "Pierluigi Zama Ramirez, Alessio Tonioni and Federico Tombari",
+      "collection": "Novel View Synthesys",
+      "permalink": "/publication/NVS",
+      "excerpt": "An unsupervised approach for novel view synthesis.",
+      "date": "2021-03-15",
+      "venue": "Arxive",
+      "paperurl": "https://arxiv.org/abs/2102.03285",
+      "citation": "Zama Ramirez, Pierluigi, Alessio Tonioni, and Federico Tombari. \"Unsupervised Novel View Synthesis from a Single Image.\" arXiv preprint arXiv:2102.03285 (2021).",
+      "pubtype": "conference",
+      "local_file": "_publications/2021-NVS.md",
+      "abstract": "Novel view synthesis from a single image aims at generating novel views from a single input image of an object. Several works recently achieved remarkable results, though require some form of multi-view supervision at training time, therefore limiting their deployment in real scenarios. This work aims at relaxing this assumption enabling training of conditional generative model for novel view synthesis in a completely unsupervised manner. We first pre-train a purely generative decoder model using a GAN formulation while at the same time training an encoder network to invert the mapping from latent code to images. Then we swap encoder and decoder and train the network as a conditioned GAN with a mixture of auto-encoder-like objective and self-distillation. At test time, given a view of an object, our model first embeds the image content in a latent code and regresses its pose w.r.t. a canonical reference system, then generates novel views of it by keeping the code and varying the pose. We show that our framework achieves results comparable to the state of the art on ShapeNet and that it can be employed on unconstrained collections of natural images, where no competing method can be trained.",
+      "pdf_path": "_pdf_cache/unsupervised-novel-view-synthesis-from-a-single-image.pdf",
+      "s2_id": "458b523eb502713d9e19e9c7ea09fb268effd202",
+      "s2_metadata": {
+        "paperId": "458b523eb502713d9e19e9c7ea09fb268effd202",
+        "title": "Unsupervised Novel View Synthesis from a Single Image",
+        "year": 2021,
+        "referenceCount": 81,
+        "citationCount": 9,
+        "authors": [
+          {
+            "authorId": "80804241",
+            "name": "Pierluigi Zama Ramirez"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2266326",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Turn single photos into 3D rotations with an unsupervised generative framework that learns from unannotated natural image collections.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.012177747785369314,
+          "y": -0.09978920705274473
+        },
+        "umap": {
+          "x": -3.5552890300750732,
+          "y": 9.902019500732422
+        }
+      }
+    },
+    {
+      "title": "TextMesh: Generation of Realistic 3D Meshes From Text Prompts",
+      "authors": "Christina Tsalicoglou, Fabian Manhardt, Alessio Tonioni, Michael Niemeyer, Federico Tombari",
+      "collection": "Generative Models",
+      "permalink": "/publication/TextMesh",
+      "excerpt": "Turning Tetx prompt into full 3D meshes",
+      "date": "2023-04-24",
+      "venue": "3DV",
+      "paperurl": "https://arxiv.org/pdf/2304.12439",
+      "citation": "Tsalicoglou, Christina, et al. \"TextMesh: Generation of Realistic 3D Meshes From Text Prompts.\" arXiv preprint arXiv:2304.12439 (2023).",
+      "pubtype": "conference",
+      "local_file": "_publications/2023-TextMesh.md",
+      "abstract": "The ability to generate highly realistic 2D images from mere text prompts has recently made huge progress in terms of speed and quality, thanks to the advent of image diffusion models. Naturally, the question arises if this can be also achieved in the generation of 3D content from such text prompts. To this end, a new line of methods recently emerged trying to harness diffusion models, trained on 2D images, for supervision of 3D model generation using view dependent prompts. While achieving impressive results, these methods, however, have two major drawbacks. First, rather than commonly used 3D meshes, they instead generate neural radiance fields (NeRFs), making them impractical for most real applications. Second, these approaches tend to produce over-saturated models, giving the output a cartoonish looking effect. Therefore, in this work we propose a novel method for generation of highly realistic-looking 3D meshes. To this end, we extend NeRF to employ an SDF backbone, leading to improved 3D mesh extraction. In addition, we propose a novel way to finetune the mesh texture, removing the effect of high saturation and improving the details of the output 3D mesh.",
+      "pdf_path": "_pdf_cache/textmesh-generation-of-realistic-3d-meshes-from-text-prompts.pdf",
+      "s2_id": "2c6392491b6a942e08db46c8fff0ef5ba1fd9de8",
+      "s2_metadata": {
+        "paperId": "2c6392491b6a942e08db46c8fff0ef5ba1fd9de8",
+        "title": "TextMesh: Generation of Realistic 3D Meshes From Text Prompts",
+        "year": 2023,
+        "referenceCount": 38,
+        "citationCount": 161,
+        "authors": [
+          {
+            "authorId": "2308171136",
+            "name": "Christina Tsalicoglou"
+          },
+          {
+            "authorId": "2741443",
+            "name": "Fabian Manhardt"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "145048708",
+            "name": "Michael Niemeyer"
+          },
+          {
+            "authorId": "50516802",
+            "name": "F. Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "TextMesh creates photorealistic 3D meshes from text using SDF backbones and multi-view consistent texture refinement.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.20846016926005634,
+          "y": -0.2359502739238521
+        },
+        "umap": {
+          "x": -4.562925338745117,
+          "y": 11.234265327453613
+        }
+      }
+    },
+    {
+      "title": "BRAVE: Broadening the visual encoding of vision-language models",
+      "authors": "O\u011fuzhan Fatih Kar, Alessio Tonioni, Petra Poklukar, Achin Kulshrestha, Amir Zamir, Federico Tombari",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/Brave",
+      "excerpt": "Ensembling for LMM",
+      "date": "2024-04-10",
+      "venue": "ECCV",
+      "paperurl": "https://arxiv.org/pdf/2404.07204",
+      "citation": "Kar, O\u011fuzhan Fatih, et al. \"BRAVE: Broadening the visual encoding of vision-language models.\" arXiv preprint arXiv:2404.07204 (2024).",
+      "pubtype": "conference",
+      "local_file": "_publications/2024-Brave.md",
+      "abstract": "Vision-language models (VLMs) are typically composed of a vision encoder, e.g. CLIP, and a language model (LM) that interprets the encoded features to solve downstream tasks. Despite remarkable progress, VLMs are subject to several shortcomings due to the limited capabilities of vision encoders, e.g. \"blindness\" to certain image features, visual hallucination, etc. To address these issues, we study broadening the visual encoding capabilities of VLMs. We first comprehensively benchmark several vision encoders with different inductive biases for solving VLM tasks. We observe that there is no single encoding configuration that consistently achieves top performance across different tasks, and encoders with different biases can perform surprisingly similarly. Motivated by this, we introduce a method, named BRAVE, that consolidates features from multiple frozen encoders into a more versatile representation that can be directly fed as the input to a frozen LM. BRAVE achieves state-of-the-art performance on a broad range of captioning and VQA benchmarks and significantly reduces the aforementioned issues of VLMs, while requiring a smaller number of trainable parameters than existing methods and having a more compressed representation. Our results highlight the potential of incorporating different visual biases for a more broad and contextualized visual understanding of VLMs.",
+      "pdf_path": "_pdf_cache/brave-broadening-the-visual-encoding-of-vision-language-models.pdf",
+      "s2_id": "9738dde55ab77cc26271a5753db7dd7851176fd6",
+      "s2_metadata": {
+        "paperId": "9738dde55ab77cc26271a5753db7dd7851176fd6",
+        "title": "BRAVE: Broadening the visual encoding of vision-language models",
+        "year": 2024,
+        "referenceCount": 99,
+        "citationCount": 57,
+        "authors": [
+          {
+            "authorId": "2273474116",
+            "name": "Ouguzhan Fatih Kar"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2295887372",
+            "name": "Petra Poklukar"
+          },
+          {
+            "authorId": "2295886020",
+            "name": "Achin Kulshrestha"
+          },
+          {
+            "authorId": "2295888299",
+            "name": "Amir Zamir"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "BRAVE boosts vision-language models by efficiently consolidating features from multiple encoders into a more robust and versatile representation.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.14223191945626532,
+          "y": 0.16605932922856506
+        },
+        "umap": {
+          "x": -1.6256024837493896,
+          "y": 10.775628089904785
+        }
+      }
+    },
+    {
+      "title": "NeRF-GAN Distillation for Efficient 3D-Aware Generation with Convolutions",
+      "authors": "Mohamad Shahbazi, Evangelos Ntavelis, Alessio Tonioni, Edo Collins, Danda Pani Paudel, Martin Danelljan, Luc Van Gool",
+      "collection": "Generative Models",
+      "permalink": "/publication/NerfGanDistillation",
+      "excerpt": "StyleGan like network can approximate NerfGAN.",
+      "date": "2023-03-22",
+      "venue": "ICCV-W",
+      "paperurl": "https://arxiv.org/pdf/2303.12865",
+      "citation": "Shahbazi, Mohamad, et al. \"NeRF-GAN Distillation for Efficient 3D-Aware Generation with Convolutions.\" arXiv preprint arXiv:2303.12865 (2023).",
+      "pubtype": "conference",
+      "local_file": "_publications/2023-NerfGanDistillation.md",
+      "abstract": "Pose-conditioned convolutional generative models struggle with high-quality 3D-consistent image generation from single-view datasets, due to their lack of sufficient 3D priors. Recently, the integration of Neural Radiance Fields (NeRFs) and generative models, such as Generative Adversarial Networks (GANs), has transformed 3D-aware generation from single-view images. NeRF-GANs exploit the strong inductive bias of 3D neural representations and volumetric rendering at the cost of higher computational complexity. This study aims at revisiting pose-conditioned 2D GANs for efficient 3D-aware generation at inference time by distilling 3D knowledge from pretrained NeRF-GANS. We propose a simple and effective method, based on re-using the well-disentangled latent space of a pre-trained NeRF-GAN in a pose-conditioned convolutional network to directly generate 3D-consistent images corresponding to the underlying 3D representations. Experiments on several datasets demonstrate that the proposed method obtains results comparable with volumetric rendering in terms of quality and 3D consistency while benefiting from the superior computational advantage of convolutional networks.",
+      "pdf_path": "_pdf_cache/nerf-gan-distillation-for-efficient-3d-aware-generation-with-convolutions.pdf",
+      "s2_id": "03209edc230adfcf4ffc056f5b6e2cc7d0f946a4",
+      "s2_metadata": {
+        "paperId": "03209edc230adfcf4ffc056f5b6e2cc7d0f946a4",
+        "title": "NeRF-GAN Distillation for Efficient 3D-Aware Generation with Convolutions",
+        "year": 2023,
+        "referenceCount": 60,
+        "citationCount": 7,
+        "authors": [
+          {
+            "authorId": "73774192",
+            "name": "Mohamad Shahbazi"
+          },
+          {
+            "authorId": "1628458093",
+            "name": "Evangelos Ntavelis"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "33942393",
+            "name": "Edo Collins"
+          },
+          {
+            "authorId": "35268081",
+            "name": "D. Paudel"
+          },
+          {
+            "authorId": "2129520569",
+            "name": "Martin Danelljan"
+          },
+          {
+            "authorId": "1681236",
+            "name": "L. Gool"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "NeRF-GAN Distillation: Boosting 3D-aware generation speed by distilling NeRF-GAN priors into ultra-efficient 2D convolutional networks.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.08330479959269203,
+          "y": -0.06410575314217379
+        },
+        "umap": {
+          "x": -3.4046645164489746,
+          "y": 10.514203071594238
+        }
+      }
+    },
+    {
+      "title": "Learning Across Tasks and Domains",
+      "authors": "Pierluigi Zama Ramirez, Alessio Tonioni, Samuele Salti and Luigi Di Stefano",
+      "collection": "Domain Adaptation",
+      "permalink": "/publication/ATDT",
+      "excerpt": "In this work, we introduce a novel adaptation framework that can operate across both task and domains.",
+      "venue": "ICCV",
+      "date": "2019-10-28",
+      "paperurl": "https://arxiv.org/pdf/1904.04744",
+      "citation": "Ramirez, P. Z., Tonioni, A., Salti, S., & Di Stefano, L. (2019). Learning Across Tasks and Domains. arXiv preprint arXiv:1904.04744.",
+      "pubtype": "conference",
+      "local_file": "_publications/2019-ATDT.md",
+      "pdf_path": "_pdf_cache/learning-across-tasks-and-domains.pdf",
+      "s2_id": "a3eafac025ccf5a12c206a4a834417389afb4ff9",
+      "s2_metadata": {
+        "paperId": "a3eafac025ccf5a12c206a4a834417389afb4ff9",
+        "title": "Learning Across Tasks and Domains",
+        "year": 2019,
+        "referenceCount": 51,
+        "citationCount": 32,
+        "authors": [
+          {
+            "authorId": "80804241",
+            "name": "Pierluigi Zama Ramirez"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2607607",
+            "name": "Samuele Salti"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "AT/DT: Boosting vision performance by transferring knowledge across both tasks and domains to overcome limited data supervision.",
+        "category": "Transfer Learning"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.08954344692444424,
+          "y": 0.29160897553911874
+        },
+        "umap": {
+          "x": -1.2740485668182373,
+          "y": 8.53172779083252
+        }
+      }
+    },
+    {
+      "title": "Real-time self-adaptive deep stereo",
+      "authors": "Alessio Tonioni, Fabio Tosi, Matteo Poggi, Stefano Mattoccia and Luigi Di Stefano",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/realTime",
+      "excerpt": "In this paper we propose a real-time self adaptive deep stereo system.",
+      "date": "2019-06-16",
+      "venue": "CVPR",
+      "paperurl": "https://arxiv.org/pdf/1810.05424",
+      "citation": "Tonioni, A., Tosi, F., Poggi, M., Mattoccia, S., & Di Stefano, L. (2019). The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019",
+      "pubtype": "conference",
+      "local_file": "_publications/2019-RealTime.md",
+      "abstract": "Deep convolutional neural networks trained end-to-end are the undisputed state-of-the-art methods to regress dense disparity maps directly from stereo pairs. However, such methods suffer from notable accuracy drops when exposed to scenarios significantly different from those seen in the training phase (eg real vs synthetic images, indoor vs outdoor, etc). As it is unlikely to be able to gather enough samples to achieve effective training/tuning in any target domain, we propose to perform unsupervised and continuous online adaptation of a deep stereo network in order to preserve its accuracy independently of the sensed environment. However, such a strategy can be extremely demanding regarding computational resources and thus not enabling real-time performance. Therefore, we address this side effect by introducing a new lightweight, yet effective, deep stereo architecture Modularly ADaptive Network (MADNet) and by developing Modular ADaptation (MAD), an algorithm to train independently only sub-portions of our model. By deploying MADNet together with MAD we propose the first ever realtime self-adaptive deep stereo system.",
+      "pdf_path": "_pdf_cache/real-time-self-adaptive-deep-stereo.pdf",
+      "s2_id": "98333bedec446377cac57d63140ce0d4e79c097d",
+      "s2_metadata": {
+        "paperId": "98333bedec446377cac57d63140ce0d4e79c097d",
+        "title": "Real-Time Self-Adaptive Deep Stereo",
+        "year": 2018,
+        "referenceCount": 48,
+        "citationCount": 284,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "121670758",
+            "name": "Fabio Tosi"
+          },
+          {
+            "authorId": "2509750",
+            "name": "Matteo Poggi"
+          },
+          {
+            "authorId": "10261545",
+            "name": "Stefano Mattoccia"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "The first real-time self-adaptive deep stereo system, enabling continuous online adaptation to any environment using MADNet and MAD.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.3527514195710204,
+          "y": -0.060824498306770405
+        },
+        "umap": {
+          "x": -3.018794298171997,
+          "y": 7.447352409362793
+        }
+      }
+    },
+    {
+      "title": "Learning to detect good 3D keypoints",
+      "authors": "Alessio Tonioni, Samuele Salti, Federico Tombari, Riccardo Spezialetti and Luigi Di Stefano",
+      "collection": "3D Computer Vision",
+      "permalink": "/publication/kpl",
+      "excerpt": "In this paper we learn a descriptor-specific 3D keypoint detector so as to optimize the end-to-end performance of a feature matching pipeline",
+      "date": "2018-01-01",
+      "venue": "IJCV",
+      "paperurl": "https://link.springer.com/epdf/10.1007/s11263-017-1037-3?author_access_token=A6mZlEoOjxZGyCHCohv2S_e4RwlQNchNByi7wbcMAY6YMRbUoetNXq7aaaAeIQvsChPHezwOevTcWH93kQ_Yjjv2XMTn9nAxPBQNdENkj7GMNBAtgtyEM5XnOFDXn4M5rzzUKa_cxrklnPH7XFDXQg%3D%3D",
+      "citation": "Tonioni, A., Salti, S., Tombari, F., Spezialetti, R., & Di Stefano, L. (2018). Learning to detect good 3D keypoints. International Journal of Computer Vision, 126(1), 1-20.",
+      "pubtype": "journal",
+      "local_file": "_publications/2018-LearningToDetectGood3DKeypoints.md",
+      "pdf_path": null,
+      "s2_id": "c5a55004753e37271e62b6eb409e0a7ed9d0ff6b",
+      "s2_metadata": {
+        "paperId": "c5a55004753e37271e62b6eb409e0a7ed9d0ff6b",
+        "title": "Learning to Detect Good 3D Keypoints",
+        "year": 2017,
+        "referenceCount": 43,
+        "citationCount": 48,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2607607",
+            "name": "Samuele Salti"
+          },
+          {
+            "authorId": "2266326",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "46297738",
+            "name": "Riccardo Spezialetti"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "A deep learning framework to identify stable and repeatable 3D keypoints for robust point cloud matching and registration.",
+        "category": "3D Vision"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.07805199270712163,
+          "y": -0.14010964640511678
+        },
+        "umap": {
+          "x": -4.580911636352539,
+          "y": 8.212387084960938
+        }
+      }
+    },
+    {
+      "title": "Training-free Online Video Step Grounding",
+      "authors": "Luca Zanella, Massimiliano Mancini, Yiming Wang, Alessio Tonioni, Elisa Ricci",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/baglm",
+      "excerpt": "Online video step grounding",
+      "date": "2025-10-19",
+      "venue": "Neurips",
+      "paperurl": "https://arxiv.org/abs/2510.16989",
+      "citation": "Zanella, L., Mancini, M., Wang, Y., Tonioni, A., & Ricci, E. (2025). Training-free Online Video Step Grounding. arXiv preprint arXiv:2510.16989.",
+      "pubtype": "conference",
+      "local_file": "_publications/2025_BagLM.md",
+      "abstract": "Given a task and a set of steps composing it, Video Step Grounding (VSG) aims to detect which steps are performed in a video. Standard approaches for this task require a labeled training set (e.g., with step-level annotations or narrations), which may be costly to collect. Moreover, they process the full video offline, limiting their applications for scenarios requiring online decisions. Thus, in this work, we explore how to perform VSG online and without training. We achieve this by exploiting the zero-shot capabilities of recent Large Multimodal Models (LMMs). In particular, we use LMMs to predict the step associated with a restricted set of frames, without access to the whole video. We show that this online strategy without task-specific tuning outperforms offline and training-based models. Motivated by this finding, we develop Bayesian Grounding with Large Multimodal Models (BaGLM), further injecting knowledge of past frames into the LMM-based predictions. BaGLM exploits Bayesian filtering principles, modeling step transitions via (i) a dependency matrix extracted through large language models and (ii) an estimation of step progress. Experiments on three datasets show superior performance of BaGLM over state-of-the-art training-based offline methods.",
+      "pdf_path": "_pdf_cache/training-free-online-video-step-grounding.pdf",
+      "s2_id": "4a7c4f75022b9ffe010378080681e8cc893734c4",
+      "s2_metadata": {
+        "paperId": "4a7c4f75022b9ffe010378080681e8cc893734c4",
+        "title": "Training-free Online Video Step Grounding",
+        "year": 2025,
+        "referenceCount": 36,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "2253491572",
+            "name": "Luca Zanella"
+          },
+          {
+            "authorId": "2294358591",
+            "name": "Massimiliano Mancini"
+          },
+          {
+            "authorId": "2253817175",
+            "name": "Yiming Wang"
+          },
+          {
+            "authorId": "2387867204",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "2176320235",
+            "name": "Elisa Ricci"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "BAGLM enables training-free online video step grounding by combining Bayesian filtering with zero-shot Large Multimodal Models.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.15643707111927763,
+          "y": 0.13373723647092384
+        },
+        "umap": {
+          "x": -1.6622099876403809,
+          "y": 11.468949317932129
+        }
+      }
+    },
+    {
+      "title": "Zero-Shot Styled Text Image Generation, but Make It Autoregressive",
+      "authors": "Vittorio Pippi, Fabio Quattrini, Silvia Cascianelli, Alessio Tonioni, Rita Cucchiara",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/emuru",
+      "excerpt": "Autoregressive handwriting generation",
+      "date": "2025-06-15",
+      "venue": "CVPR",
+      "paperurl": "https://openaccess.thecvf.com/content/CVPR2025/papers/Pippi_Zero-Shot_Styled_Text_Image_Generation_but_Make_It_Autoregressive_CVPR_2025_paper.pdf",
+      "citation": "Pippi, Vittorio, et al. \"Zero-Shot Styled Text Image Generation, but Make It Autoregressive.\" Proceedings of the Computer Vision and Pattern Recognition Conference. 2025.",
+      "pubtype": "conference",
+      "local_file": "_publications/2025-Emuru.md",
+      "abstract": "Styled Handwritten Text Generation (HTG) has recently received attention from the computer vision and document analysis communities, which have developed several solutions, either GAN-or diffusion-based, that achieved promising results. Nonetheless, these strategies fail to generalize to novel styles and have technical constraints, particularly in terms of maximum output length and training efficiency. To overcome these limitations, in this work, we propose a novel framework for text-image generation, dubbed Emuru. Our approach leverages a powerful text-image representation model (a variational autoencoder) combined with an autoregressive Transformer. Our approach enables the generation of styled text images conditioned on textual content and style examples, such as specific fonts or handwriting styles. We train our model solely on a diverse, synthetic dataset of English text rendered in over 100,000 typewritten and calligraphy fonts, which gives it the capability to reproduce unseen styles (both fonts and users' handwriting) in zero-shot. To the best of our knowledge, Emuru is the first autoregressive model for HTG, and the first designed specifically for generalization to novel styles. Moreover, our model generates images without background artifacts, which are easier to use for downstream applications. Extensive evaluation on both typewritten and handwritten, any-length text image generation scenarios demonstrates the effectiveness of our approach.",
+      "pdf_path": "_pdf_cache/zero-shot-styled-text-image-generation-but-make-it-autoregressive.pdf",
+      "s2_id": "5e3fadc38814422591cc02e65a94927479ad3040",
+      "s2_metadata": {
+        "paperId": "5e3fadc38814422591cc02e65a94927479ad3040",
+        "title": "Zero-Shot Styled Text Image Generation, but Make It Autoregressive",
+        "year": 2025,
+        "referenceCount": 58,
+        "citationCount": 7,
+        "authors": [
+          {
+            "authorId": "2181654381",
+            "name": "Vittorio Pippi"
+          },
+          {
+            "authorId": "2230651468",
+            "name": "Fabio Quattrini"
+          },
+          {
+            "authorId": "3492481",
+            "name": "Silvia Cascianelli"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2303850502",
+            "name": "Rita Cucchiara"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Emuru: A first-of-its-kind autoregressive model for zero-shot styled text generation, producing high-fidelity, background-free images of any length.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.31094615256526764,
+          "y": 0.10400816083019716
+        },
+        "umap": {
+          "x": -2.5808968544006348,
+          "y": 11.901839256286621
+        }
+      }
+    },
+    {
+      "title": "A deep learning pipeline for product recognition in store shelves",
+      "authors": "Alessio Tonioni, Eugenio Serra and Luigi Di Stefano.",
+      "collection": "Product Detection and Recognition",
+      "permalink": "/publication/deepProduct",
+      "excerpt": "In this paper, we propose a deep learning pipeline to recognize products on grocery shelves that can scale effortlessly to thousand of different products to recognize.",
+      "date": "2018-12-12",
+      "venue": "IPAS",
+      "paperurl": "https://arxiv.org/pdf/1810.01733",
+      "citation": "Tonioni, Alessio, Eugenio Serra, and Luigi Di Stefano. \"A deep learning pipeline for product recognition in store shelves.\" In International Conference on Image Processing, Applications and Systems, 2018",
+      "pubtype": "conference",
+      "local_file": "_publications/2018-ADeepLearningPipelineForProductRecognitionInStoreShelves.md",
+      "abstract": "Recognition of grocery products in store shelves poses peculiar challenges. Firstly, the task mandates the recognition of an extremely high number of different items, in the order of several thousands for medium-small shops, with many of them featuring small inter and intra class variability. Then, available product databases usually include just one or a few studio-quality images per product (refereed to here as reference images), whilst at test time recognition is performed on pictures displaying a portion of a shelf containing several products and taken in the store by cheap cameras (refereed to as query images). Moreover, as the items on sale in a store as well as their appearance change frequently overtime, a practical recognition system should handle seamlessly new products/packages. Inspired by recent advances in object detection and image retrieval, we propose to leverage on state of the art object detectors based on deep learning to obtain an initial product-agnostic item detection. Then, we pursue product recognition through similarity search between global descriptors computed on reference and cropped query images. To maximize performance, we learn an ad-hoc global descriptor by a CNN trained on reference images based on an image embedding loss. Our system is computationally expensive at training time, but can perform recognition rapidly and accurately at test time.",
+      "pdf_path": "_pdf_cache/a-deep-learning-pipeline-for-product-recognition-in-store-shelves.pdf",
+      "s2_id": "4547e634a3a733152c91b6077825db3d5e560ed1",
+      "s2_metadata": {
+        "paperId": "4547e634a3a733152c91b6077825db3d5e560ed1",
+        "title": "A deep learning pipeline for product recognition on store shelves",
+        "year": 2018,
+        "referenceCount": 26,
+        "citationCount": 41,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2054152455",
+            "name": "Eugenio Serra"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Scalable grocery recognition via class-agnostic detection and learned image embeddings for efficient similarity search on store shelves.",
+        "category": "Object Recognition"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.005422711706539867,
+          "y": 0.06531176448652852
+        },
+        "umap": {
+          "x": -3.4327189922332764,
+          "y": 8.723315238952637
+        }
+      }
+    },
+    {
+      "title": "Exploiting Semantics in Adversarial Training for Image-Level Domain Adaptation",
+      "authors": "Pierluigi Zama Ramirez, Alessio Tonioni and Luigi Di Stefano",
+      "collection": "Domain Adaptation",
+      "permalink": "/publication/semAdapt",
+      "excerpt": "In this paper, we address the problem of domain adaptation for computer vision by learning a domain-to-domain image translation GAN. Peculiarly to our method, we introduce semantic constraints into the generation process to both avoid artifacts and guide the synthesis",
+      "date": "2018-12-12",
+      "venue": "IPAS",
+      "paperurl": "https://arxiv.org/pdf/1810.05852",
+      "citation": "Ramirez, Pierluigi Zama, Alessio Tonioni, and Luigi Di Stefano. \"Exploiting Semantics in Adversarial Training for Image-Level Domain Adaptation.\" In International Conference on Image Processing, Applications and Systems, 2018",
+      "pubtype": "conference",
+      "local_file": "_publications/2018-ExploitingSemanticsinAdversarialTraining.md",
+      "abstract": "Performance achievable by modern deep learning approaches are directly related to the amount of data used at training time. Unfortunately, the annotation process is notoriously tedious and expensive, especially for pixel-wise tasks like semantic segmentation. Recent works have proposed to rely on synthetically generated imagery to ease the training set creation. However, models trained on these kind of data usually under-perform on real images due to the well known issue of domain shift. We address this problem by learning a domain-to-domain image translation GAN to shrink the gap between real and synthetic images. Peculiarly to our method, we introduce semantic constraints into the generation process to both avoid artifacts and guide the synthesis. To prove the effectiveness of our proposal, we show how a semantic segmentation CNN trained on images from the synthetic GTA dataset adapted by our method can improve performance by more than 16% mIoU with respect to the same model trained on synthetic images.",
+      "pdf_path": "_pdf_cache/exploiting-semantics-in-adversarial-training-for-image-level-domain-adaptation.pdf",
+      "s2_id": "029b0bedd4b39f686e46c3d9e7cde38114040a45",
+      "s2_metadata": {
+        "paperId": "029b0bedd4b39f686e46c3d9e7cde38114040a45",
+        "title": "Exploiting semantics in adversarial training for image-level domain adaptation",
+        "year": 2018,
+        "referenceCount": 33,
+        "citationCount": 27,
+        "authors": [
+          {
+            "authorId": "80804241",
+            "name": "Pierluigi Zama Ramirez"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Bridging the synthetic-to-real gap for semantic segmentation using a GAN with semantic constraints to improve performance by over 16% mIoU.",
+        "category": "Domain Adaptation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.029142339823961704,
+          "y": -0.038921188369383325
+        },
+        "umap": {
+          "x": -3.0445165634155273,
+          "y": 9.294862747192383
+        }
+      }
+    },
+    {
+      "title": "Learning Good Features to Transfer Across Tasks and Domains",
+      "authors": "Pierluigi Zama Ramirez, Adriano Cardace, Luca De Luigi, Alessio Tonioni, Samuele Salti, Luigi Di Stefano",
+      "collection": "Domain Adaptation",
+      "permalink": "/publication/ATDT2",
+      "excerpt": "In this work, we extend an adaptation framework that can operate across both task and domains.",
+      "venue": "PAMI",
+      "date": "2023-1-27",
+      "paperurl": "https://arxiv.org/pdf/2301.11310",
+      "citation": "Ramirez, Pierluigi Zama, et al. \"Learning Good Features to Transfer Across Tasks and Domains.\" IEEE Transactions on Pattern Analysis and Machine Intelligence (2023).",
+      "pubtype": "Journal",
+      "local_file": "_publications/2022-atdt2.md",
+      "pdf_path": "_pdf_cache/learning-good-features-to-transfer-across-tasks-and-domains.pdf",
+      "s2_id": "e70ace6dad21f18948e19d92e252f2ee42797cf6",
+      "s2_metadata": {
+        "paperId": "e70ace6dad21f18948e19d92e252f2ee42797cf6",
+        "title": "Learning Good Features to Transfer Across Tasks and Domains",
+        "year": 2023,
+        "referenceCount": 60,
+        "citationCount": 10,
+        "authors": [
+          {
+            "authorId": "80804241",
+            "name": "Pierluigi Zama Ramirez"
+          },
+          {
+            "authorId": "2131012006",
+            "name": "Adriano Cardace"
+          },
+          {
+            "authorId": "2203381327",
+            "name": "Luca de Luigi"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2607607",
+            "name": "Samuele Salti"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Mastering cross-domain task transfer by mapping deep features with novel alignment and auxiliary edge detection for label-free vision tasks.",
+        "category": "Transfer Learning"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.14252841830282886,
+          "y": 0.24692491602483582
+        },
+        "umap": {
+          "x": -1.8355649709701538,
+          "y": 8.407039642333984
+        }
+      }
+    },
+    {
+      "title": "NeRF-Supervised Deep Stereo",
+      "authors": "Fabio Tosi, Alessio Tonioni, Daniele De Gregorio, Matteo Poggi",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/NerfStereo",
+      "excerpt": "NeRF makes great groundtruth for stereo systems.",
+      "date": "2023-03-30",
+      "venue": "CVPR",
+      "paperurl": "https://arxiv.org/pdf/2303.17603",
+      "citation": "Tosi, Fabio, et al. \"NeRF-Supervised Deep Stereo.\" arXiv preprint arXiv:2303.17603 (2023).",
+      "pubtype": "conference",
+      "local_file": "_publications/2023-NeRFStereo.md",
+      "abstract": "We introduce a novel framework for training deep stereo networks effortlessly and without any ground-truth. By leveraging state-of-the-art neural rendering solutions, we generate stereo training data from image sequences collected with a single handheld camera. On top of them, a NeRF-supervised training procedure is carried out, from which we exploit rendered stereo triplets to compensate for occlusions and depth maps as proxy labels. This results in stereo networks capable of predicting sharp and detailed disparity maps. Experimental results show that models trained under this regime yield a 30-40% improvement over existing self-supervised methods on the challenging Middlebury dataset, filling the gap to supervised models and, most times, outperforming them at zero-shot generalization.",
+      "pdf_path": "_pdf_cache/nerf-supervised-deep-stereo.pdf",
+      "s2_id": "95e772ecc4fd13965773cfcd4637159cfbb25096",
+      "s2_metadata": {
+        "paperId": "95e772ecc4fd13965773cfcd4637159cfbb25096",
+        "title": "NeRF-Supervised Deep Stereo",
+        "year": 2023,
+        "referenceCount": 92,
+        "citationCount": 60,
+        "authors": [
+          {
+            "authorId": "121670758",
+            "name": "Fabio Tosi"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "29829350",
+            "name": "Daniele De Gregorio"
+          },
+          {
+            "authorId": "2509750",
+            "name": "Matteo Poggi"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "NeRF-supervised deep stereo training using handheld videos as a data factory for zero-shot depth estimation.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.15191673312028142,
+          "y": -0.1242944957743299
+        },
+        "umap": {
+          "x": -2.8205134868621826,
+          "y": 8.212301254272461
+        }
+      }
+    },
+    {
+      "title": "Continual Adaptation for Deep Stereo",
+      "authors": " Matteo Poggi, Alessio Tonioni, Fabio Tosi, Stefano Mattoccia and Luigi Di Stefano",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/realTimeII",
+      "excerpt": "In this paper we propose an etension of our real-time self adaptive deep stereo system.",
+      "date": "2020-07-14",
+      "venue": "PAMI",
+      "paperurl": "https://arxiv.org/pdf/1810.05424",
+      "citation": "Poggi, M., Tonioni, A., Tosi, F., Mattoccia, S., & Di Stefano, L. (2019). IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020",
+      "pubtype": "journal",
+      "local_file": "_publications/2020-RealTime_II.md",
+      "abstract": "Depth estimation from stereo images is carried out with unmatched results by convolutional neural networks trained end-to-end to regress dense disparities. Like for most tasks, this is possible if large amounts of labelled samples are available for training, possibly covering the whole data distribution encountered at deployment time. Being such an assumption systematically unmet in real applications, the capacity of adapting to any unseen setting becomes of paramount importance. Purposely, we propose a continual adaptation paradigm for deep stereo networks designed to deal with challenging and ever-changing environments. We design a lightweight and modular architecture, Modularly ADaptive Network (MADNet), and formulate Modular ADaptation algorithms (MAD, MAD++) which permit efficient optimization of independent sub-portions of the entire network. In our paradigm, the learning signals needed to continuously adapt models online can be sourced from self-supervision via right-to-left image warping or from traditional stereo algorithms. With both sources, no other data than the input images being gathered at deployment time are needed. Thus, our network architecture and adaptation algorithms realize the first real-time self-adaptive deep stereo system and pave the way for a new paradigm that can facilitate practical deployment of end-to-end architectures for dense disparity regression.",
+      "pdf_path": "_pdf_cache/continual-adaptation-for-deep-stereo.pdf",
+      "s2_id": "d7be355589181cdd5014b683014a111e6bc28b41",
+      "s2_metadata": {
+        "paperId": "d7be355589181cdd5014b683014a111e6bc28b41",
+        "title": "Continual Adaptation for Deep Stereo",
+        "year": 2020,
+        "referenceCount": 79,
+        "citationCount": 38,
+        "authors": [
+          {
+            "authorId": "2509750",
+            "name": "Matteo Poggi"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "121670758",
+            "name": "Fabio Tosi"
+          },
+          {
+            "authorId": "10261545",
+            "name": "Stefano Mattoccia"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "MADNet: The first real-time deep stereo system for unsupervised, modular, and continuous adaptation in ever-changing environments.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.3512020041286564,
+          "y": -0.028867097410061836
+        },
+        "umap": {
+          "x": -2.4440722465515137,
+          "y": 7.1004815101623535
+        }
+      }
+    },
+    {
+      "title": "TouchSDF: A DeepSDF Approach for 3D Shape Reconstruction using Vision-Based Tactile Sensing",
+      "authors": "Mauro Comi, Yijiong Lin, Alex Church, Alessio Tonioni, Laurence Aitchison, Nathan F Lepora",
+      "collection": "Generative Models",
+      "permalink": "/publication/TouchSDF",
+      "excerpt": "Touch sensors meet 3D computer vision",
+      "date": "2023-11-21",
+      "venue": "RAL",
+      "paperurl": "https://arxiv.org/pdf/2311.12602",
+      "citation": "Comi, Mauro, et al. \"Touchsdf: A deepsdf approach for 3d shape reconstruction using vision-based tactile sensing.\" IEEE Robotics and Automation Letters (2024).",
+      "pubtype": "journal",
+      "local_file": "_publications/2023-TouchSDF.md",
+      "abstract": "Humans rely on their visual and tactile senses to develop a comprehensive 3D understanding of their physical environment. Recently, there has been a growing interest in exploring and manipulating objects using data-driven approaches that utilise high-resolution vision-based tactile sensors. However, 3D shape reconstruction using tactile sensing has lagged behind visual shape reconstruction because of limitations in existing techniques, including the inability to generalise over unseen shapes, the absence of real-world testing, and limited expressive capacity imposed by discrete representations. To address these challenges, we propose TouchSDF, a Deep Learning approach for tactile 3D shape reconstruction that leverages the rich information provided by a vision-based tactile sensor and the expressivity of the implicit neural representation DeepSDF. Our technique consists of two components: (1) a Convolutional Neural Network that maps tactile images into local meshes representing the surface at the touch location, and (2) an implicit neural function that predicts a signed distance function to extract the desired 3D shape. This combination allows TouchSDF to reconstruct smooth and continuous 3D shapes from tactile inputs in simulation and realworld settings, opening up research avenues for robust 3Daware representations and improved multimodal perception in robotics.",
+      "pdf_path": "_pdf_cache/touchsdf-a-deepsdf-approach-for-3d-shape-reconstruction-using-vision-based-tactile-sensing.pdf",
+      "s2_id": "a1d5e111c2120e80a15d3f8bfa05c71ffaf04c5d",
+      "s2_metadata": {
+        "paperId": "a1d5e111c2120e80a15d3f8bfa05c71ffaf04c5d",
+        "title": "TouchSDF: A DeepSDF Approach for 3D Shape Reconstruction Using Vision-Based Tactile Sensing",
+        "year": 2023,
+        "referenceCount": 45,
+        "citationCount": 28,
+        "authors": [
+          {
+            "authorId": "2048205091",
+            "name": "Mauro Comi"
+          },
+          {
+            "authorId": "81983572",
+            "name": "Yijiong Lin"
+          },
+          {
+            "authorId": "40976774",
+            "name": "Alex Church"
+          },
+          {
+            "authorId": "2267483061",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "2267489208",
+            "name": "Laurence Aitchison"
+          },
+          {
+            "authorId": "2467565",
+            "name": "N. Lepora"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "TouchSDF: Reconstructing continuous 3D shapes from high-resolution tactile sensing via implicit neural representations.",
+        "category": "3D Reconstruction"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.06775249084859572,
+          "y": -0.27320674893298397
+        },
+        "umap": {
+          "x": -5.512871742248535,
+          "y": 10.017468452453613
+        }
+      }
+    },
+    {
+      "title": "MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments",
+      "authors": "Svitlana Morkva, Michael Oechsle, Alessio Tonioni, Marco Hutter, Vaishakh Patil",
+      "collection": "publications",
+      "permalink": "/publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments",
+      "excerpt": "We present MOSAIC-GS, a novel, fully explicit, and computationally efficient approach for high-fidelity dynamic scene reconstruction from monocular vi...",
+      "date": "2026-01-18",
+      "venue": "ArXiv",
+      "paperurl": "https://arxiv.org/pdf/2601.05368.pdf",
+      "citation": "Svitlana Morkva, Michael Oechsle, **Alessio Tonioni**, Marco Hutter, Vaishakh Patil. \"MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments.\" ArXiv, 2026.",
+      "pubtype": "review",
+      "local_file": "_publications/2026-mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments.md",
+      "abstract": "We present MOSAIC-GS, a novel, fully explicit, and computationally efficient approach for high-fidelity dynamic scene reconstruction from monocular videos using Gaussian Splatting. Monocular reconstruction is inherently ill-posed due to the lack of sufficient multiview constraints, making accurate recovery of object geometry and temporal coherence particularly challenging. To address this, we leverage multiple geometric cues, such as depth, optical flow, dynamic object segmentation, and point tracking. Combined with rigidity-based motion constraints, these cues allow us to estimate preliminary 3D scene dynamics during an initialization stage. Recovering scene dynamics prior to the photometric optimization reduces reliance on motion inference from visual appearance alone, which is often ambiguous in monocular settings. To enable compact representations, fast training, and real-time rendering while supporting non-rigid deformations, the scene is decomposed into static and dynamic components. Each Gaussian in the dynamic part of the scene is assigned a trajectory represented as time-dependent Poly-Fourier curve for parameter-efficient motion encoding. We demonstrate that MOSAIC-GS achieves substantially faster optimization and rendering compared to existing methods, while maintaining reconstruction quality on par with state-of-the-art approaches across standard monocular dynamic scene benchmarks.",
+      "pdf_path": "_pdf_cache/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments.pdf",
+      "s2_id": "96b5cf3303570559f17982a8eb3964998742b71a",
+      "s2_metadata": {
+        "paperId": "96b5cf3303570559f17982a8eb3964998742b71a",
+        "title": "MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments",
+        "year": 2026,
+        "referenceCount": 55,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "2403672254",
+            "name": "Svitlana Morkva"
+          },
+          {
+            "authorId": "2288687972",
+            "name": "Maximum Wilder-Smith"
+          },
+          {
+            "authorId": "52211220",
+            "name": "Michael Oechsle"
+          },
+          {
+            "authorId": "2403671868",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "2273650854",
+            "name": "Marco Hutter"
+          },
+          {
+            "authorId": "2273651436",
+            "name": "Vaishakh Patil"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "MOSAIC-GS achieves fast, high-fidelity monocular dynamic scene reconstruction through advanced initialization and efficient motion encoding.",
+        "category": "3D Reconstruction"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.01747187539925411,
+          "y": -0.23001831392793226
+        },
+        "umap": {
+          "x": -4.674447536468506,
+          "y": 9.860386848449707
+        }
+      }
+    },
+    {
+      "title": "Domain invariant hierarchical embedding for grocery products recognition",
+      "authors": "Alessio Tonioni and Luigi Di Stefano",
+      "collection": "Product Detection and Recognition",
+      "permalink": "/publication/DIHE",
+      "excerpt": "In this paper we introduce a\" deep learning architecture to effectively learn embedddings relying only on few samples and in presence of domain shifts.",
+      "date": "2019-05-01",
+      "venue": "CVIU",
+      "paperurl": "https://arxiv.org/pdf/1902.00760",
+      "citation": "Tonioni, Alessio, and Luigi Di Stefano. \"Domain invariant hierarchical embedding for grocery products recognition.\" Computer Vision and Image Understanding (2019).",
+      "pubtype": "journal",
+      "local_file": "_publications/2019-DIHE.md",
+      "pdf_path": "_pdf_cache/domain-invariant-hierarchical-embedding-for-grocery-products-recognition.pdf",
+      "s2_id": "565e147250efdecd18cbea7686b300ff97a23cd0",
+      "s2_metadata": {
+        "paperId": "565e147250efdecd18cbea7686b300ff97a23cd0",
+        "title": "Domain invariant hierarchical embedding for grocery products recognition",
+        "year": 2019,
+        "referenceCount": 45,
+        "citationCount": 33,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "A GAN-powered hierarchical embedding framework to recognize grocery products by bridging the gap between studio and in-store images.",
+        "category": "Object Recognition"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.003385541474855468,
+          "y": 0.07874516575545096
+        },
+        "umap": {
+          "x": -3.509824275970459,
+          "y": 9.273224830627441
+        }
+      }
+    },
+    {
+      "title": "UIP2P: Unsupervised Instruction-based Image Editing via Cycle Edit Consistency",
+      "authors": "Enis Simsar, Alessio Tonioni, Yongqin Xian, Thomas Hofmann, Federico Tombari",
+      "collection": "Generative Models",
+      "permalink": "/publication/UIP2P",
+      "excerpt": "Unsupervised IP2P",
+      "date": "2024-12-25",
+      "venue": "ICCV",
+      "paperurl": "https://arxiv.org/abs/2412.15216",
+      "citation": "Simsar, Enis, et al. \"UIP2P: Unsupervised Instruction-based Image Editing via Cycle Edit Consistency.\" arXiv preprint arXiv:2412.15216 (2024).",
+      "pubtype": "conference",
+      "local_file": "_publications/2024-UIP2P.md",
+      "abstract": "We propose an unsupervised model for instruction-based image editing that eliminates the need for ground-truth edited images during training. Existing supervised methods depend on datasets containing triplets of input image, edited image, and edit instruction. These are generated by either existing editing methods or human-annotations, which introduce biases and limit their generalization ability. Our method addresses these challenges by introducing a novel editing mechanism called Cycle Edit Consistency (CEC), which applies forward and backward edits in one training step and enforces consistency in image and attention spaces. This allows us to bypass the need for ground-truth edited images and unlock training for the first time on datasets comprising either real image-caption pairs or image-caption-edit triplets. We empirically show that our unsupervised technique performs better across a broader range of edits with high fidelity and precision. By eliminating the need for pre-existing datasets of triplets, reducing biases associated with supervised methods, and proposing CEC, our work represents a significant advancement in unblocking scaling of instruction-based image editing.",
+      "pdf_path": "_pdf_cache/uip2p-unsupervised-instruction-based-image-editing-via-cycle-edit-consistency.pdf",
+      "s2_id": "7bc03b9566218da269d66bad8d6da4be9e4b0a18",
+      "s2_metadata": {
+        "paperId": "7bc03b9566218da269d66bad8d6da4be9e4b0a18",
+        "title": "UIP2P: Unsupervised Instruction-based Image Editing via Cycle Edit Consistency",
+        "year": 2024,
+        "referenceCount": 0,
+        "citationCount": 1,
+        "authors": [
+          {
+            "authorId": "1395808197",
+            "name": "Enis Simsar"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2256223080",
+            "name": "Yongqin Xian"
+          },
+          {
+            "authorId": "2274106972",
+            "name": "Thomas Hofmann"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "UIP2P scales instruction-based image editing by ditching supervised triplets for a novel unsupervised edit reversibility constraint.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.1591091056548599,
+          "y": 0.12984229510104564
+        },
+        "umap": {
+          "x": -2.8108198642730713,
+          "y": 10.656597137451172
+        }
+      }
+    },
+    {
+      "title": "LIME: Localized Image Editing via Attention Regularization in Diffusion Models",
+      "authors": "Enis Simsar, Alessio Tonioni, Yongqin Xian, Thomas Hofmann, Federico Tombari",
+      "collection": "Generative Models",
+      "permalink": "/publication/LIME",
+      "excerpt": "Attenton modulation is all you need for precise image editing",
+      "date": "2023-12-14",
+      "venue": "WACV",
+      "paperurl": "https://arxiv.org/pdf/2312.09256",
+      "citation": "Simsar, Enis, et al. \"LIME: Localized Image Editing via Attention Regularization in Diffusion Models.\" arXiv preprint arXiv:2312.09256 (2023).",
+      "pubtype": "conference",
+      "local_file": "_publications/2023-LIME.md",
+      "abstract": "Diffusion models (DMs) have gained prominence due to their ability to generate high-quality, varied images, with recent advancements in text-to-image generation. The research focus is now shifting towards the controllability of DMs. A significant challenge within this domain is localized editing, where specific areas of an image are modified without affecting the rest of the content. This paper introduces LIME for localized image editing in diffusion models that do not require user-specified regions of interest (RoI) or additional text input. Our method employs features from pre-trained methods and a simple clustering technique to obtain precise semantic segmentation maps. Then, by leveraging cross-attention maps, it refines these segments for localized edits. Finally, we propose a novel cross-attention regularization technique that penalizes unrelated cross-attention scores in the RoI during the denoising steps, ensuring localized edits. Our approach, without re-training and fine-tuning, consistently improves the performance of existing methods in various editing benchmarks.",
+      "pdf_path": "_pdf_cache/lime-localized-image-editing-via-attention-regularization-in-diffusion-models.pdf",
+      "s2_id": "edc47671648d93b80787104ab293d7492c58d265",
+      "s2_metadata": {
+        "paperId": "edc47671648d93b80787104ab293d7492c58d265",
+        "title": "LIME: Localized Image Editing via Attention Regularization in Diffusion Models",
+        "year": 2023,
+        "referenceCount": 62,
+        "citationCount": 15,
+        "authors": [
+          {
+            "authorId": "1395808197",
+            "name": "Enis Simsar"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2256223080",
+            "name": "Yongqin Xian"
+          },
+          {
+            "authorId": "2274106972",
+            "name": "Thomas Hofmann"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "LIME delivers precise, mask-free localized image editing via training-free attention regularization for better diffusion model controllability.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.22946870429874403,
+          "y": 0.08941238696841107
+        },
+        "umap": {
+          "x": -2.8345773220062256,
+          "y": 11.233736038208008
+        }
+      }
+    },
+    {
+      "title": "A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views",
+      "authors": "Riccardo Spezialetti, David Joseph Tan, Alessio Tonioni, Keisuke Tateno and Federico Tombari",
+      "collection": "3D Computer Vision",
+      "permalink": "/publication/DivideEtImpera",
+      "excerpt": "A deep learning pipeline for multi view reconstruction.",
+      "date": "2020-11-25",
+      "venue": "3DV",
+      "paperurl": "https://arxiv.org/pdf/2011.08534.pdf",
+      "citation": "Spezialetti, R., Tan, D.J., Tonioni, A., Tateno, K. and Tombari, F., 2020. A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views. 3DV20.",
+      "pubtype": "conference",
+      "local_file": "_publications/2020-DivideEtImpera.md",
+      "abstract": "Estimating the 3D shape of an object from a single or\nmultiple images has gained popularity thanks to the recent\nbreakthroughs powered by deep learning. Most approaches\nregress the full object shape in a canonical pose, possibly\nextrapolating the occluded parts based on the learned priors. \nHowever, their viewpoint invariant technique often discards \nthe unique structures visible from the input images.\nIn contrast, this paper proposes to rely on viewpoint variant \nreconstructions by merging the visible information from\nthe given views. Our approach is divided into three steps.\nStarting from the sparse views of the object, we first align\nthem into a common coordinate system by estimating the\nrelative pose between all the pairs. Then, inspired by the\ntraditional voxel carving, we generate an occupancy grid\nof the object taken from the silhouette on the images and\ntheir relative poses. Finally, we refine the initial reconstruction to build a clean 3D model which preserves the details\nfrom each viewpoint. To validate the proposed method, we\nperform a comprehensive evaluation on the ShapeNet reference benchmark in terms of relative pose estimation and\n3D shape reconstruction.",
+      "pdf_path": "_pdf_cache/a-divide-et-impera-approach-for-3d-shape-reconstruction-from-multiple-views.pdf",
+      "s2_id": "101ea9810e93ace2fe43efdb62ee5783bf09fb12",
+      "s2_metadata": {
+        "paperId": "101ea9810e93ace2fe43efdb62ee5783bf09fb12",
+        "title": "A Divide et Impera Approach for 3D Shape Reconstruction from Multiple Views",
+        "year": 2020,
+        "referenceCount": 59,
+        "citationCount": 6,
+        "authors": [
+          {
+            "authorId": "46297738",
+            "name": "Riccardo Spezialetti"
+          },
+          {
+            "authorId": "1822708",
+            "name": "D. Tan"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2656323",
+            "name": "Keisuke Tateno"
+          },
+          {
+            "authorId": "2266326",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Reconstruct detailed 3D shapes from sparse views by aligning relative poses and refining occupancy grids without needing canonical priors.",
+        "category": "3D Reconstruction"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.019161144930471004,
+          "y": -0.2820917918453206
+        },
+        "umap": {
+          "x": -5.069334506988525,
+          "y": 8.976910591125488
+        }
+      }
+    },
+    {
+      "title": "Learning to Adapt for Stereo",
+      "collection": "Depth Estimation",
+      "authors": "Alessio Tonioni, Oscar Rahnama, Thomas Joy, Luigi Di Stefano, Thalaiyasingam Ajanthan, and Philip HS Torr.",
+      "permalink": "/publication/L2A",
+      "excerpt": "In this paper we introduce a\" learning-to-adapt\" framework that enables deep stereo methods to continuously adapt to new target domains in an unsupervised manner.",
+      "date": "2019-06-16",
+      "venue": "CVPR",
+      "paperurl": "https://arxiv.org/pdf/1904.02957",
+      "citation": "Tonioni, Alessio, Oscar Rahnama, Thomas Joy, Luigi Di Stefano, Thalaiyasingam Ajanthan, and Philip HS Torr. \"Learning to Adapt for Stereo.\" The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019",
+      "pubtype": "conference",
+      "local_file": "_publications/2019-L2A.md",
+      "pdf_path": "_pdf_cache/learning-to-adapt-for-stereo.pdf",
+      "s2_id": "aa52bd3f7d791311ee7743db3c81ddc14ce9f76b",
+      "s2_metadata": {
+        "paperId": "aa52bd3f7d791311ee7743db3c81ddc14ce9f76b",
+        "title": "Learning to Adapt for Stereo",
+        "year": 2019,
+        "referenceCount": 37,
+        "citationCount": 93,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "3419970",
+            "name": "Oscar Rahnama"
+          },
+          {
+            "authorId": "5646188",
+            "name": "Thomas Joy"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          },
+          {
+            "authorId": "144722114",
+            "name": "Thalaiyasingam Ajanthan"
+          },
+          {
+            "authorId": "143635540",
+            "name": "Philip H. S. Torr"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "A meta-learning framework enabling deep stereo models to continuously and unsupervisedly adapt to new target domains during online inference.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.33090544944581785,
+          "y": 0.08259404177055085
+        },
+        "umap": {
+          "x": -2.0334360599517822,
+          "y": 7.563408374786377
+        }
+      }
+    },
+    {
+      "title": "Product recognition in store shelves as a sub-graph isomorphism problem",
+      "authors": "Alessio Tonioni and Luigi Di Stefano",
+      "collection": "Product Detection and Recognition",
+      "permalink": "/publication/planogram",
+      "excerpt": "In this paper, we propose a computer vision pipeline to recognize products on shelves and verify compliance to the planned layout.",
+      "date": "2017-09-11",
+      "venue": "ICIAP",
+      "paperurl": "https://arxiv.org/pdf/1707.08378",
+      "citation": "Tonioni, A., & Di Stefano, L. (2017, September). Product recognition in store shelves as a sub-graph isomorphism problem. In International Conference on Image Analysis and Processing (pp. 682-693). Springer, Cham.",
+      "pubtype": "conference",
+      "local_file": "_publications/2017-ProductRecognitionInStoreShelvesAsASubgraphIsomorphismProblem.md",
+      "abstract": "The arrangement of products in store shelves is carefully planned to maximize sales and keep customers happy. Verifying compliance of real shelves to the ideal layout, however, is a costly task currently routinely performed by the store personnel. In this paper, we propose a computer vision pipeline to recognize products on shelves and verify compliance to the planned layout. We deploy local invariant features together with a novel formulation of the product recognition problem as a sub-graph isomorphism between the items appearing in the given image and the ideal layout. This allows for auto-localizing the given image within aisles of the store and improves recognition dramatically.",
+      "pdf_path": "_pdf_cache/product-recognition-in-store-shelves-as-a-sub-graph-isomorphism-problem.pdf",
+      "s2_id": "7f2fc3b9d6d052894e8cc21b83a579f6d9ff01ce",
+      "s2_metadata": {
+        "paperId": "7f2fc3b9d6d052894e8cc21b83a579f6d9ff01ce",
+        "title": "Product Recognition in Store Shelves as a Sub-Graph Isomorphism Problem",
+        "year": 2017,
+        "referenceCount": 35,
+        "citationCount": 44,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Using sub-graph isomorphism to match store shelves with planograms for automated, high-accuracy product recognition and layout verification.",
+        "category": "Object Recognition"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.012532457294219977,
+          "y": -0.050870048510218015
+        },
+        "umap": {
+          "x": -3.9974327087402344,
+          "y": 8.63310432434082
+        }
+      }
+    },
+    {
+      "title": "Semi-Automatic Labeling for Deep Learning in Robotics",
+      "authors": "Daniele De Gregorio, Alessio Tonioni, Gianluca Palli and Luigi Di Stefano",
+      "collection": "Robotics",
+      "permalink": "/publication/ARS",
+      "excerpt": "In this paper, we propose Augmented Reality Semi-automatic labeling (ARS), a semi-automatic method to create large labeled datasets with minimal human intervention",
+      "date": "2019-08-11",
+      "venue": " IEEE Transactions on Automation Science and Engineering  ",
+      "paperurl": "https://arxiv.org/abs/1908.01862",
+      "citation": "Daniele De Gregorio, Alessio Tonioni, Gianluca Palli and Luigi Di Stefano, \"Semi-Automatic Labeling for Deep Learning in Robotics,\" in IEEE Transactions on Automation Science and Engineering.",
+      "pubtype": "journal",
+      "local_file": "_publications/2019-Roars.md",
+      "pdf_path": "_pdf_cache/semi-automatic-labeling-for-deep-learning-in-robotics.pdf",
+      "s2_id": "947f1a4c4d5a051b9fc31c8eb316c62a9eea8995",
+      "s2_metadata": {
+        "paperId": "947f1a4c4d5a051b9fc31c8eb316c62a9eea8995",
+        "title": "A Weakly Supervised Semi-Automatic Image Labeling Approach for Deformable Linear Objects",
+        "year": 2023,
+        "referenceCount": 51,
+        "citationCount": 21,
+        "authors": [
+          {
+            "authorId": "2049075878",
+            "name": "Alessio Caporali"
+          },
+          {
+            "authorId": "2034275069",
+            "name": "Matteo Pantano"
+          },
+          {
+            "authorId": "2182437033",
+            "name": "Lucas Janisch"
+          },
+          {
+            "authorId": "3326681",
+            "name": "Daniel Regulin"
+          },
+          {
+            "authorId": "1790164",
+            "name": "G. Palli"
+          },
+          {
+            "authorId": "1690977",
+            "name": "Dongheui Lee"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "ARS leverages robots and augmented reality to automate large-scale image labeling with 450x speed gains over manual methods.",
+        "category": "Object Recognition"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.04092531033565167,
+          "y": -0.03053604394563373
+        },
+        "umap": {
+          "x": -4.322542667388916,
+          "y": 9.096807479858398
+        }
+      }
+    },
+    {
+      "title": "InseRF: Text-Driven Generative Object Insertion in Neural 3D Scenes",
+      "authors": "Mohamad Shahbazi, Liesbeth Claessens, Michael Niemeyer, Edo Collins, Alessio Tonioni, Luc Van Gool, Federico Tombari",
+      "collection": "Generative Models",
+      "permalink": "/publication/InseRF",
+      "excerpt": "Adding 3D objects in scenes out of tin air",
+      "date": "2024-01-10",
+      "venue": "Arxive",
+      "paperurl": "https://arxiv.org/pdf/2401.05335v1",
+      "citation": "Shahbazi, Mohamad, et al. \"InseRF: Text-Driven Generative Object Insertion in Neural 3D Scenes.\" arXiv preprint arXiv:2401.05335 (2024).",
+      "pubtype": "conference",
+      "local_file": "_publications/2024-InseRF.md",
+      "abstract": "We introduce InseRF, a novel method for generative object insertion in the NeRF reconstructions of 3D scenes. Based on a user-provided textual description and a 2D bounding box in a reference viewpoint, InseRF generates new objects in 3D scenes. Recently, methods for 3D scene editing have been profoundly transformed, owing to the use of strong priors of text-to-image diffusion models in 3D generative modeling. Existing methods are mostly effective in editing 3D scenes via style and appearance changes or removing existing objects. Generating new objects, however, remains a challenge for such methods, which we address in this study. Specifically, we propose grounding the 3D object insertion to a 2D object insertion in a reference view of the scene. The 2D edit is then lifted to 3D using a single-view object reconstruction method. The reconstructed object is then inserted into the scene, guided by the priors of monocular depth estimation methods. We evaluate our method on various 3D scenes and provide an in-depth analysis of the proposed components. Our experiments with generative insertion of objects in several 3D scenes indicate the effectiveness of our method compared to the existing methods. InseRF is capable of controllable and 3D-consistent object insertion without requiring explicit 3D information as input",
+      "pdf_path": "_pdf_cache/inserf-text-driven-generative-object-insertion-in-neural-3d-scenes.pdf",
+      "s2_id": "d964bddba14d771c884e585d6ebac62d34dff3e3",
+      "s2_metadata": {
+        "paperId": "d964bddba14d771c884e585d6ebac62d34dff3e3",
+        "title": "InseRF: Text-Driven Generative Object Insertion in Neural 3D Scenes",
+        "year": 2024,
+        "referenceCount": 46,
+        "citationCount": 12,
+        "authors": [
+          {
+            "authorId": "73774192",
+            "name": "Mohamad Shahbazi"
+          },
+          {
+            "authorId": "2278836394",
+            "name": "Liesbeth Claessens"
+          },
+          {
+            "authorId": "2269144271",
+            "name": "Michael Niemeyer"
+          },
+          {
+            "authorId": "2278830155",
+            "name": "Edo Collins"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2246990749",
+            "name": "L. V. Gool"
+          },
+          {
+            "authorId": "2275248895",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "InseRF enables consistent 3D object insertion in NeRF scenes by lifting text-guided 2D edits into multiview-aware 3D assets.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.21145324355667558,
+          "y": -0.1300838248940991
+        },
+        "umap": {
+          "x": -3.802757501602173,
+          "y": 11.218976020812988
+        }
+      }
+    },
+    {
+      "title": "LatentSwap3D: Semantic Edits on 3D Image GANs",
+      "authors": "Enis Simsar, Alessio Tonioni, Evin P\u0131nar \u00d6rnek, Federico Tombari",
+      "collection": "3D Computer Vision",
+      "permalink": "/publication/LS3D",
+      "excerpt": "Semantic edits in the latent space of Nerf based gan.",
+      "date": "2022-12-02",
+      "venue": "ICCV-W",
+      "paperurl": "https://arxiv.org/pdf/2212.01381",
+      "citation": "Simsar, Enis, et al. \"LatentSwap3D: Semantic Edits on 3D Image GANs.\" arXiv preprint arXiv:2212.01381 (2022).",
+      "pubtype": "conference",
+      "local_file": "_publications/2022-LatentSwap3D.md",
+      "abstract": "Recent 3D-aware GANs rely on volumetric rendering techniques to disentangle the pose and appearance of objects, de facto generating entire 3D volumes rather than single-view 2D images from a latent code. Complex image editing tasks can be performed in standard 2D-based GANs (e.g., StyleGAN models) as manipulation of latent dimensions. However, to the best of our knowledge, similar properties have only been partially explored for 3D-aware GAN models. This work aims to fill this gap by showing the limitations of existing methods and proposing LatentSwap3D, a model-agnostic approach designed to enable attribute editing in the latent space of pre-trained 3D-aware GANs. We first identify the most relevant dimensions in the latent space of the model controlling the targeted attribute by relying on the feature importance ranking of a random forest classifier. Then, to apply the transformation, we swap the top-K most relevant latent dimensions of the image being edited with an image exhibiting the desired attribute. Despite its simplicity, LatentSwap3D provides remarkable semantic edits in a disentangled manner and outperforms alternative approaches both qualitatively and quantitatively. We demonstrate our semantic edit approach on various 3D-aware generative models such as pi-GAN, GIRAFFE, StyleSDF, MVCGAN, EG3D and VolumeGAN, and on diverse datasets, such as FFHQ, AFHQ, Cats, MetFaces, and CompCars.",
+      "pdf_path": "_pdf_cache/latentswap3d-semantic-edits-on-3d-image-gans.pdf",
+      "s2_id": "08f5c64207edc6cc810dfefdf8dc518707b4afe9",
+      "s2_metadata": {
+        "paperId": "08f5c64207edc6cc810dfefdf8dc518707b4afe9",
+        "title": "LatentSwap3D: Semantic Edits on 3D Image GANs",
+        "year": 2022,
+        "referenceCount": 96,
+        "citationCount": 9,
+        "authors": [
+          {
+            "authorId": "1395808197",
+            "name": "Enis Simsar"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "1491550942",
+            "name": "Evin P\u0131nar \u00d6rnek"
+          },
+          {
+            "authorId": "50516802",
+            "name": "F. Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "LatentSwap3D enables model-agnostic semantic attribute editing on 3D GANs by swapping key latent dimensions identified via random forest ranking.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.12418358789499882,
+          "y": -0.10920385680512662
+        },
+        "umap": {
+          "x": -3.8210787773132324,
+          "y": 10.673184394836426
+        }
+      }
+    },
+    {
+      "title": "Omnia de EgoTempo: Benchmarking Temporal Understanding of Multi-Modal LLMs in Egocentric Videos",
+      "authors": "Chiara Plizzari, Alessio Tonioni, Yongqin Xian, Achin Kulshrestha, Federico Tombari",
+      "collection": "Multimodal Models",
+      "permalink": "/publication/egotempo",
+      "excerpt": "New Egocentric video benchmark",
+      "date": "2025-03-19",
+      "venue": "CVPR",
+      "paperurl": "https://arxiv.org/abs/2503.13646",
+      "citation": "Plizzari, Chiara, et al. \"Omnia de EgoTempo: Benchmarking Temporal Understanding of Multi-Modal LLMs in Egocentric Videos.\" CVPR (2025).",
+      "pubtype": "conference",
+      "local_file": "_publications/2025-Egotempo.md",
+      "abstract": "Understanding fine-grained temporal dynamics is crucial in egocentric videos, where continuous streams capture frequent, close-up interactions with objects. In this work, we bring to light that current egocentric video question-answering datasets often include questions that can be answered using only few frames or commonsense reasoning, without being necessarily grounded in the actual video. Our analysis shows that state-of-the-art Multi-Modal Large Language Models (MLLMs) on these benchmarks achieve remarkably high performance using just text or a single frame as input. To address these limitations, we introduce EgoTempo, a dataset specifically designed to evaluate temporal understanding in the egocentric domain. EgoTempo emphasizes tasks that require integrating information across the entire video, ensuring that models would need to rely on temporal patterns rather than static cues or pre-existing knowledge. Extensive experiments on EgoTempo show that current MLLMs still fall short in temporal reasoning on egocentric videos, and thus we hope EgoTempo will catalyze new research in the field and inspire models that better capture the complexity of temporal dynamics.",
+      "pdf_path": "_pdf_cache/omnia-de-egotempo-benchmarking-temporal-understanding-of-multi-modal-llms-in-egocentric-videos.pdf",
+      "s2_id": "4816fc6d5c87a9c1fafd32b34a39c619df03f57c",
+      "s2_metadata": {
+        "paperId": "4816fc6d5c87a9c1fafd32b34a39c619df03f57c",
+        "title": "Omnia de EgoTempo: Benchmarking Temporal Understanding of Multi-Modal LLMs in Egocentric Videos",
+        "year": 2025,
+        "referenceCount": 43,
+        "citationCount": 14,
+        "authors": [
+          {
+            "authorId": "2350755149",
+            "name": "Chiara Plizzari"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2256223080",
+            "name": "Yongqin Xian"
+          },
+          {
+            "authorId": "2295886020",
+            "name": "Achin Kulshrestha"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "EgoTempo introduces a benchmark to challenge MLLMs on fine-grained temporal reasoning in egocentric videos, moving beyond static frame cues.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.19617917757997866,
+          "y": 0.09976214772259734
+        },
+        "umap": {
+          "x": -1.9038869142532349,
+          "y": 11.784049987792969
+        }
+      }
+    },
+    {
+      "title": "Learning confidence measures in the wild",
+      "authors": "Fabio Tosi, Matteo Poggi, Alessio Tonioni, Luigi Di Stefano, & Stefano Mattoccia",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/confidenceWild",
+      "excerpt": "In this paper we propose a methodology suited for training a confidence measure for stereo in a self-supervised manner.",
+      "date": "2017-09-04",
+      "venue": "BMVC",
+      "paperurl": "https://www.bmva-archive.org.uk/bmvc/2017/papers/paper133/paper133.pdf",
+      "citation": "Tosi, F., Poggi, M., Tonioni, A., Di Stefano, L., & Mattoccia, S. (2017, September). Learning confidence measures in the wild. In 28th British Machine Vision Conference (BMVC 2017) (Vol. 2, No. 4).",
+      "pubtype": "conference",
+      "local_file": "_publications/2017-LearningConfidenceMeasuresInTheWild.md",
+      "pdf_path": "_pdf_cache/learning-confidence-measures-in-the-wild.pdf",
+      "s2_id": "ade32e04dceeaed72c3e99a9f3698b2fe01c9863",
+      "s2_metadata": {
+        "paperId": "ade32e04dceeaed72c3e99a9f3698b2fe01c9863",
+        "title": "Learning confidence measures in the wild",
+        "year": 2017,
+        "referenceCount": 31,
+        "citationCount": 33,
+        "authors": [
+          {
+            "authorId": "121670758",
+            "name": "Fabio Tosi"
+          },
+          {
+            "authorId": "2509750",
+            "name": "Matteo Poggi"
+          },
+          {
+            "authorId": "10261545",
+            "name": "Stefano Mattoccia"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Self-supervised training of stereo confidence measures using hand-crafted cues to eliminate the need for ground-truth labels.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.2931272445039448,
+          "y": -0.0515171640328408
+        },
+        "umap": {
+          "x": -3.52656888961792,
+          "y": 7.8300909996032715
+        }
+      }
+    },
+    {
+      "title": "Text-Conditioned Resampler For Long Form Video Understanding",
+      "authors": "Bruno Korbar, Yongqin Xian, Alessio Tonioni, Andrew Zisserman, Federico Tombari",
+      "collection": "Multimodal models",
+      "permalink": "/publication/TCR",
+      "excerpt": "Let large language models see videos",
+      "date": "2023-12-19",
+      "venue": "ECCV",
+      "paperurl": "https://arxiv.org/pdf/2312.11897",
+      "citation": "Korbar, Bruno, et al. \"Text-Conditioned Resampler For Long Form Video Understanding.\" arXiv preprint arXiv:2312.11897 (2023).",
+      "pubtype": "conference",
+      "local_file": "_publications/2023-TCR.md",
+      "abstract": "In this paper we present a text-conditioned video resampler (TCR) module that uses a pre-trained and frozen visual encoder and large language model (LLM) to process long video sequences for a task. TCR localises relevant visual features from the video given a text condition and provides them to a LLM to generate a text response. Due to its lightweight design and use of cross-attention, TCR can process more than 100 frames at a time with plain attention and without optimised implementations. We make the following contributions: (i) we design a transformer-based sampling architecture that can process long videos conditioned on a task, together with a training method that enables it to bridge pre-trained visual and language models; (ii) we identify tasks that could benefit from longer video perception; and (iii) we empirically validate its efficacy on a wide variety of evaluation tasks including NextQA, EgoSchema, and the EGO4D-LTA challenge.",
+      "pdf_path": "_pdf_cache/text-conditioned-resampler-for-long-form-video-understanding.pdf",
+      "s2_id": "5fb5b87d7a9a42a38afb3e942ce9ef7664b3eeab",
+      "s2_metadata": {
+        "paperId": "5fb5b87d7a9a42a38afb3e942ce9ef7664b3eeab",
+        "title": "Text-Conditioned Resampler For Long Form Video Understanding",
+        "year": 2023,
+        "referenceCount": 63,
+        "citationCount": 23,
+        "authors": [
+          {
+            "authorId": "3443095",
+            "name": "Bruno Korbar"
+          },
+          {
+            "authorId": "2256223080",
+            "name": "Yongqin Xian"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2252432062",
+            "name": "A. Zisserman"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "TCR: A lightweight, text-conditioned resampler that empowers LLMs to understand long videos by efficiently processing over 100 frames.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.21698743679420485,
+          "y": 0.10877773980640687
+        },
+        "umap": {
+          "x": -2.1046104431152344,
+          "y": 11.240623474121094
+        }
+      }
+    },
+    {
+      "title": "ParGAN: Learning Real Parametrizable Transformations",
+      "authors": "Diego Martin Arroyo, Alessio Tonioni, Federico Tombari",
+      "collection": "Generative Models",
+      "permalink": "/publication/ParGAN",
+      "excerpt": "Parametrizable CycleGAN.",
+      "date": "2022-11-09",
+      "venue": "Arxive",
+      "paperurl": "https://arxiv.org/pdf/2211.04996",
+      "citation": "Arroyo, Diego Martin, Alessio Tonioni, and Federico Tombari. \"ParGAN: Learning Real Parametrizable Transformations.\" arXiv preprint arXiv:2211.04996 (2022).",
+      "pubtype": "conference",
+      "local_file": "_publications/2022-pargan.md",
+      "abstract": "Current methods for image-to-image translation produce compelling results, however, the applied transformation is difficult to control, since existing mechanisms are often limited and non-intuitive. We propose ParGAN, a generalization of the cycle-consistent GAN framework to learn image transformations with simple and intuitive controls. The proposed generator takes as input both an image and a parametrization of the transformation. We train this network to preserve the content of the input image while ensuring that the result is consistent with the given parametrization. Our approach does not require paired data and can learn transformations across several tasks and datasets. We show how, with disjoint image domains with no annotated parametrization, our framework can create smooth interpolations as well as learn multiple transformations simultaneously.",
+      "pdf_path": "_pdf_cache/pargan-learning-real-parametrizable-transformations.pdf",
+      "s2_id": "942bf73409675499fe6719a639c0a9b343494b8b",
+      "s2_metadata": {
+        "paperId": "942bf73409675499fe6719a639c0a9b343494b8b",
+        "title": "ParGAN: Learning Real Parametrizable Transformations",
+        "year": 2022,
+        "referenceCount": 33,
+        "citationCount": 1,
+        "authors": [
+          {
+            "authorId": "52133089",
+            "name": "Diego Mart\u00edn Arroyo"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "50516802",
+            "name": "F. Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "ParGAN generalizes CycleGAN with intuitive parametric controls for smooth, controllable image-to-image translation on unpaired data.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.10302027069387024,
+          "y": 0.08981458800032929
+        },
+        "umap": {
+          "x": -2.694232702255249,
+          "y": 10.087247848510742
+        }
+      }
+    },
+    {
+      "title": "Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC",
+      "authors": "Oscar Rahnama, Tommaso Cavallari, Stuart Golodetz, Alessio Tonioni, Thomas Joy, Luigi Di Stefano, Simon Walker, and Philip HS Torr",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/FPGA",
+      "excerpt": "In this paper, we leverage a FPGA-CPU chip to propose a novel, sophisticated, stereo approach that combines the best features of SGM and ELAS-based methods to compute highly accurate dense depth in real time.",
+      "date": "2019-04-03",
+      "venue": " IEEE Transactions on Circuits and Systems II: Express Briefs ",
+      "paperurl": "https://arxiv.org/pdf/1907.07745",
+      "citation": "Rahnama, Oscar, Tommaso Cavallari, Stuart Golodetz, Alessio Tonioni, Thomas Joy, Luigi Di Stefano, Simon Walker, and Philip HS Torr, \"Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC,\" in IEEE Transactions on Circuits and Systems II: Express Briefs.",
+      "pubtype": "journal",
+      "local_file": "_publications/2019-Oscar.md",
+      "abstract": "Obtaining highly accurate depth from stereo images in real time has many applications across computer vision and robotics, but in some contexts, upper bounds on power consumption constrain the feasible hardware to embedded platforms such as FPGAs. Whilst various stereo algorithms have been deployed on these platforms, usually cut down to better match the embedded architecture, certain key parts of the more advanced algorithms, e.g. those that rely on unpredictable access to memory or are highly iterative in nature, are difficult to deploy efficiently on FPGAs, and thus the depth quality that can be achieved is limited. In this paper, we leverage a FPGA-CPU chip to propose a novel, sophisticated, stereo approach that combines the best features of SGM and ELAS-based methods to compute highly accurate dense depth in real time. Our approach achieves an 8.7% error rate on the challenging KITTI 2015 dataset at over 50 FPS, with a power consumption of only 5W.",
+      "pdf_path": "_pdf_cache/real-time-highly-accurate-dense-depth-on-a-power-budget-using-an-fpga-cpu-hybrid-soc.pdf",
+      "s2_id": "24a782855a2d32f3370dcee9fca840d7542b747a",
+      "s2_metadata": {
+        "paperId": "24a782855a2d32f3370dcee9fca840d7542b747a",
+        "title": "Real-Time Highly Accurate Dense Depth on a Power Budget Using an FPGA-CPU Hybrid SoC",
+        "year": 2019,
+        "referenceCount": 31,
+        "citationCount": 20,
+        "authors": [
+          {
+            "authorId": "3419970",
+            "name": "Oscar Rahnama"
+          },
+          {
+            "authorId": "1970416",
+            "name": "Tommaso Cavallari"
+          },
+          {
+            "authorId": "143777501",
+            "name": "S. Golodetz"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "5646188",
+            "name": "Thomas Joy"
+          },
+          {
+            "authorId": "8341728",
+            "name": "L. Di Stefano"
+          },
+          {
+            "authorId": "2093318327",
+            "name": "Simon Walker"
+          },
+          {
+            "authorId": "143635540",
+            "name": "Philip H. S. Torr"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "High-accuracy real-time dense depth on a 5W power budget: a novel SGM-ELAS hybrid approach for FPGA-CPU SoCs.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.14945214415337385,
+          "y": -0.1307898845165624
+        },
+        "umap": {
+          "x": -3.595592498779297,
+          "y": 7.204329967498779
+        }
+      }
+    },
+    {
+      "title": "LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction",
+      "authors": "Farid Yagubbayli, Alessio Tonioni and Federico Tombari",
+      "collection": "3D Computer Vision",
+      "permalink": "/publication/LegoFormer",
+      "excerpt": "Transformers for voxel based 3D reconstruction.",
+      "date": "2021-07-06",
+      "venue": "Arxive",
+      "paperurl": "https://arxiv.org/abs/2106.12102",
+      "citation": "Yagubbayli, Farid, Alessio Tonioni, and Federico Tombari. \"LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction.\" arXiv preprint arXiv:2106.12102 (2021).",
+      "pubtype": "conference",
+      "local_file": "_publications/2021-LegoFormer.md",
+      "abstract": "Most modern deep learning-based multi-view 3D reconstruction techniques use RNNs or fusion modules to combine information from multiple images after encoding them. These two separate steps have loose connections and do not consider all available information while encoding each view. We propose LegoFormer, a transformer-based model that unifies object reconstruction under a single framework and parametrizes the reconstructed occupancy grid by its decomposition factors. This reformulation allows the prediction of an object as a set of independent structures then aggregated to obtain the final reconstruction. Experiments conducted on ShapeNet display the competitive performance of our network with respect to the state-of-the-art methods. We also demonstrate how the use of self-attention leads to increased interpretability of the model output.",
+      "pdf_path": "_pdf_cache/legoformer-transformers-for-block-by-block-multi-view-3d-reconstruction.pdf",
+      "s2_id": "fb013c3d857bc95333a2ca6c2de08d0806cbdf72",
+      "s2_metadata": {
+        "paperId": "fb013c3d857bc95333a2ca6c2de08d0806cbdf72",
+        "title": "LegoFormer: Transformers for Block-by-Block Multi-view 3D Reconstruction",
+        "year": 2021,
+        "referenceCount": 50,
+        "citationCount": 40,
+        "authors": [
+          {
+            "authorId": "2106358147",
+            "name": "Farid Yagubbayli"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2266326",
+            "name": "Federico Tombari"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "LegoFormer builds 3D models block-by-block using transformers and low-rank decomposition for efficient multi-view reconstruction.",
+        "category": "3D Reconstruction"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.13104767540006704,
+          "y": -0.1894692434521472
+        },
+        "umap": {
+          "x": -4.523857116699219,
+          "y": 10.5682954788208
+        }
+      }
+    },
+    {
+      "title": "Unsupervised Adaptation For Deep Stereo",
+      "authors": "Alessio Tonioni, Matteo Poggi, stefano Mattoccia and Luigi Di Stefano",
+      "collection": "Depth Estimation",
+      "permalink": "/publication/Adaptation",
+      "excerpt": "In this paper we propose a novel unsupervised adaptation approach that enables to fine-tune a deep learning stereo model without any ground-truth information.",
+      "date": "2017-10-22",
+      "venue": "ICCV",
+      "paperurl": "http://openaccess.thecvf.com/content_ICCV_2017/papers/Tonioni_Unsupervised_Adaptation_for_ICCV_2017_paper.pdf",
+      "citation": "Tonioni, A., Poggi, M., Mattoccia, S., & Di Stefano, L. (2017). Unsupervised adaptation for deep stereo. In Proceedings of the IEEE International Conference on Computer Vision (pp. 1605-1613).",
+      "pubtype": "conference",
+      "local_file": "_publications/2017-UnsupervisedAdaptationForDeepStereo.md",
+      "abstract": "Recent ground-breaking works have shown that deep neural networks can be trained end-to-end to regress dense disparity maps directly from image pairs. Computer generated imagery is deployed to gather the large data corpus required to train such networks, an additional fine-tuning allowing to adapt the model to work well also on real and possibly diverse environments. Yet, besides a few public datasets such as Kitti, the ground-truth needed to adapt the network to a new scenario is hardly available in practice. In this paper we propose a novel unsupervised adaptation approach that enables to fine-tune a deep learning stereo model without any ground-truth information. We rely on off-the-shelf stereo algorithms together with state-of-the-art confidence measures, the latter able to ascertain upon correctness of the measurements yielded by former. Thus, we train the network based on a novel loss-function that penalizes predictions disagreeing with the highly confident disparities provided by the algorithm and enforces a smoothness constraint. Experiments on popular datasets (KITTI 2012, KITTI 2015 and Middlebury 2014) and other challenging test images demonstrate the effectiveness of our proposal.",
+      "pdf_path": "_pdf_cache/unsupervised-adaptation-for-deep-stereo.pdf",
+      "s2_id": "e11bed7488ff6d889a0181c682be8a9b57101716",
+      "s2_metadata": {
+        "paperId": "e11bed7488ff6d889a0181c682be8a9b57101716",
+        "title": "Unsupervised Adaptation for Deep Stereo",
+        "year": 2017,
+        "referenceCount": 26,
+        "citationCount": 117,
+        "authors": [
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2509750",
+            "name": "Matteo Poggi"
+          },
+          {
+            "authorId": "10261545",
+            "name": "Stefano Mattoccia"
+          },
+          {
+            "authorId": "9395079",
+            "name": "L. D. Stefano"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Adapt deep stereo models to any environment without ground truth using confidence-guided pseudo-labels from traditional algorithms.",
+        "category": "Depth Estimation"
+      },
+      "map_coords": {
+        "pca": {
+          "x": 0.36998478725657025,
+          "y": 0.008377610185577523
+        },
+        "umap": {
+          "x": -2.9930379390716553,
+          "y": 7.066427707672119
+        }
+      }
+    },
+    {
+      "title": "Snap-it, Tap-it, Splat-it: Tactile-Informed 3D Gaussian Splatting for Reconstructing Challenging Surfaces",
+      "authors": "Mauro Comi, Alessio Tonioni, Max Yang, Jonathan Tremblay, Valts Blukis, Yijiong Lin, Nathan F Lepora, Laurence Aitchison",
+      "collection": "Generative Models",
+      "permalink": "/publication/SnapTapSplat",
+      "excerpt": "Touch meet vision for 3D reconstrunction",
+      "date": "2024-03-29",
+      "venue": "3DV",
+      "paperurl": "https://arxiv.org/pdf/2403.20275",
+      "citation": "Comi, Mauro, et al. \"Snap-it, Tap-it, Splat-it: Tactile-Informed 3D Gaussian Splatting for Reconstructing Challenging Surfaces.\" arXiv preprint arXiv:2403.20275 (2024).",
+      "pubtype": "conference",
+      "local_file": "_publications/2024-SnapTapSplat.md",
+      "abstract": "Touch and vision go hand in hand, mutually enhancing our ability to understand the world. From a research perspective, the problem of mixing touch and vision together is underexplored and presents interesting challenges. To this end, we propose Tactile-Informed 3DGS, a novel approach that incorporates touch data (local depth maps) with multi-view vision data to achieve surface reconstruction and novel view synthesis. Our method optimises 3D Gaussian primitives to accurately model the object\u2019s geometry at points of contact. By creating a framework that decreases the transmittance at touch locations, we achieve a refined surface reconstruction, ensuring a uniformly smooth depth map. Touch is particularly useful when considering non-Lambertian objects (e.g. shiny or reflective surfaces) since contemporary methods tend to fail to reconstruct with fidelity specular highlights. By combining vision and tactile sensing, we achieve more accurate geometry reconstructions with fewer images than prior methods. We conduct evaluation on objects with glossy and reflective surfaces and demonstrate the effectiveness of our approach, offering significant improvements in reconstruction quality",
+      "pdf_path": "_pdf_cache/snap-it-tap-it-splat-it-tactile-informed-3d-gaussian-splatting-for-reconstructing-challenging-surfaces.pdf",
+      "s2_id": "fc7976d0615eb5f89a5fd0b25bf5482e205d9f93",
+      "s2_metadata": {
+        "paperId": "fc7976d0615eb5f89a5fd0b25bf5482e205d9f93",
+        "title": "Snap-it, Tap-it, Splat-it: Tactile-Informed 3D Gaussian Splatting for Reconstructing Challenging Surfaces",
+        "year": 2024,
+        "referenceCount": 36,
+        "citationCount": 13,
+        "authors": [
+          {
+            "authorId": "2048205091",
+            "name": "Mauro Comi"
+          },
+          {
+            "authorId": "2267483061",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "2157685104",
+            "name": "Max Yang"
+          },
+          {
+            "authorId": "2294175839",
+            "name": "Jonathan Tremblay"
+          },
+          {
+            "authorId": "2235737945",
+            "name": "Valts Blukis"
+          },
+          {
+            "authorId": "81983572",
+            "name": "Yijiong Lin"
+          },
+          {
+            "authorId": "2467565",
+            "name": "N. Lepora"
+          },
+          {
+            "authorId": "2267489208",
+            "name": "Laurence Aitchison"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "Tactile-Informed 3DGS blends touch and vision to master reflective surface reconstruction with minimal camera views.",
+        "category": "3D Reconstruction"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.044787967034135505,
+          "y": -0.29625381458850086
+        },
+        "umap": {
+          "x": -5.169709205627441,
+          "y": 9.50010871887207
+        }
+      }
+    }
+  ],
+  "stats": {
+    "top_cited_authors": [
+      {
+        "name": "Andreas Geiger",
+        "count": 56
+      },
+      {
+        "name": "Matteo Poggi",
+        "count": 44
+      },
+      {
+        "name": "Stefano Mattoccia",
+        "count": 44
+      },
+      {
+        "name": "Alexei A. Efros",
+        "count": 35
+      },
+      {
+        "name": "Fabio Tosi",
+        "count": 32
+      }
+    ],
+    "top_cited_papers": [
+      {
+        "title": "Learning Transferable Visual Models From Natural Language Supervision",
+        "count": 10
+      },
+      {
+        "title": "Image-to-Image Translation with Conditional Adversarial Networks",
+        "count": 8
+      },
+      {
+        "title": "GENERATIVE ADVERSARIAL NETS",
+        "count": 8
+      },
+      {
+        "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+        "count": 7
+      },
+      {
+        "title": "Adam: A Method for Stochastic Optimization",
+        "count": 7
+      }
+    ],
+    "most_influential_year": {
+      "year": 2023,
+      "count": 218
+    }
+  },
+  "last_updated": "2026-01-18 14:52:36"
+}

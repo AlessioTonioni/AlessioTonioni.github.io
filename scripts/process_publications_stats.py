@@ -166,14 +166,14 @@ def calculate_stats(all_references):
         if year:
             year_counts[year] += 1
             
-    top_author = author_counts.most_common(1)[0] if author_counts else ("None", 0)
-    top_paper_id, top_paper_count = paper_counts.most_common(1)[0] if paper_counts else (None, 0)
-    top_paper_title = paper_titles.get(top_paper_id, "None")
+    # Get top items
+    top_authors = author_counts.most_common(5)
+    top_papers = paper_counts.most_common(5)
     influential_year = year_counts.most_common(1)[0] if year_counts else ("None", 0)
     
     return {
-        "top_cited_author": {"name": top_author[0], "count": top_author[1]},
-        "top_cited_paper": {"title": top_paper_title, "count": top_paper_count},
+        "top_cited_authors": [{"name": name, "count": count} for name, count in top_authors],
+        "top_cited_papers": [{"title": paper_titles.get(pid, "Unknown"), "count": count} for pid, count in top_papers],
         "most_influential_year": {"year": influential_year[0], "count": influential_year[1]}
     }
 
@@ -388,26 +388,27 @@ def main():
             pub["s2_metadata"] = s2_cache[title]["metadata"]
         
         # Phase 3: Gemini Analysis & Embeddings
-        if gemini_client:
-            if title not in ai_cache:
-                print(f"  🤖 Analyzing with Gemini...")
-                ai_result = analyze_paper_with_gemini(
-                    gemini_client, 
-                    title, 
-                    pub.get('pdf_path'), 
-                    pub.get('abstract')
-                )
-                embedding = get_embedding(gemini_client, ai_result['summary'])
-                ai_cache[title] = {
-                    "ai_results": ai_result,
-                    "embedding": embedding
-                }
-                # Save cache immediately after each successful API call
-                with open(AI_CACHE_FILE, 'w') as f:
-                    json.dump(ai_cache, f, indent=2)
-            
-            if ai_cache.get(title):
-                pub.update(ai_cache[title])
+        # First, try to load from cache
+        if title in ai_cache:
+            pub.update(ai_cache[title])
+        elif gemini_client:
+            # Only call Gemini if not in cache and client is available
+            print(f"  🤖 Analyzing with Gemini...")
+            ai_result = analyze_paper_with_gemini(
+                gemini_client, 
+                title, 
+                pub.get('pdf_path'), 
+                pub.get('abstract')
+            )
+            embedding = get_embedding(gemini_client, ai_result['summary'])
+            ai_cache[title] = {
+                "ai_results": ai_result,
+                "embedding": embedding
+            }
+            pub.update(ai_cache[title])
+            # Save cache immediately after each successful API call
+            with open(AI_CACHE_FILE, 'w') as f:
+                json.dump(ai_cache, f, indent=2)
         
         print()
 
@@ -445,9 +446,14 @@ def main():
         json.dump(output, f, indent=2, default=str)
     
     print(f"\n📊 Final Statistics:")
-    print(f"  Most cited author: {stats['top_cited_author']['name']} ({stats['top_cited_author']['count']} citations)")
-    print(f"  Most cited paper: {stats['top_cited_paper']['title'][:60]}... ({stats['top_cited_paper']['count']} citations)")
-    print(f"  Most influential year: {stats['most_influential_year']['year']} ({stats['most_influential_year']['count']} papers)")
+    print(f"  Top 5 cited authors:")
+    for i, author in enumerate(stats['top_cited_authors'], 1):
+        print(f"    {i}. {author['name']} ({author['count']} citations)")
+    print(f"\n  Top 5 cited papers:")
+    for i, paper in enumerate(stats['top_cited_papers'], 1):
+        title = paper['title'][:60] + '...' if len(paper['title']) > 60 else paper['title']
+        print(f"    {i}. {title} ({paper['count']} citations)")
+    print(f"\n  Most influential year: {stats['most_influential_year']['year']} ({stats['most_influential_year']['count']} papers)")
     print(f"\n✅ Phase 3 complete. Data saved to {OUTPUT_DATA_FILE}")
 
 if __name__ == "__main__":
