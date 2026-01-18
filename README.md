@@ -24,9 +24,9 @@ To check for new papers and generate news:
 5.  Commit and push: `git add . && git commit -m "Update publications" && git push`
 
 ### 🖥️ Serve Locally
-1.  Ensure you have Ruby, Bundler, and Nodejs installed.
-2.  Run `bundle install` to install dependencies.
-3.  Run `bundle exec jekyll liveserve` to serve it from `localhost:4000`.
+1.  Ensure you have Docker installed and running.
+2.  Run the helper script: `./scripts/serve_local.sh`
+3.  Visit the site at: `http://localhost:4000`
 
 ## ⚙️ CI/CD
 The site is built and deployed via GitHub Actions. The publication automation requires a `GEMINI_API_KEY` to be set in the repository's secrets.

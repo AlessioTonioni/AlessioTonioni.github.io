@@ -14,16 +14,6 @@ redirect_from:
     to { opacity: 1; transform: translateY(0); }
   }
 
-  @keyframes wave {
-    0% { transform: rotate(0deg); }
-    10% { transform: rotate(14deg); }
-    20% { transform: rotate(-8deg); }
-    30% { transform: rotate(14deg); }
-    40% { transform: rotate(-4deg); }
-    50% { transform: rotate(10deg); }
-    60% { transform: rotate(0deg); }
-    100% { transform: rotate(0deg); }
-  }
 
   /* Research Tags */
   .interest-tag {
@@ -189,7 +179,7 @@ redirect_from:
 </style>
 
 <div class="hero-content" style="animation: fadeIn 0.8s ease-out;">
-  <h1 style="font-size: 2.8em; margin-bottom: 0.2em; font-weight: 800; letter-spacing: -1px;">Hi, I'm Alessio <span style="display:inline-block; animation: wave 2s infinite">👋</span></h1>
+  <h1 style="font-size: 2.8em; margin-bottom: 0.2em; font-weight: 800; letter-spacing: -1px;">Hi, I'm Alessio</h1>
   
   <div style="margin: 20px 0;">
     <span class="interest-tag">🤖 Generative AI</span>
@@ -218,6 +208,7 @@ redirect_from:
 
   <div class="social-icons-main">
     <a href="mailto:alessio.tonioni.91@gmail.com" class="social-icon-main" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="{{ '/files/CV.pdf' | relative_url }}" class="social-icon-main" title="CV"><i class="fas fa-file-pdf"></i></a>
     <a href="https://www.linkedin.com/in/alessio-tonioni-16261668" class="social-icon-main" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/AlessioTonioni" class="social-icon-main" title="GitHub"><i class="fab fa-github"></i></a>
     <a href="https://scholar.google.it/citations?user=ry_BLFUAAAAJ&hl=en" class="social-icon-main" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
