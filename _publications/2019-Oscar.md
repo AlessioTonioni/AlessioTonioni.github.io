@@ -6,7 +6,7 @@ permalink: /publication/FPGA
 excerpt: 'In this paper, we leverage a FPGA-CPU chip to propose a novel, sophisticated, stereo approach that combines the best features of SGM and ELAS-based methods to compute highly accurate dense depth in real time.'
 date: 2019-04-03
 venue: ' IEEE Transactions on Circuits and Systems II: Express Briefs '
-paperurl: 'https://ieeexplore.ieee.org/document/8681073'
+paperurl: 'https://arxiv.org/pdf/1907.07745'
 citation: 'Rahnama, Oscar, Tommaso Cavallari, Stuart Golodetz, Alessio Tonioni, Thomas Joy, Luigi Di Stefano, Simon Walker, and Philip HS Torr, "Real-Time Highly Accurate Dense Depth on a Power Budget using an FPGA-CPU Hybrid SoC," in IEEE Transactions on Circuits and Systems II: Express Briefs.'
 pubtype: 'journal'
 ---
@@ -14,7 +14,7 @@ pubtype: 'journal'
 
 Obtaining highly accurate depth from stereo images in real time has many applications across computer vision and robotics, but in some contexts, upper bounds on power consumption constrain the feasible hardware to embedded platforms such as FPGAs. Whilst various stereo algorithms have been deployed on these platforms, usually cut down to better match the embedded architecture, certain key parts of the more advanced algorithms, e.g. those that rely on unpredictable access to memory or are highly iterative in nature, are difficult to deploy efficiently on FPGAs, and thus the depth quality that can be achieved is limited. In this paper, we leverage a FPGA-CPU chip to propose a novel, sophisticated, stereo approach that combines the best features of SGM and ELAS-based methods to compute highly accurate dense depth in real time. Our approach achieves an 8.7% error rate on the challenging KITTI 2015 dataset at over 50 FPS, with a power consumption of only 5W.
 
-[Paper](https://ieeexplore.ieee.org/document/8681073)
+[Paper](https://arxiv.org/pdf/1907.07745)
 
 ## BibTex
 ```

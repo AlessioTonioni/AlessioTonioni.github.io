@@ -4,3 +4,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Cache for publication stats and PDFs
+_pdf_cache/
+_data/stats_cache.json
+_data/publications_cache.json
+assets/data/publications_enhanced.json
