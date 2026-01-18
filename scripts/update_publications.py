@@ -58,21 +58,23 @@ def get_existing_titles():
     existing = {}
     if not os.path.exists(OUTPUT_DIR):
         return existing
-        
+    
     for filename in os.listdir(OUTPUT_DIR):
         if filename.endswith(".md"):
             filepath = os.path.join(OUTPUT_DIR, filename)
             try:
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    # Extract title from front matter
-                    match = re.search(r'^title:\s*"(.*)"', content, re.MULTILINE)
-                    if not match:
-                        match = re.search(r"^title:\s*'(.*)'", content, re.MULTILINE)
-                    
-                    if match:
-                        norm_title = normalize_text(match.group(1))
-                        existing[norm_title] = filename
+                    # Extract front matter between ---
+                    parts = content.split('---')
+                    if len(parts) >= 3:
+                        try:
+                            fm = yaml.safe_load(parts[1])
+                            if fm and 'title' in fm:
+                                norm_title = normalize_text(fm['title'])
+                                existing[norm_title] = filename
+                        except:
+                            continue
             except Exception as e:
                 print(f"Error reading {filename}: {e}")
     return existing
@@ -140,7 +142,7 @@ def create_markdown(pub, existing_titles):
     # Write file
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write("---\n")
-        yaml.dump(front_matter, f, sort_keys=False)
+        yaml.dump(front_matter, f, sort_keys=False, width=float('inf'))
         f.write("---\n\n")
         f.write(f"## Abstract\n\n{abstract}\n\n")
         if paper_url:
