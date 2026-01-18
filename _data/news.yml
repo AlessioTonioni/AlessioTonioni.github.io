@@ -9,6 +9,13 @@
   content: I will serve as Area Chair for ECCV 2026!
   highlight: false
   ai_generated: false
+ - date: 2025-10-18
+  content: Since 'the' and 'and' are apparently just giant attention-hungry magnets,
+    Anna figured out how to filter the noise and turn them into [RefAM](publication/refam-attention-magnets-for-zero-shot-referral-segmentation),
+    a zero-shot segmenter that somehow hits SOTA without us having to train a single
+    thing.
+  highlight: false
+  ai_generated: true
 - date: 2025-10-15
   content: '[Eruku](publication/eruku) got accepted to WACV2026, congrats to all my
     co-authors! In this work we improve on the handwriting generation capabilities
