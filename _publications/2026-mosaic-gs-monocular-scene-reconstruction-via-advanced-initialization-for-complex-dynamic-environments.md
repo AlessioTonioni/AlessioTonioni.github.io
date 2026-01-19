@@ -4,7 +4,7 @@ title: 'MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization fo
 authors: Svitlana Morkva, Michael Oechsle, Alessio Tonioni, Marco Hutter, Vaishakh
   Patil
 collection: publications
-permalink: /publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments
+permalink: publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments
 excerpt: We present MOSAIC-GS, a novel, fully explicit, and computationally efficient
   approach for high-fidelity dynamic scene reconstruction from monocular vi...
 date: 2026-01-18

@@ -176,7 +176,7 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
             3. Tone: "funny but not overly enthusiastic", human-like, slightly self-deprecating but proud.
             4. Requirements:
                - Start with a tiny, catchy "hook" or teaser about what the paper actually does.
-               - Reference the paper link as: [SHORT_TITLE](publication/{clean_title})
+               - Reference the paper link as: [SHORT_TITLE](/publication/{clean_title})
                - Credit the first author {first_author} using ONLY their first name.
             
             Return ONLY a raw JSON object:
