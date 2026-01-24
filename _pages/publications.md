@@ -132,7 +132,8 @@ author_profile: true
     <p class="map-description">
         My publications plotted in 2D based on semantic embeddings of their summaries. 
         Each point represents a paper, colored by research area. 
-        Hover to see summaries, click to jump to the paper below.
+        The larger is the point the more recent the publication.
+        Hover to see summaries, click to jump to the paper in the list below.
     </p>
     <div id="pub-map" style="height: 500px; width: 100%;"></div>
 </div>

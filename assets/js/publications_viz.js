@@ -125,10 +125,17 @@ function renderMap(pubs, mode) {
             type: 'scatter',
             name: cat,
             marker: {
-                size: 10,
+                // Size based on year (newer = larger): 2026 -> 25px, 2017 -> 8px
+                size: catPubs.map(p => {
+                    const year = p.s2_metadata ? p.s2_metadata.year : (new Date(p.date).getFullYear() || 2020);
+                    const currentYear = new Date().getFullYear();
+                    // Map range [current-10, current] to [5, 25]
+                    const age = Math.max(0, currentYear - year);
+                    return Math.max(5, 25 - age);
+                }),
                 color: color,
                 line: { color: 'white', width: 1.5 },
-                opacity: 0.8
+                opacity: 1.0
             },
             hoverinfo: 'text',
             customdata: catPubs.map(p => ({
