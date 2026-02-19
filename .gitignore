@@ -8,3 +8,6 @@ __pycache__/
 _pdf_cache/
 _data/stats_cache.json
 _data/ai_results_cache.json
+
+# Local only script 
+scripts/local_update_run.sh

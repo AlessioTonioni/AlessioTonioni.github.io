@@ -1,3 +1,9 @@
+- date: 2026-02-19
+  content: Since AI image edits shouldn't bleed like a messy laundry accident, Carmine finally
+    kept instructions in their own space with [our latest work](/publication/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing)
+    so your pixels might actually behave for once.
+  highlight: false
+  ai_generated: true
 - date: 2026-01-17
   content: Reconstructing 3D motion from a single camera is usually a mathematical
     nightmare, but Svitlana built [MOSAIC-GS](/publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments)
@@ -17,8 +23,8 @@
   highlight: false
   ai_generated: true
 - date: 2025-10-15
-  content: '[Eruku](/publication/eruku) got accepted to WACV2026, congrats to all my
-    co-authors! In this work we improve on the handwriting generation capabilities
+  content: '[Eruku](/publication/eruku) got accepted to WACV2026, congrats to all
+    my co-authors! In this work we improve on the handwriting generation capabilities
     of our previous work [Emuru](/publication/emuru) by making the model more robust
     and flexible in its usage.'
   highlight: true
@@ -79,8 +85,8 @@
     and [LatentSwap3D](/publication/LS3D) presented at the AI3DCC workshop.'
   highlight: false
 - date: 2023-06-01
-  content: '**CVPR 2023**: [NeRF-supervised Deep Stereo](/publication/NerfStereo) accepted.
-    See you in Vancouver!'
+  content: '**CVPR 2023**: [NeRF-supervised Deep Stereo](/publication/NerfStereo)
+    accepted. See you in Vancouver!'
   highlight: false
 - date: 2023-01-01
   content: '[AT/DT++](/publication/ATDT2) has been accepted for publication on **TPAMI**.'
