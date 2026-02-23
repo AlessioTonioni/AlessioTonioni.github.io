@@ -1,3 +1,7 @@
+- date: 2026-02-23
+  content: We got 1 paper accepted to CVPR 2026! Congrats to Svitlana for the amazing [work](/publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments)! 
+  highlight: false
+  ai_generated: false
 - date: 2026-02-19
   content: Since AI image edits shouldn't bleed like a messy laundry accident, Carmine finally
     kept instructions in their own space with [our latest work](/publication/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing)
