@@ -88,6 +88,58 @@ redirect_from:
     justify-content: center;
   }
   
+  /* Project Feature Card */
+  .project-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #f1f2f6;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    flex: 0 0 350px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .project-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    border-color: #1abc9c;
+  }
+
+  .project-feature-icon {
+    font-size: 2.5em;
+    color: #1abc9c;
+    margin-bottom: 15px;
+  }
+
+  /* Two Column Layout for Mood and Project */
+  .features-container {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+    align-items: stretch;
+  }
+
+  .features-container .mood-feature {
+    margin: 0;
+    flex: 1;
+  }
+
+  @media (max-width: 992px) {
+    .features-container {
+      flex-direction: column;
+    }
+    .project-feature {
+      flex: none;
+      width: 100%;
+    }
+  }
+
   @media (max-width: 768px) {
     .mood-feature { flex-direction: column; }
     .mood-image { flex: none; width: 100%; height: 250px; }
@@ -215,32 +267,77 @@ redirect_from:
   </div>
 </div>
 
-<!-- Mood Spotlight (Wide Layout) -->
-{% assign current_mood = site.data.moods | first %}
-<div class="mood-feature">
-  {% if current_mood.image %}
-  <div class="mood-image" onclick="openLightbox('{{ current_mood.image | relative_url }}')">
-    <img src="{{ current_mood.image | relative_url }}" alt="{{ current_mood.title }}">
-  </div>
-  {% endif %}
-  
-  <div class="mood-content">
-    <h4 style="margin: 0 0 10px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Current Mood</h4>
-    <h2 style="margin: 0 0 10px 0; font-size: 1.5em; color: #2d3436;">{{ current_mood.title }}</h2>
-    <p style="font-size: 1.05em; color: #636e72; font-style: italic; margin-bottom: 20px;">
-      "{{ current_mood.description }}"
-    </p>
+<!-- Features Container: Mood Spotlight & Project Spotlight -->
+<div class="features-container">
+  {% assign current_mood = site.data.moods | first %}
+  <div class="mood-feature">
+    {% if current_mood.image %}
+    <div class="mood-image" onclick="openLightbox('{{ current_mood.image | relative_url }}')">
+      <img src="{{ current_mood.image | relative_url }}" alt="{{ current_mood.title }}">
+    </div>
+    {% endif %}
+    
+    <div class="mood-content">
+      <h4 style="margin: 0 0 10px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Current Mood</h4>
+      <h2 style="margin: 0 0 10px 0; font-size: 1.5em; color: #2d3436;">{{ current_mood.title }}</h2>
+      <p style="font-size: 1.05em; color: #636e72; font-style: italic; margin-bottom: 20px;">
+        "{{ current_mood.description }}"
+      </p>
 
-    <div style="display: flex; gap: 15px; align-items: center;">
-       {% if current_mood.youtube_id %}
-        <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" class="btn btn--danger" style="margin: 0; padding: 8px 16px; border-radius: 30px;">
-          <i class="fas fa-play" style="margin-right: 5px;"></i> Play Soundtrack
-        </a>
-       {% endif %}
-       <a href="{{ '/moodboard/' | relative_url }}" style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3;">View History →</a>
+      <div style="display: flex; gap: 15px; align-items: center;">
+         {% if current_mood.youtube_id %}
+          <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" class="btn btn--danger" style="margin: 0; padding: 8px 16px; border-radius: 30px;">
+            <i class="fas fa-play" style="margin-right: 5px;"></i> Play Soundtrack
+          </a>
+         {% endif %}
+         <a href="{{ '/moodboard/' | relative_url }}" style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3;">View History →</a>
+      </div>
     </div>
   </div>
+
+  <!-- Random Side Project Spotlight -->
+  <a id="random-project-link" href="{{ '/projects/' | relative_url }}" class="project-feature">
+    <h4 style="margin: 0 0 15px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Random Side Project</h4>
+    <i id="random-project-icon" class="fas fa-code project-feature-icon"></i>
+    <h3 id="random-project-title" style="margin: 0 0 10px 0; font-size: 1.3em; color: #2d3436;">Loading...</h3>
+    <p id="random-project-desc" style="font-size: 0.95em; color: #636e72; line-height: 1.5; margin-bottom: 15px; flex-grow: 1;">
+      Discovering a cool side project...
+    </p>
+    <span style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3; align-self: flex-start;">See all projects →</span>
+  </a>
 </div>
+
+<script>
+  // Outputting the projects data to JS
+  const projectsData = [
+    {% for project in site.data.projects %}
+    {
+      title: "{{ project.title | escape }}",
+      description: "{{ project.description | escape }}",
+      icon: "{{ project.icon | default: 'fas fa-code' }}",
+      url: "{{ project.url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  document.addEventListener("DOMContentLoaded", function() {
+    if (projectsData.length > 0) {
+      const randomIndex = Math.floor(Math.random() * projectsData.length);
+      const proj = projectsData[randomIndex];
+      
+      document.getElementById("random-project-title").innerText = proj.title;
+      // Truncate description if too long
+      let desc = proj.description;
+      if (desc.length > 100) desc = desc.substring(0, 97) + "...";
+      document.getElementById("random-project-desc").innerText = desc;
+      
+      document.getElementById("random-project-icon").className = proj.icon + " project-feature-icon";
+      // To redirect to the exact project instead of the projects page, we could use proj.url
+      // But the user said "Similar to the mood it then link to the full side projects page". 
+      // So we keep the href as /projects/. We could also add target="_blank" if it went to Github.
+    }
+  });
+</script>
 
 ---
 

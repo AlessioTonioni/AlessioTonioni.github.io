@@ -1,0 +1,75 @@
+# --- OLD REPOS TO IGNORE ---
+
+# - title: "AlessioTonioni.github.io"
+#   description: "My simple web page"
+#   url: "https://github.com/AlessioTonioni/AlessioTonioni.github.io"
+#   tags: ["HTML"]
+#   icon: "fas fa-home"
+
+# - title: "AtNet"
+#   description: ""
+#   url: "https://github.com/AlessioTonioni/AtNet"
+#   tags: ["Python"]
+#   icon: "fas fa-share-alt"
+
+# - title: "Autonomous-Flight-ROS"
+#   description: "A simple autopilot for a quadrotor realized using MoveIt!. The system use a simulated RGBD sensor to reconstruct the map, then ompl for path generation."
+#   url: "https://github.com/AlessioTonioni/Autonomous-Flight-ROS"
+#   tags: ["Makefile"]
+#   icon: "fas fa-route"
+
+# - title: "Nine-Mens-Morris-AI"
+#   description: ""
+#   url: "https://github.com/AlessioTonioni/Nine-Mens-Morris-AI"
+#   tags: ["Java"]
+#   icon: "fas fa-robot"
+
+# - title: "RobotLineFollower"
+#   description: ""
+#   url: "https://github.com/AlessioTonioni/RobotLineFollower"
+#   tags: ["Java"]
+#   icon: "fas fa-robot"
+
+# - title: "Rod-Analysis-Tool"
+#   description: ""
+#   url: "https://github.com/AlessioTonioni/Rod-Analysis-Tool"
+#   tags: ["C++"]
+#   icon: "fas fa-chart-line"
+
+# - title: "StereoMatching"
+#   description: "Some simple Stereo Matching algorithms and confidence measures re-implemented in opencv "
+#   url: "https://github.com/AlessioTonioni/StereoMatching"
+#   tags: ["C++"]
+#   icon: "fas fa-cubes"
+
+# - title: "TensorFlow-Intro"
+#   description: "Material for introductory lesson on TensorFlow implemented as jupyter notebook"
+#   url: "https://github.com/AlessioTonioni/TensorFlow-Intro"
+#   tags: ["Jupyter Notebook"]
+#   icon: "fas fa-book-open"
+
+# - title: "tf-objdetector"
+#   description: "Utilities to use tensorflow object detction api with a yolo like dataset"
+#   url: "https://github.com/AlessioTonioni/tf-objdetector"
+#   tags: ["Python"]
+#   icon: "fas fa-exchange-alt"
+
+# --- FEATURED REPOS ---
+
+- title: "Taste Connoisseur"
+  description: "Very basic and simple journal + recommendation algorithm for media suggestions"
+  url: "https://github.com/AlessioTonioni/taste-connoisseur"
+  tags: ["HTML", "Recommendations"]
+  icon: "fas fa-film"
+
+- title: "Garden Planning"
+  description: "Garden planning made fun"
+  url: "https://github.com/AlessioTonioni/Garden_planning"
+  tags: ["TypeScript", "App"]
+  icon: "fas fa-seedling"
+
+- title: "Simple Audio Diarization"
+  description: "A very simple colab to perform audio diarization with some support for swiss german"
+  url: "https://github.com/AlessioTonioni/Simple_Audio_Diarization"
+  tags: ["Jupyter Notebook", "AI", "Audio"]
+  icon: "fas fa-microphone"
