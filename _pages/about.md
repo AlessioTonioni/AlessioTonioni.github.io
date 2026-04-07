@@ -99,16 +99,19 @@ redirect_from:
     padding: 25px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     flex: 0 0 350px;
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    background-image: none !important; 
+    color: inherit !important;
     transition: all 0.3s ease;
     cursor: pointer;
   }
 
-  .project-feature:hover {
+  .project-feature:hover, .project-feature:focus {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.08);
     border-color: #1abc9c;
+    text-decoration: none !important;
+    background-image: none !important;
   }
 
   .project-feature-icon {
@@ -138,6 +141,13 @@ redirect_from:
       flex: none;
       width: 100%;
     }
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   @media (max-width: 768px) {
@@ -279,18 +289,20 @@ redirect_from:
     
     <div class="mood-content">
       <h4 style="margin: 0 0 10px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Current Mood</h4>
-      <h2 style="margin: 0 0 10px 0; font-size: 1.5em; color: #2d3436;">{{ current_mood.title }}</h2>
+      <div style="display: flex; align-items: center; margin: 0 0 10px 0;">
+        <h2 style="margin: 0; font-size: 1.5em; color: #2d3436;">{{ current_mood.title }}</h2>
+        {% if current_mood.youtube_id %}
+        <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" title="Play Soundtrack" style="margin-left: 10px; color: #e17055; font-size: 1.2em; transition: transform 0.2s; display: inline-block;">
+          <i class="fas fa-music"></i>
+        </a>
+        {% endif %}
+      </div>
       <p style="font-size: 1.05em; color: #636e72; font-style: italic; margin-bottom: 20px;">
         "{{ current_mood.description }}"
       </p>
 
       <div style="display: flex; gap: 15px; align-items: center;">
-         {% if current_mood.youtube_id %}
-          <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" class="btn btn--danger" style="margin: 0; padding: 8px 16px; border-radius: 30px;">
-            <i class="fas fa-play" style="margin-right: 5px;"></i> Play Soundtrack
-          </a>
-         {% endif %}
-         <a href="{{ '/moodboard/' | relative_url }}" style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3;">View History →</a>
+         <a href="{{ '/moodboard/' | relative_url }}" style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3;">More →</a>
       </div>
     </div>
   </div>
@@ -300,25 +312,16 @@ redirect_from:
     <h4 style="margin: 0 0 15px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Random Side Project</h4>
     <i id="random-project-icon" class="fas fa-code project-feature-icon"></i>
     <h3 id="random-project-title" style="margin: 0 0 10px 0; font-size: 1.3em; color: #2d3436;">Loading...</h3>
-    <p id="random-project-desc" style="font-size: 0.95em; color: #636e72; line-height: 1.5; margin-bottom: 15px; flex-grow: 1;">
+    <p id="random-project-desc" class="line-clamp-2" style="font-size: 0.95em; color: #636e72; line-height: 1.5; margin-bottom: 15px; flex-grow: 1;">
       Discovering a cool side project...
     </p>
-    <span style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3; align-self: flex-start;">See all projects →</span>
+    <span style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3; align-self: flex-start;">More →</span>
   </a>
 </div>
 
 <script>
   // Outputting the projects data to JS
-  const projectsData = [
-    {% for project in site.data.projects %}
-    {
-      title: "{{ project.title | escape }}",
-      description: "{{ project.description | escape }}",
-      icon: "{{ project.icon | default: 'fas fa-code' }}",
-      url: "{{ project.url }}"
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
+  const projectsData = {{ site.data.projects | jsonify }} || [];
 
   document.addEventListener("DOMContentLoaded", function() {
     if (projectsData.length > 0) {
@@ -326,11 +329,7 @@ redirect_from:
       const proj = projectsData[randomIndex];
       
       document.getElementById("random-project-title").innerText = proj.title;
-      // Truncate description if too long
-      let desc = proj.description;
-      if (desc.length > 100) desc = desc.substring(0, 97) + "...";
-      document.getElementById("random-project-desc").innerText = desc;
-      
+      document.getElementById("random-project-desc").innerText = proj.description;
       document.getElementById("random-project-icon").className = proj.icon + " project-feature-icon";
       // To redirect to the exact project instead of the projects page, we could use proj.url
       // But the user said "Similar to the mood it then link to the full side projects page". 
