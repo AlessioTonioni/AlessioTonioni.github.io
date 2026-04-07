@@ -320,7 +320,6 @@ redirect_from:
 </div>
 
 <script>
-  // Outputting the projects data to JS
   const projectsData = {{ site.data.projects | jsonify }} || [];
 
   document.addEventListener("DOMContentLoaded", function() {
@@ -331,9 +330,6 @@ redirect_from:
       document.getElementById("random-project-title").innerText = proj.title;
       document.getElementById("random-project-desc").innerText = proj.description;
       document.getElementById("random-project-icon").className = proj.icon + " project-feature-icon";
-      // To redirect to the exact project instead of the projects page, we could use proj.url
-      // But the user said "Similar to the mood it then link to the full side projects page". 
-      // So we keep the href as /projects/. We could also add target="_blank" if it went to Github.
     }
   });
 </script>
