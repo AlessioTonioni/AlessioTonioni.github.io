@@ -73,3 +73,10 @@
   url: "https://github.com/AlessioTonioni/Simple_Audio_Diarization"
   tags: ["Jupyter Notebook", "AI", "Audio"]
   icon: "fas fa-microphone"
+
+- title: "Visual_memory"
+  description: "Keep track of things visually"
+  url: "https://github.com/AlessioTonioni/Visual_memory"
+  tags: ["JavaScript"]
+  icon: "fas fa-eye"
+
