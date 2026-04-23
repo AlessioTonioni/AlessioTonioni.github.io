@@ -48,27 +48,49 @@ redirect_from:
     color: #2c3e50;
   }
 
-  /* Mood Feature Card */
-  .mood-feature {
+  /* Unified Spotlight Features */
+  .features-container {
     display: flex;
-    gap: 30px;
-    background: #fff;
-    border: 1px solid #f1f2f6;
-    border-radius: 12px;
-    padding: 25px;
+    flex-direction: column;
+    gap: 25px;
     margin: 40px 0;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    align-items: flex-start;
   }
-  
-  .mood-image {
-    flex: 0 0 300px;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: zoom-in; /* Indicate clickable */
+
+  .mood-feature, .project-feature {
+    display: flex;
+    gap: 35px;
+    background: #fff;
+    border: 1px solid #f0f3f6;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+    overflow: hidden;
+    align-items: center;
   }
-  
+
+  .mood-feature:hover, .project-feature:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border-color: #1abc9c;
+  }
+
+  /* Visual Elements (Left Side) */
+  .mood-image, .project-visual {
+    flex: 0 0 240px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background: #f8fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .mood-image img {
     width: 100%;
     height: 100%;
@@ -76,72 +98,79 @@ redirect_from:
     display: block;
     transition: transform 0.5s ease;
   }
-  
-  .mood-image:hover img {
-    transform: scale(1.05); /* Subtle zoom on hover */
+
+  .mood-feature:hover .mood-image img {
+    transform: scale(1.05);
   }
 
-  .mood-content {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  /* Project Feature Card */
-  .project-feature {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #fff;
-    border: 1px solid #f1f2f6;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    flex: 0 0 350px;
-    text-decoration: none !important;
-    background-image: none !important; 
-    color: inherit !important;
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-
-  .project-feature:hover, .project-feature:focus {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
-    border-color: #1abc9c;
-    text-decoration: none !important;
-    background-image: none !important;
-  }
-
-  .project-feature-icon {
-    font-size: 2.5em;
+  .project-visual {
+    background: linear-gradient(135deg, #f1f2f6 0%, #dfe4ea 100%);
     color: #1abc9c;
-    margin-bottom: 15px;
+    font-size: 3.5em;
+    transition: all 0.3s ease;
   }
 
-  /* Two Column Layout for Mood and Project */
-  .features-container {
-    display: flex;
-    gap: 30px;
-    margin: 40px 0;
-    align-items: stretch;
+  .project-feature:hover .project-visual {
+    background: linear-gradient(135deg, #e6f7f4 0%, #1abc9c15 100%);
+    transform: rotate(-3deg) scale(1.05);
   }
 
-  .features-container .mood-feature {
-    margin: 0;
+  /* Content Elements (Right Side) */
+  .mood-content, .project-content {
     flex: 1;
     min-width: 0;
   }
 
-  @media (max-width: 992px) {
-    .features-container {
+  .feature-label {
+    margin: 0 0 8px 0;
+    color: #b2bec3;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+
+  .feature-title {
+    margin: 0 0 8px 0;
+    font-size: 1.4em;
+    color: #2d3436;
+    font-weight: 800;
+  }
+
+  .feature-desc {
+    font-size: 0.95em;
+    color: #636e72;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .feature-more {
+    color: #1abc9c;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .mood-feature:hover .feature-more, .project-feature:hover .feature-more {
+    border-bottom-color: #1abc9c;
+  }
+
+  @media (max-width: 768px) {
+    .mood-feature, .project-feature {
       flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 20px;
     }
-    .project-feature {
+    .mood-image, .project-visual {
       flex: none;
       width: 100%;
+      height: 200px;
     }
   }
 
@@ -223,15 +252,20 @@ redirect_from:
     margin-bottom: 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.03);
     border: 1px solid #f1f2f6;
-    transition: transform 0.2s;
+    border-left: 3px solid transparent; 
+    transition: all 0.2s ease;
   }
   .news-card:hover {
-    transform: translateX(5px);
-    border-left: 3px solid #1abc9c;
+    transform: translateX(6px);
+    border-left-color: #1abc9c;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  }
+  .news-card:hover .news-dot {
+    transform: translateX(-6px);
   }
   .news-dot {
     position: absolute;
-    left: -36px;
+    left: -40px;
     top: 20px;
     width: 12px;
     height: 12px;
@@ -239,6 +273,8 @@ redirect_from:
     background: #1abc9c;
     border: 2px solid #fff;
     box-shadow: 0 0 0 2px #dfe6e9;
+    transition: transform 0.2s ease;
+    z-index: 1;
   }
 </style>
 
@@ -282,42 +318,43 @@ redirect_from:
 <!-- Features Container: Mood Spotlight & Project Spotlight -->
 <div class="features-container">
   {% assign current_mood = site.data.moods | first %}
-  <div class="mood-feature">
+  <div class="mood-feature" onclick="openLightbox('{{ current_mood.image | relative_url }}')">
     {% if current_mood.image %}
-    <div class="mood-image" onclick="openLightbox('{{ current_mood.image | relative_url }}')">
+    <div class="mood-image">
       <img src="{{ current_mood.image | relative_url }}" alt="{{ current_mood.title }}">
     </div>
     {% endif %}
     
     <div class="mood-content">
-      <h4 style="margin: 0 0 10px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Current Mood</h4>
-      <div style="display: flex; align-items: center; margin: 0 0 10px 0;">
-        <h2 style="margin: 0; font-size: 1.5em; color: #2d3436;">{{ current_mood.title }}</h2>
+      <h4 class="feature-label">Current Mood</h4>
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <h3 class="feature-title" style="margin-bottom: 0;">{{ current_mood.title }}</h3>
         {% if current_mood.youtube_id %}
-        <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" title="Play Soundtrack" style="margin-left: 10px; color: #e17055; font-size: 1.2em; transition: transform 0.2s; display: inline-block;">
+        <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" title="Play Soundtrack" style="margin-left: 10px; color: #e17055; font-size: 1.1em; transition: transform 0.2s; display: inline-block;">
           <i class="fas fa-music"></i>
         </a>
         {% endif %}
       </div>
-      <p style="font-size: 1.05em; color: #636e72; font-style: italic; margin-bottom: 20px;">
+      <p class="feature-desc" style="font-style: italic;">
         "{{ current_mood.description }}"
       </p>
-
-      <div style="display: flex; gap: 15px; align-items: center;">
-         <a href="{{ '/moodboard/' | relative_url }}" style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3;">More →</a>
-      </div>
+      <span class="feature-more">Explore Moodboard →</span>
     </div>
   </div>
 
   <!-- Random Side Project Spotlight -->
   <a id="random-project-link" href="{{ '/projects/' | relative_url }}" class="project-feature">
-    <h4 style="margin: 0 0 15px 0; color: #b2bec3; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1.5px;">Random Side Project</h4>
-    <i id="random-project-icon" class="fas fa-code project-feature-icon"></i>
-    <h3 id="random-project-title" style="margin: 0 0 10px 0; font-size: 1.3em; color: #2d3436;">Loading...</h3>
-    <p id="random-project-desc" class="line-clamp-2" style="font-size: 0.95em; color: #636e72; line-height: 1.5; margin-bottom: 15px; flex-grow: 1;">
-      Discovering a cool side project...
-    </p>
-    <span style="color: #636e72; font-size: 0.9em; text-decoration: none; border-bottom: 1px dashed #b2bec3; align-self: flex-start;">More →</span>
+    <div class="project-visual">
+       <i id="random-project-icon" class="fas fa-code"></i>
+    </div>
+    <div class="project-content">
+      <h4 class="feature-label">Random Side Project</h4>
+      <h3 id="random-project-title" class="feature-title">Loading...</h3>
+      <p id="random-project-desc" class="feature-desc line-clamp-2">
+        Discovering a cool side project...
+      </p>
+      <span class="feature-more">View Projects →</span>
+    </div>
   </a>
 </div>
 
@@ -331,7 +368,7 @@ redirect_from:
       
       document.getElementById("random-project-title").innerText = proj.title;
       document.getElementById("random-project-desc").innerText = proj.description;
-      document.getElementById("random-project-icon").className = proj.icon + " project-feature-icon";
+      document.getElementById("random-project-icon").className = (proj.icon || "fas fa-code");
     }
   });
 </script>
