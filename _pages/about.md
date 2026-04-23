@@ -83,6 +83,7 @@ redirect_from:
 
   .mood-content {
     flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,6 +132,7 @@ redirect_from:
   .features-container .mood-feature {
     margin: 0;
     flex: 1;
+    min-width: 0;
   }
 
   @media (max-width: 992px) {
