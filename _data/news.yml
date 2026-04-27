@@ -1,10 +1,24 @@
+- date: 2026-04-27
+  content: 'Puzzles over labels: Jiahao taught MLLMs to solve visual riddles for self-supervised
+    rewards in [SSL-R1](/publication/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models),
+    which is basically us admitting that models reason better when we stop hovering
+    over their training data.'
+  highlight: false
+  ai_generated: true
+- date: 2026-04-27
+  content: 'No more AI ghosts: Jiahao built [R-CoV](/publication/r-cov-region-aware-chain-of-verification-for-alleviating-object-hallucinations-in-lvlms)
+    to force models to actually check image regions, because apparently basic observation
+    is still a bit too much to ask of them.'
+  highlight: false
+  ai_generated: true
 - date: 2026-02-23
-  content: We got 1 paper accepted to CVPR 2026! Congrats to Svitlana for the amazing [work](/publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments)! 
+  content: We got 1 paper accepted to CVPR 2026! Congrats to Svitlana for the amazing
+    [work](/publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments)!
   highlight: false
   ai_generated: false
 - date: 2026-02-19
-  content: Since AI image edits shouldn't bleed like a messy laundry accident, Carmine finally
-    kept instructions in their own space with [our latest work](/publication/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing)
+  content: Since AI image edits shouldn't bleed like a messy laundry accident, Carmine
+    finally kept instructions in their own space with [our latest work](/publication/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing)
     so your pixels might actually behave for once.
   highlight: false
   ai_generated: true

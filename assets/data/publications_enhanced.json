@@ -1,6 +1,65 @@
 {
   "publications": [
     {
+      "title": "SSL-R1: Self-Supervised Visual Reinforcement Post-Training for Multimodal Large Language Models",
+      "authors": "Jiahao Xie, Alessio Tonioni, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele",
+      "collection": "publications",
+      "permalink": "/publication/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models",
+      "excerpt": "Reinforcement learning (RL) with verifiable rewards (RLVR) has demonstrated the great potential of enhancing the reasoning abilities in multimodal lar...",
+      "date": "2026-04-27",
+      "venue": "ArXiv",
+      "paperurl": "https://arxiv.org/pdf/2604.20705.pdf",
+      "citation": "Jiahao Xie, **Alessio Tonioni**, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele. \"SSL-R1: Self-Supervised Visual Reinforcement Post-Training for Multimodal Large Language Models.\" ArXiv, 2026.",
+      "pubtype": "review",
+      "local_file": "_publications/2026-ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models.md",
+      "abstract": "Reinforcement learning (RL) with verifiable rewards (RLVR) has demonstrated the great potential of enhancing the reasoning abilities in multimodal large language models (MLLMs). However, the reliance on language-centric priors and expensive manual annotations prevents MLLMs' intrinsic visual understanding and scalable reward designs. In this work, we introduce SSL-R1, a generic self-supervised RL framework that derives verifiable rewards directly from images. To this end, we revisit self-supervised learning (SSL) in visual domains and reformulate widely-used SSL tasks into a set of verifiable visual puzzles for RL post-training, requiring neither human nor external model supervision. Training MLLMs on these tasks substantially improves their performance on multimodal understanding and reasoning benchmarks, highlighting the potential of leveraging vision-centric self-supervised tasks for MLLM post-training. We think this work will provide useful experience in devising effective self-supervised verifiable rewards to enable RL at scale. Project page: https://github.com/Jiahao000/SSL-R1.",
+      "pdf_path": "_pdf_cache/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models.pdf",
+      "s2_id": "a9397939730b7bcec4043027d348fca2badf1dd8",
+      "s2_metadata": {
+        "paperId": "a9397939730b7bcec4043027d348fca2badf1dd8",
+        "title": "SSL-R1: Self-Supervised Visual Reinforcement Post-Training for Multimodal Large Language Models",
+        "year": 2026,
+        "referenceCount": 88,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "66056122",
+            "name": "Jiahao Xie"
+          },
+          {
+            "authorId": "2387867204",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "120529492",
+            "name": "N. Rauschmayr"
+          },
+          {
+            "authorId": "2406837281",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "48920094",
+            "name": "B. Schiele"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "SSL-R1 boosts MLLM reasoning by turning visual self-supervised tasks into verifiable rewards for scalable, human-free RL post-training.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.16656350028727843,
+          "y": 0.22984599441174614
+        },
+        "umap": {
+          "x": 5.211632251739502,
+          "y": 0.8297211527824402
+        }
+      }
+    },
+    {
       "title": "Autoregressive Styled Text Image Generation, but Make it Reliable",
       "authors": "Carmine Zaccagnino, Fabio Quattrini, Vittorio Pippi, Silvia Cascianelli, Alessio Tonioni, Rita Cucchiara",
       "collection": "Multimodal Models",
@@ -54,12 +113,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.2836079884579683,
-          "y": 0.014097390836678885
+          "x": -0.26872297025818137,
+          "y": -0.03747571326319964
         },
         "umap": {
-          "x": 7.938380718231201,
-          "y": 8.695099830627441
+          "x": 3.8742942810058594,
+          "y": 1.8558732271194458
         }
       }
     },
@@ -109,12 +168,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.37719357092751576,
-          "y": 0.07592276260995738
+          "x": 0.3792406642132949,
+          "y": 0.0926339540592831
         },
         "umap": {
-          "x": 11.383315086364746,
-          "y": 7.004923343658447
+          "x": 2.785571575164795,
+          "y": -2.454939126968384
         }
       }
     },
@@ -184,12 +243,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.0726811768362232,
-          "y": 0.21264068617122478
+          "x": -0.08669434836548127,
+          "y": 0.20919660597961728
         },
         "umap": {
-          "x": 10.07149600982666,
-          "y": 8.781087875366211
+          "x": 5.047107696533203,
+          "y": -0.26410624384880066
         }
       }
     },
@@ -235,12 +294,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.058608185899990985,
-          "y": 0.2886441543290646
+          "x": 0.05082754044857522,
+          "y": 0.25576209853285875
         },
         "umap": {
-          "x": 11.616900444030762,
-          "y": 8.468546867370605
+          "x": 4.248132228851318,
+          "y": -2.225823163986206
         }
       }
     },
@@ -293,12 +352,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.03672561499367592,
-          "y": 0.2561707554879638
+          "x": 0.023799671828028803,
+          "y": 0.24192971679981573
         },
         "umap": {
-          "x": 10.846982955932617,
-          "y": 8.87745475769043
+          "x": 4.357356071472168,
+          "y": -1.3269472122192383
         }
       }
     },
@@ -344,12 +403,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.006529361892691892,
-          "y": -0.10355497516742555
+          "x": 0.027304811064689724,
+          "y": -0.12937325759287563
         },
         "umap": {
-          "x": 9.716471672058105,
-          "y": 7.105842113494873
+          "x": 2.724078893661499,
+          "y": -0.15353308618068695
         }
       }
     },
@@ -403,12 +462,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1835666598820442,
-          "y": -0.2511296727084809
+          "x": -0.14854106180577814,
+          "y": -0.2875243395897055
         },
         "umap": {
-          "x": 8.626676559448242,
-          "y": 6.502707481384277
+          "x": 2.0652577877044678,
+          "y": 1.1587742567062378
         }
       }
     },
@@ -466,12 +525,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.13587120954163479,
-          "y": 0.1435308635689035
+          "x": -0.15014971435032168,
+          "y": 0.14742599697431327
         },
         "umap": {
-          "x": 9.67483901977539,
-          "y": 8.296910285949707
+          "x": 4.817519187927246,
+          "y": 0.17239274084568024
         }
       }
     },
@@ -533,12 +592,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.06878089457766846,
-          "y": -0.069139833954834
+          "x": -0.04583820207694767,
+          "y": -0.11149707744497944
         },
         "umap": {
-          "x": 9.154221534729004,
-          "y": 7.215304374694824
+          "x": 2.7869696617126465,
+          "y": 0.16287139058113098
         }
       }
     },
@@ -587,12 +646,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.08497521208384665,
-          "y": 0.2869748077756354
+          "x": 0.0711516797935803,
+          "y": 0.274760464986616
         },
         "umap": {
-          "x": 11.118659973144531,
-          "y": 8.458758354187012
+          "x": 4.09031867980957,
+          "y": -1.706912875175476
         }
       }
     },
@@ -646,12 +705,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.3551934572127161,
-          "y": -0.03261548947175605
+          "x": 0.36100794004319386,
+          "y": -0.0023958820073945214
         },
         "umap": {
-          "x": 11.832140922546387,
-          "y": 7.002519607543945
+          "x": 2.14383864402771,
+          "y": -2.640294075012207
         }
       }
     },
@@ -704,12 +763,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.0915210457892909,
-          "y": -0.13821155356439557
+          "x": 0.10824960036940572,
+          "y": -0.1306206424937191
         },
         "umap": {
-          "x": 10.406705856323242,
-          "y": 5.43718957901001
+          "x": 1.3193632364273071,
+          "y": -1.094598650932312
         }
       }
     },
@@ -763,12 +822,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.14759965992615104,
-          "y": 0.10646492357448595
+          "x": -0.16488235126384643,
+          "y": 0.13764599281868647
         },
         "umap": {
-          "x": 9.440855979919434,
-          "y": 9.040831565856934
+          "x": 5.832423210144043,
+          "y": 1.0628083944320679
         }
       }
     },
@@ -822,12 +881,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.3050003615098707,
-          "y": 0.07953486240225832
+          "x": -0.29480157021801134,
+          "y": 0.024975092707883687
         },
         "umap": {
-          "x": 8.371380805969238,
-          "y": 8.651731491088867
+          "x": 4.453927040100098,
+          "y": 2.0492560863494873
         }
       }
     },
@@ -873,12 +932,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.01122334679897238,
-          "y": 0.044391836908691154
+          "x": 0.016871986773537382,
+          "y": 0.036362047829625654
         },
         "umap": {
-          "x": 10.667340278625488,
-          "y": 7.126559257507324
+          "x": 2.639561176300049,
+          "y": -1.1247024536132812
         }
       }
     },
@@ -924,12 +983,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.033702011864263776,
-          "y": -0.032587557494075915
+          "x": 0.049704880566842004,
+          "y": -0.06127598257472934
         },
         "umap": {
-          "x": 10.069950103759766,
-          "y": 7.564733505249023
+          "x": 3.249335289001465,
+          "y": -0.7053149342536926
         }
       }
     },
@@ -986,12 +1045,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.1366412340482684,
-          "y": 0.24888948919669757
+          "x": 0.12634884175412134,
+          "y": 0.23730600070736538
         },
         "umap": {
-          "x": 11.571290016174316,
-          "y": 7.899789333343506
+          "x": 3.686378240585327,
+          "y": -2.1802351474761963
         }
       }
     },
@@ -1041,12 +1100,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.16317219092652666,
-          "y": -0.11261303410774168
+          "x": 0.18104354000826886,
+          "y": -0.10682838890294719
         },
         "umap": {
-          "x": 10.20047378540039,
-          "y": 6.804026126861572
+          "x": 2.7997078895568848,
+          "y": -1.8293628692626953
         }
       }
     },
@@ -1100,12 +1159,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.35275836107293873,
-          "y": -0.0014497332620713919
+          "x": 0.35677766078162726,
+          "y": 0.025520923379777505
         },
         "umap": {
-          "x": 12.36948299407959,
-          "y": 7.01629114151001
+          "x": 2.6764018535614014,
+          "y": -3.093482255935669
         }
       }
     },
@@ -1163,12 +1222,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.03586306410361819,
-          "y": -0.28746647412834836
+          "x": -0.0047082394966312755,
+          "y": -0.2891548114785573
         },
         "umap": {
-          "x": 9.127655029296875,
-          "y": 5.456517219543457
+          "x": 1.3948272466659546,
+          "y": 0.4269565939903259
         }
       }
     },
@@ -1226,12 +1285,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.00556360384216443,
-          "y": -0.2351669932873856
+          "x": 0.03200268547881295,
+          "y": -0.23436070370912848
         },
         "umap": {
-          "x": 9.251100540161133,
-          "y": 6.310676574707031
+          "x": 1.646553635597229,
+          "y": -0.12249957025051117
         }
       }
     },
@@ -1272,12 +1331,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.019210230262414647,
-          "y": 0.06197071500801219
+          "x": 0.03055062824875672,
+          "y": 0.03134791291536461
         },
         "umap": {
-          "x": 10.714144706726074,
-          "y": 7.6444878578186035
+          "x": 3.281190872192383,
+          "y": -1.3407572507858276
         }
       }
     },
@@ -1331,12 +1390,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.16643876397528615,
-          "y": 0.12690425102548272
+          "x": -0.16149078196928365,
+          "y": 0.07646440423634387
         },
         "umap": {
-          "x": 7.688243865966797,
-          "y": 7.293874740600586
+          "x": 3.891062021255493,
+          "y": 0.49818241596221924
         }
       }
     },
@@ -1390,12 +1449,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.2557666475278992,
-          "y": 0.10002080107129964
+          "x": -0.25318484794841484,
+          "y": 0.050916750100589284
         },
         "umap": {
-          "x": 7.8424787521362305,
-          "y": 7.774620532989502
+          "x": 4.012585163116455,
+          "y": 1.0385034084320068
         }
       }
     },
@@ -1449,12 +1508,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.04817200197700907,
-          "y": -0.288124799410109
+          "x": 0.07116137687204241,
+          "y": -0.27024043827825606
         },
         "umap": {
-          "x": 9.687211990356445,
-          "y": 5.938297271728516
+          "x": 1.207156777381897,
+          "y": -0.42637723684310913
         }
       }
     },
@@ -1511,12 +1570,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.33130341776265065,
-          "y": 0.1032426377409311
+          "x": 0.3284776949662083,
+          "y": 0.1239669302966977
         },
         "umap": {
-          "x": 12.066518783569336,
-          "y": 7.5728631019592285
+          "x": 3.0804474353790283,
+          "y": -2.7459828853607178
         }
       }
     },
@@ -1558,12 +1617,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.006843281065575607,
-          "y": -0.06975216610511963
+          "x": 0.010563852236760285,
+          "y": -0.05280815496268584
         },
         "umap": {
-          "x": 10.645533561706543,
-          "y": 6.396034240722656
+          "x": 2.3036859035491943,
+          "y": -0.7958205342292786
         }
       }
     },
@@ -1625,12 +1684,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.21192793330342144,
-          "y": 0.10562392737171859
+          "x": -0.21410996575205335,
+          "y": 0.07635650757236033
         },
         "umap": {
-          "x": 8.32331657409668,
-          "y": 8.005266189575195
+          "x": 4.458435535430908,
+          "y": 1.30132257938385
         }
       }
     },
@@ -1687,12 +1746,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.01916943044392297,
-          "y": -0.04959660088954721
+          "x": -0.012763823346384413,
+          "y": -0.04063015772546726
         },
         "umap": {
-          "x": 10.35859203338623,
-          "y": 5.958506107330322
+          "x": 1.9475005865097046,
+          "y": -0.9270830154418945
         }
       }
     },
@@ -1754,12 +1813,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.2022897167266209,
-          "y": -0.13806158938018626
+          "x": -0.17346246780844127,
+          "y": -0.18468553239040628
         },
         "umap": {
-          "x": 8.470743179321289,
-          "y": 7.302259922027588
+          "x": 2.844160795211792,
+          "y": 1.1185886859893799
         }
       }
     },
@@ -1809,12 +1868,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1131952325486194,
-          "y": -0.11207640178090462
+          "x": -0.08615097114749952,
+          "y": -0.1615760775769798
         },
         "umap": {
-          "x": 8.450294494628906,
-          "y": 6.954290866851807
+          "x": 2.6570191383361816,
+          "y": 0.6150265336036682
         }
       }
     },
@@ -1868,12 +1927,71 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.17367855034300173,
-          "y": 0.06129433393998198
+          "x": -0.19107273888828596,
+          "y": 0.10169470386334113
         },
         "umap": {
-          "x": 9.145851135253906,
-          "y": 9.175497055053711
+          "x": 5.747025966644287,
+          "y": 1.3939342498779297
+        }
+      }
+    },
+    {
+      "title": "R-CoV: Region-Aware Chain-of-Verification for Alleviating Object Hallucinations in LVLMs",
+      "authors": "Jiahao Xie, Alessio Tonioni, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele",
+      "collection": "publications",
+      "permalink": "/publication/r-cov-region-aware-chain-of-verification-for-alleviating-object-hallucinations-in-lvlms",
+      "excerpt": "Large vision-language models (LVLMs) have demonstrated impressive performance in various multimodal understanding and reasoning tasks. However, they s...",
+      "date": "2026-04-27",
+      "venue": "ArXiv",
+      "paperurl": "https://arxiv.org/pdf/2604.20696.pdf",
+      "citation": "Jiahao Xie, **Alessio Tonioni**, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele. \"R-CoV: Region-Aware Chain-of-Verification for Alleviating Object Hallucinations in LVLMs.\" ArXiv, 2026.",
+      "pubtype": "review",
+      "local_file": "_publications/2026-r-cov-region-aware-chain-of-verification-for-alleviating-object-hallucinations-in-lvlms.md",
+      "abstract": "Large vision-language models (LVLMs) have demonstrated impressive performance in various multimodal understanding and reasoning tasks. However, they still struggle with object hallucinations, i.e., the claim of nonexistent objects in the visual input. To address this challenge, we propose Region-aware Chain-of-Verification (R-CoV), a visual chain-of-verification method to alleviate object hallucinations in LVLMs in a post-hoc manner. Motivated by how humans comprehend intricate visual information -- often focusing on specific image regions or details within a given sample -- we elicit such region-level processing from LVLMs themselves and use it as a chaining cue to detect and alleviate their own object hallucinations. Specifically, our R-CoV consists of six steps: initial response generation, entity extraction, coordinate generation, region description, verification execution, and final response generation. As a simple yet effective method, R-CoV can be seamlessly integrated into various LVLMs in a training-free manner and without relying on external detection models. Extensive experiments on several widely used hallucination benchmarks across multiple LVLMs demonstrate that R-CoV can significantly alleviate object hallucinations in LVLMs. Project page: https://github.com/Jiahao000/R-CoV.",
+      "pdf_path": "_pdf_cache/r-cov-region-aware-chain-of-verification-for-alleviating-object-hallucinations-in-lvlms.pdf",
+      "s2_id": "958c1157c07ec3e94182ca4d465cf7423ba75fc1",
+      "s2_metadata": {
+        "paperId": "958c1157c07ec3e94182ca4d465cf7423ba75fc1",
+        "title": "R-CoV: Region-Aware Chain-of-Verification for Alleviating Object Hallucinations in LVLMs",
+        "year": 2026,
+        "referenceCount": 56,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "66056122",
+            "name": "Jiahao Xie"
+          },
+          {
+            "authorId": "2387867204",
+            "name": "Alessio Tonioni"
+          },
+          {
+            "authorId": "120529492",
+            "name": "N. Rauschmayr"
+          },
+          {
+            "authorId": "2406837281",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "48920094",
+            "name": "B. Schiele"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "R-CoV slashes LVLM object hallucinations through a training-free, region-aware visual chain-of-verification pipeline.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.1351491704610451,
+          "y": 0.13169588794010814
+        },
+        "umap": {
+          "x": 5.617583274841309,
+          "y": 0.4192204773426056
         }
       }
     },
@@ -1926,12 +2044,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.2998756138566589,
-          "y": -0.03159694206428476
+          "x": 0.2985363809051826,
+          "y": 0.005864212918947293
         },
         "umap": {
-          "x": 11.305841445922852,
-          "y": 6.273465633392334
+          "x": 2.3902597427368164,
+          "y": -1.6541471481323242
         }
       }
     },
@@ -1985,12 +2103,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.20545134306697574,
-          "y": 0.08004769094511435
+          "x": -0.21965203355752447,
+          "y": 0.09867212389524482
         },
         "umap": {
-          "x": 8.944422721862793,
-          "y": 8.604860305786133
+          "x": 5.106997966766357,
+          "y": 1.4057916402816772
         }
       }
     },
@@ -2036,12 +2154,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.10936202610162526,
-          "y": 0.0930767836644447
+          "x": -0.08846831540661593,
+          "y": 0.013519328211580937
         },
         "umap": {
-          "x": 7.405707836151123,
-          "y": 8.23643684387207
+          "x": 3.607595682144165,
+          "y": 0.05385713279247284
         }
       }
     },
@@ -2103,12 +2221,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.15454760805471932,
-          "y": 0.07890148878692037
+          "x": -0.13948535086758534,
+          "y": 0.014127319534411494
         },
         "umap": {
-          "x": 7.19748067855835,
-          "y": 7.7972187995910645
+          "x": 3.4503796100616455,
+          "y": 0.8195046186447144
         }
       }
     },
@@ -2174,12 +2292,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.1639418529434418,
-          "y": -0.12683113168928745
+          "x": 0.17707212739197123,
+          "y": -0.10334519596798113
         },
         "umap": {
-          "x": 12.15566635131836,
-          "y": 6.463382244110107
+          "x": 1.7322908639907837,
+          "y": -1.9823930263519287
         }
       }
     },
@@ -2225,12 +2343,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.10295779357634717,
-          "y": -0.20847572117930913
+          "x": -0.08451367094554112,
+          "y": -0.2048083066697356
         },
         "umap": {
-          "x": 8.881138801574707,
-          "y": 5.9847517013549805
+          "x": 1.8536750078201294,
+          "y": 0.6091760993003845
         }
       }
     },
@@ -2280,12 +2398,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.37476189832907353,
-          "y": 0.031229965727197526
+          "x": 0.37552610984792456,
+          "y": 0.062085151295200425
         },
         "umap": {
-          "x": 11.767830848693848,
-          "y": 6.04364013671875
+          "x": 2.363884210586548,
+          "y": -2.1078193187713623
         }
       }
     },
@@ -2351,12 +2469,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.010159433046069628,
-          "y": -0.3111244584974012
+          "x": 0.014186422628326098,
+          "y": -0.2914754593390314
         },
         "umap": {
-          "x": 9.657709121704102,
-          "y": 5.413741111755371
+          "x": 0.9837464094161987,
+          "y": 0.011581219732761383
         }
       }
     }
@@ -2377,17 +2495,17 @@
       },
       {
         "name": "Alexei A. Efros",
-        "count": 38
+        "count": 40
       },
       {
-        "name": "Fabio Tosi",
+        "name": "Trevor Darrell",
         "count": 32
       }
     ],
     "top_cited_papers": [
       {
         "title": "Learning Transferable Visual Models From Natural Language Supervision",
-        "count": 10
+        "count": 11
       },
       {
         "title": "Image-to-Image Translation with Conditional Adversarial Networks",
@@ -2398,18 +2516,18 @@
         "count": 8
       },
       {
-        "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
+        "title": "Microsoft COCO: Common Objects in Context",
         "count": 7
       },
       {
-        "title": "Adam: A Method for Stochastic Optimization",
+        "title": "Are we ready for autonomous driving? The KITTI vision benchmark suite",
         "count": 7
       }
     ],
     "most_influential_year": {
       "year": 2023,
-      "count": 243
+      "count": 289
     }
   },
-  "last_updated": "2026-02-19 22:30:17"
+  "last_updated": "2026-04-27 22:36:00"
 }

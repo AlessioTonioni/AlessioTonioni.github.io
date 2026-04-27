@@ -100,8 +100,8 @@ def s2_request(endpoint, params=None):
         if response.status_code == 200:
             return response.json()
         elif response.status_code == 429:
-            print("  ⚠ Rate limited by Semantic Scholar. Waiting 60s...")
-            time.sleep(60)
+            print("  ⚠ Rate limited by Semantic Scholar. Waiting 15s...")
+            time.sleep(15)
             return s2_request(endpoint, params)
         else:
             print(f"  ⚠ S2 API Error {response.status_code}")
