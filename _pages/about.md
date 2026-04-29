@@ -100,7 +100,7 @@ redirect_from:
   }
 
   .mood-feature:hover .mood-image img {
-    transform: scale(1.05);
+    transform: rotate(3deg) scale(1.05);
   }
 
   .project-visual {
@@ -330,15 +330,16 @@ redirect_from:
       <div style="display: flex; align-items: center; margin-bottom: 8px;">
         <h3 class="feature-title" style="margin-bottom: 0;">{{ current_mood.title }}</h3>
         {% if current_mood.youtube_id %}
-        <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" title="Play Soundtrack" style="margin-left: 10px; color: #e17055; font-size: 1.1em; transition: transform 0.2s; display: inline-block;">
+        <a href="https://www.youtube.com/watch?v={{ current_mood.youtube_id }}" target="_blank" title="Play Soundtrack" style="margin-left: 10px; color: #e17055; font-size: 1.1em; transition: transform 0.2s; display: inline-flex; align-items: center; gap: 4px;" onclick="event.stopPropagation()">
           <i class="fas fa-music"></i>
+          <i class="fas fa-play" style="font-size: 0.6em;"></i>
         </a>
         {% endif %}
       </div>
       <p class="feature-desc" style="font-style: italic;">
         "{{ current_mood.description }}"
       </p>
-      <span class="feature-more">Explore Moodboard →</span>
+      <a href="{{ '/moodboard/' | relative_url }}" class="feature-more" onclick="event.stopPropagation()">Explore Moodboard →</a>
     </div>
   </div>
 
