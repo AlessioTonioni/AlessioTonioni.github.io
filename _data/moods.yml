@@ -1,3 +1,10 @@
+- date: 2026-05-03
+  title: "Reflection"
+  image: "images/reflection.jpg"
+  spotify_id: "" # Optional: Spotify track ID
+  youtube_id: "hBFkfXpVxxI" # Optional: YouTube video ID
+  description: "Pondering new ideas"
+
 - date: 2026-02-19
   title: "Calm"
   image: "images/fishing.jpg"
