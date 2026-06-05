@@ -5,10 +5,10 @@ collection: publications
 permalink: /publication/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing
 excerpt: Flow matching models have recently emerged as an efficient alternative to diffusion, especially for text-guided image generation and editing, offering...
 date: 2026-02-19
-venue: ArXiv
+venue: 'ICML'
 paperurl: https://arxiv.org/pdf/2602.08749.pdf
 citation: "Carmine Zaccagnino, Fabio Quattrini, Enis Simsar, Marta Tintor\xE9 Gazulla, Rita Cucchiara, **Alessio Tonioni**, Silvia Cascianelli. \"Shifting the Breaking Point of Flow Matching for Multi-Instance Editing.\" ArXiv, 2026."
-pubtype: review
+pubtype: 'conference'
 ---
 
 ## Abstract
