@@ -1,3 +1,15 @@
+- date: 2026-06-03
+  content: Sick of visual tokens eating your VRAM? Selim built [PARCEL](/publication/parcel-pool-anchored-resampling-with-conditioned-elastic-queries-for-efficient-vision-language-understanding)
+    to squeeze images into smaller budgets without the usual blurry existential crisis,
+    making efficiency look almost intentional.
+  highlight: false
+  ai_generated: true
+- date: 2026-05-30
+  content: Generating pictures was too easy, so Eric made flow models talk back; [FullFlow](/publication/fullflow-upgrading-text-to-image-flow-matching-models-for-bidirectional-vision-language-generation)
+    turns flow generators into bidirectional overachievers without the usual VRAM-induced
+    existential dread.
+  highlight: false
+  ai_generated: true
 - date: 2026-04-27
   content: 'Puzzles over labels: Jiahao taught MLLMs to solve visual riddles for self-supervised
     rewards in [SSL-R1](/publication/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models),
