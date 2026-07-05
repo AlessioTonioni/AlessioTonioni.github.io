@@ -50,12 +50,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1625816338466087,
-          "y": 0.22240379557917764
+          "x": -0.16207296478076644,
+          "y": 0.22873830920705188
         },
         "umap": {
-          "x": 8.266918182373047,
-          "y": -2.2714576721191406
+          "x": 7.603269577026367,
+          "y": 0.43815234303474426
         }
       }
     },
@@ -113,12 +113,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.2586415840257743,
-          "y": -0.05518516356602255
+          "x": -0.23410935966971538,
+          "y": -0.08870544256140427
         },
         "umap": {
-          "x": 6.061235427856445,
-          "y": -1.9253380298614502
+          "x": 6.044576644897461,
+          "y": -0.7708091139793396
         }
       }
     },
@@ -168,12 +168,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.38143724537895585,
-          "y": 0.10539479413118466
+          "x": 0.3787563669670085,
+          "y": 0.11590750577448534
         },
         "umap": {
-          "x": 6.820967197418213,
-          "y": 2.2307627201080322
+          "x": 8.139909744262695,
+          "y": -3.7351150512695312
         }
       }
     },
@@ -243,12 +243,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.08350386408383403,
-          "y": 0.20525707525396233
+          "x": -0.0995966709386103,
+          "y": 0.2136787992059217
         },
         "umap": {
-          "x": 8.150703430175781,
-          "y": -0.7734854817390442
+          "x": 8.093399047851562,
+          "y": -0.47626110911369324
         }
       }
     },
@@ -294,12 +294,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.06712650896300633,
-          "y": 0.24892784534708604
+          "x": 0.06534728981536203,
+          "y": 0.2200639476074148
         },
         "umap": {
-          "x": 7.874669075012207,
-          "y": 1.888332724571228
+          "x": 9.19883918762207,
+          "y": -1.7013932466506958
         }
       }
     },
@@ -352,12 +352,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.02747609262349911,
-          "y": 0.23817463536717565
+          "x": 0.0209144711728145,
+          "y": 0.21874325460574862
         },
         "umap": {
-          "x": 7.84414529800415,
-          "y": 1.1637743711471558
+          "x": 8.500032424926758,
+          "y": -1.5317937135696411
         }
       }
     },
@@ -403,12 +403,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.05441215925807113,
-          "y": -0.13863882171270922
+          "x": 0.07473043857886402,
+          "y": -0.165838556682124
         },
         "umap": {
-          "x": 5.846818923950195,
-          "y": 0.6400658488273621
+          "x": 6.833826541900635,
+          "y": -2.3140909671783447
         }
       }
     },
@@ -462,12 +462,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.12708928458946292,
-          "y": -0.296516680971106
+          "x": -0.09886067516425408,
+          "y": -0.2944674565252239
         },
         "umap": {
-          "x": 4.7338738441467285,
-          "y": -0.6467782258987427
+          "x": 5.879879474639893,
+          "y": -1.8691622018814087
         }
       }
     },
@@ -525,12 +525,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.15267182934913107,
-          "y": 0.14635906302052556
+          "x": -0.1562189855968514,
+          "y": 0.15661345580708882
         },
         "umap": {
-          "x": 8.048254013061523,
-          "y": -1.3408352136611938
+          "x": 7.321789741516113,
+          "y": -0.46435239911079407
         }
       }
     },
@@ -592,12 +592,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.03372005256538257,
-          "y": -0.12111835531683035
+          "x": -0.01721126254630586,
+          "y": -0.15267552600549386
         },
         "umap": {
-          "x": 6.0405778884887695,
-          "y": 0.034256335347890854
+          "x": 6.292591571807861,
+          "y": -1.6948132514953613
         }
       }
     },
@@ -646,12 +646,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.0733054378605379,
-          "y": 0.27341192912361073
+          "x": 0.06521752713749787,
+          "y": 0.26381553247378847
         },
         "umap": {
-          "x": 8.137517929077148,
-          "y": 1.6660822629928589
+          "x": 8.946425437927246,
+          "y": -1.2148581743240356
         }
       }
     },
@@ -705,12 +705,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.3588819646249053,
-          "y": 0.014855384149634136
+          "x": 0.357986489024455,
+          "y": 0.028437921798912684
         },
         "umap": {
-          "x": 6.8446831703186035,
-          "y": 2.7573297023773193
+          "x": 8.953398704528809,
+          "y": -3.6344733238220215
         }
       }
     },
@@ -763,12 +763,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.13608233566461486,
-          "y": -0.12782219060181751
+          "x": 0.16142513989874274,
+          "y": -0.1118856384118667
         },
         "umap": {
-          "x": 5.374494552612305,
-          "y": 1.3014652729034424
+          "x": 6.873328685760498,
+          "y": -3.86836576461792
         }
       }
     },
@@ -826,12 +826,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.22804631398536734,
-          "y": 0.07547278593968747
+          "x": -0.22418010261639124,
+          "y": 0.0899472679060372
         },
         "umap": {
-          "x": 7.416675090789795,
-          "y": -1.3081015348434448
+          "x": 6.926236152648926,
+          "y": -0.05268476530909538
         }
       }
     },
@@ -885,12 +885,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.15335539095086365,
-          "y": 0.13086107393410043
+          "x": -0.1429444698598374,
+          "y": 0.14813773249806644
         },
         "umap": {
-          "x": 7.914462089538574,
-          "y": -1.9594173431396484
+          "x": 7.432724475860596,
+          "y": 0.9373689889907837
         }
       }
     },
@@ -944,12 +944,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.28144417503677344,
-          "y": 0.004968410700390424
+          "x": -0.2553153505529623,
+          "y": -0.0384124654799531
         },
         "umap": {
-          "x": 6.497677803039551,
-          "y": -2.155993700027466
+          "x": 5.952582359313965,
+          "y": -0.5207492709159851
         }
       }
     },
@@ -995,12 +995,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.03348711366933571,
-          "y": 0.0371604311407699
+          "x": 0.049428571252329995,
+          "y": 0.047357680438451254
         },
         "umap": {
-          "x": 6.1399970054626465,
-          "y": 1.4091691970825195
+          "x": 7.8928046226501465,
+          "y": -2.0816879272460938
         }
       }
     },
@@ -1046,12 +1046,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.06822088497163184,
-          "y": -0.06633325331400558
+          "x": 0.08901883747340915,
+          "y": -0.08763391747160858
         },
         "umap": {
-          "x": 6.527665138244629,
-          "y": 0.7346110939979553
+          "x": 7.572030544281006,
+          "y": -2.8701412677764893
         }
       }
     },
@@ -1108,12 +1108,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.1362020100299027,
-          "y": 0.23602039967331256
+          "x": 0.13598907118995193,
+          "y": 0.22101868562940652
         },
         "umap": {
-          "x": 7.445933818817139,
-          "y": 1.887334942817688
+          "x": 8.955070495605469,
+          "y": -2.1877756118774414
         }
       }
     },
@@ -1163,12 +1163,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.1932144644661805,
-          "y": -0.10216548112443921
+          "x": 0.2075768553090554,
+          "y": -0.08856947333662976
         },
         "umap": {
-          "x": 6.652191638946533,
-          "y": 1.6896207332611084
+          "x": 7.343727111816406,
+          "y": -3.492391586303711
         }
       }
     },
@@ -1222,12 +1222,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.35605732636296583,
-          "y": 0.041167052224231525
+          "x": 0.3531837069890649,
+          "y": 0.049887758138583156
         },
         "umap": {
-          "x": 6.608982086181641,
-          "y": 3.1530368328094482
+          "x": 8.428223609924316,
+          "y": -3.3320376873016357
         }
       }
     },
@@ -1285,12 +1285,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.024682602457032632,
-          "y": -0.29234349974650686
+          "x": 0.05418403705552729,
+          "y": -0.2690924618192836
         },
         "umap": {
-          "x": 4.285890579223633,
-          "y": 0.9244527816772461
+          "x": 5.8299736976623535,
+          "y": -2.9482381343841553
         }
       }
     },
@@ -1301,10 +1301,10 @@
       "permalink": "publication/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments",
       "excerpt": "We present MOSAIC-GS, a novel, fully explicit, and computationally efficient approach for high-fidelity dynamic scene reconstruction from monocular vi...",
       "date": "2026-01-18",
-      "venue": "ArXiv",
+      "venue": "CVPR",
       "paperurl": "https://arxiv.org/pdf/2601.05368.pdf",
       "citation": "Svitlana Morkva, Michael Oechsle, **Alessio Tonioni**, Marco Hutter, Vaishakh Patil. \"MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments.\" ArXiv, 2026.",
-      "pubtype": "review",
+      "pubtype": "conference",
       "local_file": "_publications/2026-mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments.md",
       "abstract": "We present MOSAIC-GS, a novel, fully explicit, and computationally efficient approach for high-fidelity dynamic scene reconstruction from monocular videos using Gaussian Splatting. Monocular reconstruction is inherently ill-posed due to the lack of sufficient multiview constraints, making accurate recovery of object geometry and temporal coherence particularly challenging. To address this, we leverage multiple geometric cues, such as depth, optical flow, dynamic object segmentation, and point tracking. Combined with rigidity-based motion constraints, these cues allow us to estimate preliminary 3D scene dynamics during an initialization stage. Recovering scene dynamics prior to the photometric optimization reduces reliance on motion inference from visual appearance alone, which is often ambiguous in monocular settings. To enable compact representations, fast training, and real-time rendering while supporting non-rigid deformations, the scene is decomposed into static and dynamic components. Each Gaussian in the dynamic part of the scene is assigned a trajectory represented as time-dependent Poly-Fourier curve for parameter-efficient motion encoding. We demonstrate that MOSAIC-GS achieves substantially faster optimization and rendering compared to existing methods, while maintaining reconstruction quality on par with state-of-the-art approaches across standard monocular dynamic scene benchmarks.",
       "pdf_path": "_pdf_cache/mosaic-gs-monocular-scene-reconstruction-via-advanced-initialization-for-complex-dynamic-environments.pdf",
@@ -1348,12 +1348,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.04775947915686204,
-          "y": -0.2300054487779841
+          "x": 0.06378783420743507,
+          "y": -0.2140212669479661
         },
         "umap": {
-          "x": 4.520406723022461,
-          "y": 0.4656718969345093
+          "x": 6.084188938140869,
+          "y": -3.0376360416412354
         }
       }
     },
@@ -1394,12 +1394,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.0449276739739708,
-          "y": 0.02796447715038909
+          "x": 0.06526214144206635,
+          "y": 0.011839306703525305
         },
         "umap": {
-          "x": 6.835910797119141,
-          "y": 1.1764613389968872
+          "x": 8.194527626037598,
+          "y": -2.542313814163208
         }
       }
     },
@@ -1453,12 +1453,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.15760510270278985,
-          "y": 0.06225580187699966
+          "x": -0.15843503777115248,
+          "y": 0.012119745468486605
         },
         "umap": {
-          "x": 6.32673978805542,
-          "y": -0.9824619889259338
+          "x": 4.870602607727051,
+          "y": -0.22015084326267242
         }
       }
     },
@@ -1512,12 +1512,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.24459786410384057,
-          "y": 0.032863507800578014
+          "x": -0.249178078112239,
+          "y": -0.025713991515406157
         },
         "umap": {
-          "x": 6.819071292877197,
-          "y": -1.3717854022979736
+          "x": 5.16913366317749,
+          "y": 0.19067594408988953
         }
       }
     },
@@ -1571,12 +1571,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.09303481725586764,
-          "y": -0.2638219836869201
+          "x": 0.12077422274286223,
+          "y": -0.23881026969121294
         },
         "umap": {
-          "x": 4.932715892791748,
-          "y": 0.7358362078666687
+          "x": 6.358879089355469,
+          "y": -3.468214273452759
         }
       }
     },
@@ -1622,16 +1622,16 @@
       },
       "ai_results": {
         "summary": "FullFlow efficiently upgrades text-to-image models into bidirectional generators using LoRA and decoupled dual-timestep flow trajectories.",
-        "category": "Generative Models"
+        "category": "Vision-Language Models"
       },
       "map_coords": {
         "pca": {
-          "x": -0.26054019505080905,
-          "y": 0.019250506330618204
+          "x": -0.24718189688897388,
+          "y": -0.033253928209544335
         },
         "umap": {
-          "x": 6.29652214050293,
-          "y": -1.5257257223129272
+          "x": 5.49931526184082,
+          "y": -0.10238263756036758
         }
       }
     },
@@ -1688,12 +1688,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.32916479933852816,
-          "y": 0.13602664056632804
+          "x": 0.32682090424844695,
+          "y": 0.1365296351933873
         },
         "umap": {
-          "x": 7.204986095428467,
-          "y": 2.8588507175445557
+          "x": 8.667548179626465,
+          "y": -3.87562894821167
         }
       }
     },
@@ -1735,12 +1735,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.032298822876716066,
-          "y": -0.04964348051194676
+          "x": 0.05439616154156834,
+          "y": -0.02042084866623318
         },
         "umap": {
-          "x": 5.699499130249023,
-          "y": 1.8601022958755493
+          "x": 7.586562156677246,
+          "y": -2.1269593238830566
         }
       }
     },
@@ -1802,12 +1802,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.20698048202195699,
-          "y": 0.0635216561272314
+          "x": -0.19951691598804652,
+          "y": 0.027509505017866205
         },
         "umap": {
-          "x": 7.1278767585754395,
-          "y": -1.7100383043289185
+          "x": 5.97750186920166,
+          "y": 0.3274763524532318
         }
       }
     },
@@ -1864,12 +1864,195 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.0067823663637393,
-          "y": -0.04065846215243525
+          "x": 0.023486736716471255,
+          "y": -0.02142295750179284
         },
         "umap": {
-          "x": 4.961582183837891,
-          "y": 1.880245566368103
+          "x": 7.194457530975342,
+          "y": -2.6183362007141113
+        }
+      }
+    },
+    {
+      "title": "DataComp-VLM: Improved Open Datasets for Vision-Language Models",
+      "authors": "Matteo Farina, Vishaal Udandarao, Thao Nguyen, Selim Kuzucu, Maximilian B\u00f6ther, Andreas Hochlehnert, Adhiraj Ghosh, Marianna Nezhurina, Karsten Roth, Joschka Struber, Yuhui Zhang, Sebastian Dziadzio, Elaine Sui, Soumya Jahagirdar, Dhruba Ghosh, Hasan Hammoud, Thomas De Min, Simone Caldarella, Jehanzeb Mirza, Sedrick Keh, Mehdi Cherti, Hilde Kuehne, Bernt Schiele, Serena Yeung-Levy, Muhammad Ferjad Naeem, Federico Tombari, Ana Klimovic, Elisa Ricci, Matthias Bethge, Sewoong Oh, Ameya Prabhu, Alessio Tonioni, Jenia Jitsev, Massimiliano Mancini, Ludwig Schmidt, Nikhil Parthasarathy",
+      "collection": "publications",
+      "permalink": "/publication/datacomp-vlm-improved-open-datasets-for-vision-language-models",
+      "excerpt": "Building performant Vision-Language Models (VLMs) requires carefully curating large-scale training datasets, yet the community lacks systematic benchm...",
+      "date": "2026-07-05",
+      "venue": "ArXiv",
+      "paperurl": "https://arxiv.org/pdf/2606.28551.pdf",
+      "citation": "Matteo Farina, Vishaal Udandarao, Thao Nguyen, Selim Kuzucu, Maximilian B\u00f6ther, Andreas Hochlehnert, Adhiraj Ghosh, Marianna Nezhurina, Karsten Roth, Joschka Struber, Yuhui Zhang, Sebastian Dziadzio, Elaine Sui, Soumya Jahagirdar, Dhruba Ghosh, Hasan Hammoud, Thomas De Min, Simone Caldarella, Jehanzeb Mirza, Sedrick Keh, Mehdi Cherti, Hilde Kuehne, Bernt Schiele, Serena Yeung-Levy, Muhammad Ferjad Naeem, Federico Tombari, Ana Klimovic, Elisa Ricci, Matthias Bethge, Sewoong Oh, Ameya Prabhu, **Alessio Tonioni**, Jenia Jitsev, Massimiliano Mancini, Ludwig Schmidt, Nikhil Parthasarathy. \"DataComp-VLM: Improved Open Datasets for Vision-Language Models.\" ArXiv, 2026.",
+      "pubtype": "review",
+      "local_file": "_publications/2026-datacomp-vlm-improved-open-datasets-for-vision-language-models.md",
+      "abstract": "Building performant Vision-Language Models (VLMs) requires carefully curating large-scale training datasets, yet the community lacks systematic benchmarks for evaluating such curation strategies. We introduce DataComp for VLMs (DCVLM), a benchmark for controlled data-centric experiments to improve VLM training. As part of DCVLM, we collect 160 datasets spanning four data types -- image-caption pairs, multimodal interleaved documents, text-only, and instruction-tuning data -- into a corpus of 6T multimodal tokens. DCVLM allows participants to test curation strategies (filtering, mixing, formatting, sampling) across 1B-8B models and 6.25B-200B token budgets. Models are then evaluated on a carefully selected suite of up to 52 downstream benchmarks across 9 domains. We conduct extensive experiments on DCVLM and find that data mixing, not filtering, is key to a high-quality training dataset: instruction-heavy mixtures scale better than caption-heavy ones, with gains widening at larger scales. The resulting dataset, DCVLM-Baseline, enables training an 8B VLM to 63.6% accuracy on our 33-task core suite with 200B training tokens. Compared to FineVision, the state-of-the-art open VLM training dataset, this represents an improvement of +5.4pp. DCVLM and all accompanying artifacts will be made publicly available at https://www.datacomp.ai/dcvlm/.",
+      "pdf_path": "_pdf_cache/datacomp-vlm-improved-open-datasets-for-vision-language-models.pdf",
+      "s2_id": "015faeb21e6fdb8889abf2a767412eedba3d7451",
+      "s2_metadata": {
+        "paperId": "015faeb21e6fdb8889abf2a767412eedba3d7451",
+        "title": "DataComp-VLM: Improved Open Datasets for Vision-Language Models",
+        "year": 2026,
+        "referenceCount": 0,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "2295669107",
+            "name": "Matteo Farina"
+          },
+          {
+            "authorId": "2345194898",
+            "name": "Vishaal Udandarao"
+          },
+          {
+            "authorId": "2167669221",
+            "name": "Thao Nguyen"
+          },
+          {
+            "authorId": "2191683599",
+            "name": "S. Kuzucu"
+          },
+          {
+            "authorId": "2180394609",
+            "name": "Maximilian Bother"
+          },
+          {
+            "authorId": "2311885568",
+            "name": "Andreas Hochlehnert"
+          },
+          {
+            "authorId": "2258953413",
+            "name": "Adhiraj Ghosh"
+          },
+          {
+            "authorId": "2174178585",
+            "name": "Marianna Nezhurina"
+          },
+          {
+            "authorId": "2258553172",
+            "name": "Karsten Roth"
+          },
+          {
+            "authorId": "2444871089",
+            "name": "Joschka Struber"
+          },
+          {
+            "authorId": "49889860",
+            "name": "Yuhui Zhang"
+          },
+          {
+            "authorId": "2276607987",
+            "name": "Sebastian Dziadzio"
+          },
+          {
+            "authorId": "2279750219",
+            "name": "E. Sui"
+          },
+          {
+            "authorId": "2382992394",
+            "name": "Soumya Jahagirdar"
+          },
+          {
+            "authorId": "2143028576",
+            "name": "Dhruba Ghosh"
+          },
+          {
+            "authorId": "1500194870",
+            "name": "Hasan Hammoud"
+          },
+          {
+            "authorId": "2154453464",
+            "name": "Thomas De Min"
+          },
+          {
+            "authorId": "2266750809",
+            "name": "Simone Caldarella"
+          },
+          {
+            "authorId": "2089323199",
+            "name": "Jehanzeb Mirza"
+          },
+          {
+            "authorId": "150299584",
+            "name": "Sedrick Scott Keh"
+          },
+          {
+            "authorId": "2304553123",
+            "name": "M. Cherti"
+          },
+          {
+            "authorId": "2269471741",
+            "name": "Hilde Kuehne"
+          },
+          {
+            "authorId": "48920094",
+            "name": "B. Schiele"
+          },
+          {
+            "authorId": "2275638250",
+            "name": "S. Yeung-Levy"
+          },
+          {
+            "authorId": "2057127601",
+            "name": "Muhammad Ferjad Naeem"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "2285439911",
+            "name": "A. Klimovic"
+          },
+          {
+            "authorId": "2295664460",
+            "name": "Elisa Ricci"
+          },
+          {
+            "authorId": "2256998402",
+            "name": "Matthias Bethge"
+          },
+          {
+            "authorId": "2303461111",
+            "name": "Sewoong Oh"
+          },
+          {
+            "authorId": "2311885852",
+            "name": "Ameya Prabhu"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2191688",
+            "name": "J. Jitsev"
+          },
+          {
+            "authorId": "2294358591",
+            "name": "Massimiliano Mancini"
+          },
+          {
+            "authorId": "2303397904",
+            "name": "Ludwig Schmidt"
+          },
+          {
+            "authorId": "2333232774",
+            "name": "Nikhil Parthasarathy"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "DataComp-VLM optimizes VLM training with a massive 6T token pool, proving that instruction-heavy data mixtures scale best.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.20516559704871998,
+          "y": 0.2552009446398909
+        },
+        "umap": {
+          "x": 7.731358528137207,
+          "y": -0.0896918997168541
         }
       }
     },
@@ -1931,12 +2114,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.15200097349321556,
-          "y": -0.19547175557118374
+          "x": -0.13717005373666397,
+          "y": -0.22034528297033582
         },
         "umap": {
-          "x": 5.4397501945495605,
-          "y": -0.8102170825004578
+          "x": 5.631954669952393,
+          "y": -1.4176218509674072
         }
       }
     },
@@ -1986,12 +2169,79 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.05454703840144524,
-          "y": -0.1758061780795593
+          "x": -0.03583843430277848,
+          "y": -0.21324190065535464
         },
         "umap": {
-          "x": 5.685582160949707,
-          "y": -0.22454160451889038
+          "x": 5.221671104431152,
+          "y": -1.7509922981262207
+        }
+      }
+    },
+    {
+      "title": "Editing Everything Everywhere All at Once",
+      "authors": "Fabio Quattrini, Carmine Zaccagnino, Enis Simsar, Marta Tintor\u00e9 Gazulla, Rita Cucchiara, Alessio Tonioni, Silvia Cascianelli",
+      "collection": "publications",
+      "permalink": "/publication/editing-everything-everywhere-all-at-once",
+      "excerpt": "Editing multiple elements of an image in a single forward pass is a practical alternative to multi-turn image manipulation, offering improved efficien...",
+      "date": "2026-07-05",
+      "venue": "ArXiv",
+      "paperurl": "https://arxiv.org/pdf/2606.31278.pdf",
+      "citation": "Fabio Quattrini, Carmine Zaccagnino, Enis Simsar, Marta Tintor\u00e9 Gazulla, Rita Cucchiara, **Alessio Tonioni**, Silvia Cascianelli. \"Editing Everything Everywhere All at Once.\" ArXiv, 2026.",
+      "pubtype": "review",
+      "local_file": "_publications/2026-editing-everything-everywhere-all-at-once.md",
+      "abstract": "Editing multiple elements of an image in a single forward pass is a practical alternative to multi-turn image manipulation, offering improved efficiency and potentially better harmonization. However, when several instructions target different regions, semantic interference often leads to attribute leakage and poor edit disentanglement, especially as the number of edits increases. In this work, we propose MICE (Multi-Instance Concurrent Editing), a training-free strategy for scalable multi-instance image editing with Multimodal Diffusion Transformers. MICE modifies the additive bias of joint attention to regulate interactions between instance-specific edit instructions, latent, and context tokens identified via user-provided segmentation masks. Specifically, MICE allows intra-instance attention, penalizes interactions between neighboring region tokens, and suppresses unrelated cross-instance attention. As a result, our method enforces attribute binding while preserving global visual consistency. We evaluate MICE on LoMOE-Bench and introduce MICE-Bench, a more challenging benchmark with an average of 8.5 concurrent edits per image. The experiments demonstrate that our approach outperforms strong baselines and recent competitors in terms of visual quality preservation and faithfulness to the editing instructions.",
+      "pdf_path": "_pdf_cache/editing-everything-everywhere-all-at-once.pdf",
+      "s2_id": "ccf95128881144b3fb1b637cdc43f0f1425bde34",
+      "s2_metadata": {
+        "paperId": "ccf95128881144b3fb1b637cdc43f0f1425bde34",
+        "title": "Editing Everything Everywhere All at Once",
+        "year": 2026,
+        "referenceCount": 49,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "2230651468",
+            "name": "Fabio Quattrini"
+          },
+          {
+            "authorId": "2317114164",
+            "name": "Carmine Zaccagnino"
+          },
+          {
+            "authorId": "1395808197",
+            "name": "Enis Simsar"
+          },
+          {
+            "authorId": "2409823064",
+            "name": "Marta Tintor'e Gazulla"
+          },
+          {
+            "authorId": "2303850502",
+            "name": "Rita Cucchiara"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "3492481",
+            "name": "Silvia Cascianelli"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "MICE enables scalable, training-free concurrent image editing by disentangling multi-instance interactions in diffusion transformers.",
+        "category": "Generative Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.2352779852424259,
+          "y": -0.056501069312749196
+        },
+        "umap": {
+          "x": 5.242373466491699,
+          "y": -0.6557237505912781
         }
       }
     },
@@ -2045,12 +2295,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1785767933213717,
-          "y": 0.09531516355981369
+          "x": -0.1645793027084076,
+          "y": 0.12124018453807305
         },
         "umap": {
-          "x": 7.613880634307861,
-          "y": -2.2856664657592773
+          "x": 7.652454853057861,
+          "y": 1.1340839862823486
         }
       }
     },
@@ -2104,12 +2354,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.12370313062762246,
-          "y": 0.1267345557079553
+          "x": -0.11817797273712252,
+          "y": 0.1421676522367885
         },
         "umap": {
-          "x": 8.554890632629395,
-          "y": -1.7533284425735474
+          "x": 7.138098239898682,
+          "y": 0.49052894115448
         }
       }
     },
@@ -2162,12 +2412,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.30558345895501265,
-          "y": 0.01834170880424702
+          "x": 0.311995747466055,
+          "y": 0.03924835375769479
         },
         "umap": {
-          "x": 6.167481422424316,
-          "y": 2.3927392959594727
+          "x": 7.6465044021606445,
+          "y": -4.027069091796875
         }
       }
     },
@@ -2221,12 +2471,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.21676344658140875,
-          "y": 0.09146278838721858
+          "x": -0.20963779948500966,
+          "y": 0.09642833823762309
         },
         "umap": {
-          "x": 7.384615421295166,
-          "y": -2.5846142768859863
+          "x": 7.9247307777404785,
+          "y": 0.6000910401344299
         }
       }
     },
@@ -2272,12 +2522,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.08607224912627931,
-          "y": 0.0033188822222423005
+          "x": -0.07558229790928732,
+          "y": -0.057450405409458505
         },
         "umap": {
-          "x": 6.7557573318481445,
-          "y": -0.1271062195301056
+          "x": 4.698116302490234,
+          "y": -0.9840756058692932
         }
       }
     },
@@ -2288,10 +2538,10 @@
       "permalink": "/publication/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing",
       "excerpt": "Flow matching models have recently emerged as an efficient alternative to diffusion, especially for text-guided image generation and editing, offering...",
       "date": "2026-02-19",
-      "venue": "ArXiv",
+      "venue": "ICML",
       "paperurl": "https://arxiv.org/pdf/2602.08749.pdf",
       "citation": "Carmine Zaccagnino, Fabio Quattrini, Enis Simsar, Marta Tintor\u00e9 Gazulla, Rita Cucchiara, **Alessio Tonioni**, Silvia Cascianelli. \"Shifting the Breaking Point of Flow Matching for Multi-Instance Editing.\" ArXiv, 2026.",
-      "pubtype": "review",
+      "pubtype": "conference",
       "local_file": "_publications/2026-shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing.md",
       "abstract": "Flow matching models have recently emerged as an efficient alternative to diffusion, especially for text-guided image generation and editing, offering faster inference through continuous-time dynamics. However, existing flow-based editors predominantly support global or single-instruction edits and struggle with multi-instance scenarios, where multiple parts of a reference input must be edited independently without semantic interference. We identify this limitation as a consequence of globally conditioned velocity fields and joint attention mechanisms, which entangle concurrent edits. To address this issue, we introduce Instance-Disentangled Attention, a mechanism that partitions joint attention operations, enforcing binding between instance-specific textual instructions and spatial regions during velocity field estimation. We evaluate our approach on both natural image editing and a newly introduced benchmark of text-dense infographics with region-level editing instructions. Experimental results demonstrate that our approach promotes edit disentanglement and locality while preserving global output coherence, enabling single-pass, instance-level editing.",
       "pdf_path": "_pdf_cache/shifting-the-breaking-point-of-flow-matching-for-multi-instance-editing.pdf",
@@ -2339,12 +2589,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1417415315569609,
-          "y": 0.006489594052365661
+          "x": -0.14718974708117863,
+          "y": -0.055984189094018026
         },
         "umap": {
-          "x": 6.699684143066406,
-          "y": -0.7506474852561951
+          "x": 4.719079494476318,
+          "y": -0.6186818480491638
         }
       }
     },
@@ -2410,12 +2660,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.17963974001883454,
-          "y": -0.08830704193960823
+          "x": 0.19665138029493723,
+          "y": -0.055374717146880074
         },
         "umap": {
-          "x": 5.888152122497559,
-          "y": 2.8603296279907227
+          "x": 8.819271087646484,
+          "y": -3.1059577465057373
         }
       }
     },
@@ -2461,12 +2711,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.06390641491781583,
-          "y": -0.20690827134625292
+          "x": -0.04991444647859707,
+          "y": -0.1815856916696472
         },
         "umap": {
-          "x": 4.97276496887207,
-          "y": -0.09132463485002518
+          "x": 5.708685398101807,
+          "y": -2.391638994216919
         }
       }
     },
@@ -2516,12 +2766,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.37501736231430405,
-          "y": 0.0781000059461252
+          "x": 0.37489598928562645,
+          "y": 0.10030832067255548
         },
         "umap": {
-          "x": 6.335387229919434,
-          "y": 2.1196963787078857
+          "x": 7.807307243347168,
+          "y": -3.4659361839294434
         }
       }
     },
@@ -2587,12 +2837,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.043294683754238575,
-          "y": -0.29133389569763335
+          "x": 0.07152548740674532,
+          "y": -0.25353238047266147
         },
         "umap": {
-          "x": 4.576681137084961,
-          "y": 1.2771928310394287
+          "x": 6.342991352081299,
+          "y": -2.7390177249908447
         }
       }
     }
@@ -2627,7 +2877,7 @@
       },
       {
         "title": "Microsoft COCO: Common Objects in Context",
-        "count": 8
+        "count": 9
       },
       {
         "title": "Image-to-Image Translation with Conditional Adversarial Networks",
@@ -2638,14 +2888,14 @@
         "count": 8
       },
       {
-        "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+        "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
         "count": 7
       }
     ],
     "most_influential_year": {
       "year": 2023,
-      "count": 304
+      "count": 312
     }
   },
-  "last_updated": "2026-06-03 00:23:07"
+  "last_updated": "2026-07-05 10:17:46"
 }

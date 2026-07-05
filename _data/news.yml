@@ -1,3 +1,16 @@
+- date: 2026-07-05
+  content: Cleaning data is overrated compared to mixing it like a mad scientist,
+    so Matteo and the team built [DCVLM](/publication/datacomp-vlm-improved-open-datasets-for-vision-language-models),
+    a 6T token benchmark that makes our 8B models slightly less embarrassing to evaluate.
+  highlight: false
+  ai_generated: true
+- date: 2026-07-05
+  content: 'Change everything at once: Fabio realized doing one image edit at a time
+    is for people with way too much patience, so he built [MICE](/publication/editing-everything-everywhere-all-at-once)
+    to handle eight-plus concurrent tweaks without the attributes leaking like a cheap
+    faucet.'
+  highlight: false
+  ai_generated: true
 - date: 2026-06-03
   content: Sick of visual tokens eating your VRAM? Selim built [PARCEL](/publication/parcel-pool-anchored-resampling-with-conditioned-elastic-queries-for-efficient-vision-language-understanding)
     to squeeze images into smaller budgets without the usual blurry existential crisis,
