@@ -5,10 +5,10 @@ collection: publications
 permalink: /publication/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models
 excerpt: Reinforcement learning (RL) with verifiable rewards (RLVR) has demonstrated the great potential of enhancing the reasoning abilities in multimodal lar...
 date: 2026-04-27
-venue: ArXiv
+venue: 'ACMMM'
 paperurl: https://arxiv.org/pdf/2604.20705.pdf
 citation: 'Jiahao Xie, **Alessio Tonioni**, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele. "SSL-R1: Self-Supervised Visual Reinforcement Post-Training for Multimodal Large Language Models." ArXiv, 2026.'
-pubtype: review
+pubtype: 'conference'
 ---
 
 ## Abstract

@@ -5,10 +5,10 @@ collection: publications
 permalink: /publication/refam-attention-magnets-for-zero-shot-referral-segmentation
 excerpt: Most existing approaches to referring segmentation achieve strong performance only through fine-tuning or by composing multiple pre-trained models, of...
 date: 2026-01-18
-venue: ArXiv
+venue: TMLR
 paperurl: https://arxiv.org/pdf/2509.22650.pdf
 citation: 'Anna Kukleva, Enis Simsar, **Alessio Tonioni**, Muhammad Ferjad Naeem, Federico Tombari, Jan Eric Lenssen, Bernt Schiele. "RefAM: Attention Magnets for Zero-Shot Referral Segmentation." ArXiv, 2025.'
-pubtype: review
+pubtype: 'journal'
 ---
 
 ## Abstract

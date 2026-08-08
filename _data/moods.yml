@@ -1,3 +1,10 @@
+- date: 2026-08-08
+  title: "Running"
+  image: "images/sea_run.jpg"
+  spotify_id: "" # Optional: Spotify track ID
+  youtube_id: "F-qPlps1_Dg" # Optional: YouTube video ID
+  description: "Towards the unknonwn"
+
 - date: 2026-05-03
   title: "Reflection"
   image: "images/reflection.jpg"

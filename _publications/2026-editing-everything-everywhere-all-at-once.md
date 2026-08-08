@@ -5,10 +5,10 @@ collection: publications
 permalink: /publication/editing-everything-everywhere-all-at-once
 excerpt: Editing multiple elements of an image in a single forward pass is a practical alternative to multi-turn image manipulation, offering improved efficien...
 date: 2026-07-05
-venue: ArXiv
+venue: 'ECCV'
 paperurl: https://arxiv.org/pdf/2606.31278.pdf
 citation: "Fabio Quattrini, Carmine Zaccagnino, Enis Simsar, Marta Tintor\xE9 Gazulla, Rita Cucchiara, **Alessio Tonioni**, Silvia Cascianelli. \"Editing Everything Everywhere All at Once.\" ArXiv, 2026."
-pubtype: review
+pubtype: 'conference'
 ---
 
 ## Abstract
