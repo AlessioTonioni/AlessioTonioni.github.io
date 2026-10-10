@@ -186,13 +186,14 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
             }}
             """
             # Add a safety timeout via context if possible, or just rely on the bounded loop
-            response = client.models.generate_content(
+            interaction = client.interactions.create(
                 model='gemini-3.8-flash',
-                contents=prompt,
+                input=prompt,
+                store=False,
             )
             
             import json
-            text = response.text.strip()
+            text = (interaction.output_text or '').strip()
             if "```json" in text:
                 text = text.split("```json")[1].split("```")[0].strip()
             elif "```" in text:

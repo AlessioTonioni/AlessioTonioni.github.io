@@ -2,7 +2,7 @@ requests
 pyyaml
 python-dotenv
 scholarly
-google-genai
+google-genai>=2.8.0
 scikit-learn
 umap-learn
 numpy

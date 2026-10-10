@@ -74,11 +74,12 @@ def update_projects_file():
                 client = genai.Client()
                 desc = repo.get('description') or repo.get('name') or ''
                 prompt = f"Return exactly one FontAwesome v5 class string (like 'fas fa-code' or 'fas fa-robot') that best represents a github repository with this description: '{desc}'. Return ONLY the class string, nothing else. No quotes."
-                response = client.models.generate_content(
+                interaction = client.interactions.create(
                     model='gemini-3.8-flash',
-                    contents=prompt,
+                    input=prompt,
+                    store=False,
                 )
-                icon = response.text.strip().replace('`', '').strip()
+                icon = (interaction.output_text or '').strip().replace('`', '').strip()
                 if icon.startswith('fas fa-') or icon.startswith('fab fa-') or icon.startswith('fa-'):
                     return icon
             except Exception as e:

@@ -198,17 +198,22 @@ Return ONLY a JSON object:
             if pdf_path and Path(pdf_path).exists():
                 # Upload PDF to Gemini
                 file_upload = client.files.upload(file=pdf_path)
-                response = client.models.generate_content(
+                interaction = client.interactions.create(
                     model=GEMINI_MODEL,
-                    contents=[file_upload, prompt]
+                    input=[
+                        {"type": "document", "uri": file_upload.uri, "mime_type": "application/pdf"},
+                        {"type": "text", "text": prompt},
+                    ],
+                    store=False,
                 )
             else:
-                response = client.models.generate_content(
+                interaction = client.interactions.create(
                     model=GEMINI_MODEL,
-                    contents=prompt
+                    input=prompt,
+                    store=False,
                 )
             
-            text = response.text.strip()
+            text = (interaction.output_text or '').strip()
             # Extract JSON
             json_match = re.search(r'\{.*\}', text, re.DOTALL)
             if json_match:
@@ -269,8 +274,8 @@ Return ONLY a JSON object:
     
     for attempt in range(max_retries):
         try:
-            response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
-            text = response.text.strip()
+            interaction = client.interactions.create(model=GEMINI_MODEL, input=prompt, store=False)
+            text = (interaction.output_text or '').strip()
             json_match = re.search(r'\{.*\}', text, re.DOTALL)
             if json_match:
                 mapping = json.loads(json_match.group(0))
