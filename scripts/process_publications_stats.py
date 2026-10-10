@@ -20,7 +20,7 @@ OUTPUT_DATA_FILE = "assets/data/publications_enhanced.json"
 S2_API_URL = "https://api.semanticscholar.org/graph/v1"
 S2_API_KEY = os.environ.get("S2_API_KEY")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-GEMINI_MODEL = "gemini-3-flash-preview"
+GEMINI_MODEL = "gemini-3.8-flash"
 EMBEDDING_MODEL = "gemini-embedding-001"
 
 # Ensure directories exist

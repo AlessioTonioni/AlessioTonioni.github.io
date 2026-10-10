@@ -187,7 +187,7 @@ def generate_with_gemini(title, abstract, first_author, clean_title):
             """
             # Add a safety timeout via context if possible, or just rely on the bounded loop
             response = client.models.generate_content(
-                model='gemini-3-flash-preview',
+                model='gemini-3.8-flash',
                 contents=prompt,
             )
             

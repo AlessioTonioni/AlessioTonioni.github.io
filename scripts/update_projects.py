@@ -75,7 +75,7 @@ def update_projects_file():
                 desc = repo.get('description') or repo.get('name') or ''
                 prompt = f"Return exactly one FontAwesome v5 class string (like 'fas fa-code' or 'fas fa-robot') that best represents a github repository with this description: '{desc}'. Return ONLY the class string, nothing else. No quotes."
                 response = client.models.generate_content(
-                    model='gemini-3-flash-preview',
+                    model='gemini-3.8-flash',
                     contents=prompt,
                 )
                 icon = response.text.strip().replace('`', '').strip()
