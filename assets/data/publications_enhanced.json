@@ -7,10 +7,10 @@
       "permalink": "/publication/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models",
       "excerpt": "Reinforcement learning (RL) with verifiable rewards (RLVR) has demonstrated the great potential of enhancing the reasoning abilities in multimodal lar...",
       "date": "2026-04-27",
-      "venue": "ArXiv",
+      "venue": "ACMMM",
       "paperurl": "https://arxiv.org/pdf/2604.20705.pdf",
       "citation": "Jiahao Xie, **Alessio Tonioni**, Nathalie Rauschmayr, Federico Tombari, Bernt Schiele. \"SSL-R1: Self-Supervised Visual Reinforcement Post-Training for Multimodal Large Language Models.\" ArXiv, 2026.",
-      "pubtype": "review",
+      "pubtype": "conference",
       "local_file": "_publications/2026-ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models.md",
       "abstract": "Reinforcement learning (RL) with verifiable rewards (RLVR) has demonstrated the great potential of enhancing the reasoning abilities in multimodal large language models (MLLMs). However, the reliance on language-centric priors and expensive manual annotations prevents MLLMs' intrinsic visual understanding and scalable reward designs. In this work, we introduce SSL-R1, a generic self-supervised RL framework that derives verifiable rewards directly from images. To this end, we revisit self-supervised learning (SSL) in visual domains and reformulate widely-used SSL tasks into a set of verifiable visual puzzles for RL post-training, requiring neither human nor external model supervision. Training MLLMs on these tasks substantially improves their performance on multimodal understanding and reasoning benchmarks, highlighting the potential of leveraging vision-centric self-supervised tasks for MLLM post-training. We think this work will provide useful experience in devising effective self-supervised verifiable rewards to enable RL at scale. Project page: https://github.com/Jiahao000/SSL-R1.",
       "pdf_path": "_pdf_cache/ssl-r1-self-supervised-visual-reinforcement-post-training-for-multimodal-large-language-models.pdf",
@@ -50,12 +50,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.16207296478076644,
-          "y": 0.22873830920705188
+          "x": -0.17425016942923355,
+          "y": 0.23122087332253244
         },
         "umap": {
-          "x": 7.603269577026367,
-          "y": 0.43815234303474426
+          "x": 0.21609096229076385,
+          "y": 17.772716522216797
         }
       }
     },
@@ -113,12 +113,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.23410935966971538,
-          "y": -0.08870544256140427
+          "x": -0.2244832019014943,
+          "y": -0.11361004140967235
         },
         "umap": {
-          "x": 6.044576644897461,
-          "y": -0.7708091139793396
+          "x": 2.3867149353027344,
+          "y": 17.6187744140625
         }
       }
     },
@@ -168,12 +168,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.3787563669670085,
-          "y": 0.11590750577448534
+          "x": 0.37703264597885794,
+          "y": 0.11229719497609404
         },
         "umap": {
-          "x": 8.139909744262695,
-          "y": -3.7351150512695312
+          "x": 1.391366958618164,
+          "y": 14.00728988647461
         }
       }
     },
@@ -243,12 +243,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.0995966709386103,
-          "y": 0.2136787992059217
+          "x": -0.1015275698118631,
+          "y": 0.17661716228819047
         },
         "umap": {
-          "x": 8.093399047851562,
-          "y": -0.47626110911369324
+          "x": 0.5978406667709351,
+          "y": 16.785659790039062
         }
       }
     },
@@ -294,12 +294,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.06534728981536203,
-          "y": 0.2200639476074148
+          "x": 0.06566320893192722,
+          "y": 0.16377948236885362
         },
         "umap": {
-          "x": 9.19883918762207,
-          "y": -1.7013932466506958
+          "x": 0.4872159957885742,
+          "y": 15.01667308807373
         }
       }
     },
@@ -352,12 +352,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.0209144711728145,
-          "y": 0.21874325460574862
+          "x": 0.015504736345566525,
+          "y": 0.18496696135088384
         },
         "umap": {
-          "x": 8.500032424926758,
-          "y": -1.5317937135696411
+          "x": 0.20847949385643005,
+          "y": 15.645955085754395
         }
       }
     },
@@ -403,12 +403,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.07473043857886402,
-          "y": -0.165838556682124
+          "x": 0.08845381073313502,
+          "y": -0.18064425685641022
         },
         "umap": {
-          "x": 6.833826541900635,
-          "y": -2.3140909671783447
+          "x": 2.7511794567108154,
+          "y": 15.918062210083008
         }
       }
     },
@@ -462,12 +462,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.09886067516425408,
-          "y": -0.2944674565252239
+          "x": -0.08159934399148357,
+          "y": -0.28585284766105906
         },
         "umap": {
-          "x": 5.879879474639893,
-          "y": -1.8691622018814087
+          "x": 3.6342380046844482,
+          "y": 16.548612594604492
         }
       }
     },
@@ -525,12 +525,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1562189855968514,
-          "y": 0.15661345580708882
+          "x": -0.15886940748334968,
+          "y": 0.13656897067279417
         },
         "umap": {
-          "x": 7.321789741516113,
-          "y": -0.46435239911079407
+          "x": 0.06698088347911835,
+          "y": 16.917829513549805
         }
       }
     },
@@ -592,12 +592,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.01721126254630586,
-          "y": -0.15267552600549386
+          "x": -0.0014603551610376073,
+          "y": -0.18355427648248637
         },
         "umap": {
-          "x": 6.292591571807861,
-          "y": -1.6948132514953613
+          "x": 2.600599527359009,
+          "y": 16.729736328125
         }
       }
     },
@@ -646,12 +646,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.06521752713749787,
-          "y": 0.26381553247378847
+          "x": 0.060814006459255,
+          "y": 0.21999882306909843
         },
         "umap": {
-          "x": 8.946425437927246,
-          "y": -1.2148581743240356
+          "x": 0.512179970741272,
+          "y": 15.372666358947754
         }
       }
     },
@@ -705,12 +705,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.357986489024455,
-          "y": 0.028437921798912684
+          "x": 0.35912878358349837,
+          "y": 0.04043750940227974
         },
         "umap": {
-          "x": 8.953398704528809,
-          "y": -3.6344733238220215
+          "x": 2.1490046977996826,
+          "y": 13.80221939086914
         }
       }
     },
@@ -763,12 +763,183 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.16142513989874274,
-          "y": -0.1118856384118667
+          "x": 0.16739288208391143,
+          "y": -0.08613721837053395
         },
         "umap": {
-          "x": 6.873328685760498,
-          "y": -3.86836576461792
+          "x": 2.975539445877075,
+          "y": 14.527962684631348
+        }
+      }
+    },
+    {
+      "title": "The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering",
+      "authors": "Yuqian Fu, Tianwen Qian, Yanjun Li, Yu Li, Kunyu Peng, Xu Zheng, Yongqin Xian, Alessio Tonioni, Yanwei Fu, Xiaoling Wang, Danda Paudel, Federico Tombari, Luc Van Gool, Leyi Wu, Yifan Zhao, Jinjie Zhang, Yinchuan Li, Yingcong Chen, Zixu Li, Zhiwei Chen, Zhiheng Fu, Wenbo Wang, Yupeng Hu, Weili Guan, Liqiang Nie, Takuya Murakawa, Toru Tamaki, Yi Wen, Zhenglin Du, Zhengyang Li, Lingling Li, Licheng Jiao, Wenping Ma",
+      "collection": "publications",
+      "permalink": "/publication/the-first-egocross-challenge-at-egovis-2026-cross-domain-egocentric-video-question-answering",
+      "excerpt": "EgoCross is a cross-domain egocentric video question answering benchmark designed to evaluate whether multimodal large language models can generalize ...",
+      "date": "2026-10-15",
+      "venue": "ArXiv",
+      "paperurl": "https://arxiv.org/pdf/2608.04589.pdf",
+      "citation": "Yuqian Fu, Tianwen Qian, Yanjun Li, Yu Li, Kunyu Peng, Xu Zheng, Yongqin Xian, **Alessio Tonioni**, Yanwei Fu, Xiaoling Wang, Danda Paudel, Federico Tombari, Luc Van Gool, Leyi Wu, Yifan Zhao, Jinjie Zhang, Yinchuan Li, Yingcong Chen, Zixu Li, Zhiwei Chen, Zhiheng Fu, Wenbo Wang, Yupeng Hu, Weili Guan, Liqiang Nie, Takuya Murakawa, Toru Tamaki, Yi Wen, Zhenglin Du, Zhengyang Li, Lingling Li, Licheng Jiao, Wenping Ma. \"The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering.\" ArXiv, 2026.",
+      "pubtype": "review",
+      "local_file": "_publications/2026-the-first-egocross-challenge-at-egovis-2026-cross-domain-egocentric-video-question-answering.md",
+      "abstract": "EgoCross is a cross-domain egocentric video question answering benchmark designed to evaluate whether multimodal large language models can generalize beyond common daily-life scenarios. The first EgoCross Challenge was hosted at the Third EgoVis Workshop at CVPR 2026 and evaluated models on first-person videos from four target domains: surgery, industrial assembly, extreme sports, and animal perspectives. Each test example consists of an egocentric video clip, a question, and four candidate answers, from which the model must select the correct option. This technical report introduces the challenge task, benchmark resources, and two official Codabench tracks. The Source-Limited Track restricts participants to the official baseline model and a small support set, whereas the Open-Source Track permits broader choices of models and training data under rules that prohibit the manual construction of target-domain training data. In total, the challenge received more than 1,500 submissions from over 130 participants, with 19 teams participating in the Open-Source Track and 38 teams in the Source-Limited Track. We further present the official leaderboard results and summarize the winning solutions from both tracks. We hope that this report will serve as a useful technical reference for advancing cross-domain egocentric video understanding. All resources, including the challenge data, baseline implementation, and code released by the winning teams, are made publicly available.",
+      "pdf_path": "_pdf_cache/the-first-egocross-challenge-at-egovis-2026-cross-domain-egocentric-video-question-answering.pdf",
+      "s2_id": "538a179e8c3c9ba3c480135b759d49d7083e6038",
+      "s2_metadata": {
+        "paperId": "538a179e8c3c9ba3c480135b759d49d7083e6038",
+        "title": "The First EgoCross Challenge at EgoVis 2026: Cross-Domain Egocentric Video Question Answering",
+        "year": 2026,
+        "referenceCount": 65,
+        "citationCount": 0,
+        "authors": [
+          {
+            "authorId": "2303528627",
+            "name": "Yu-Qian Fu"
+          },
+          {
+            "authorId": "2162961341",
+            "name": "Tianwen Qian"
+          },
+          {
+            "authorId": "2356415947",
+            "name": "Yanjun Li"
+          },
+          {
+            "authorId": "2370995838",
+            "name": "Yu Li"
+          },
+          {
+            "authorId": "91549683",
+            "name": "Kun-Yu Peng"
+          },
+          {
+            "authorId": "2365996824",
+            "name": "Xu Zheng"
+          },
+          {
+            "authorId": "2256223080",
+            "name": "Yongqin Xian"
+          },
+          {
+            "authorId": "20406113",
+            "name": "A. Tonioni"
+          },
+          {
+            "authorId": "2286953627",
+            "name": "Yan-Wei Fu"
+          },
+          {
+            "authorId": "2370992847",
+            "name": "Xiao-Ling Wang"
+          },
+          {
+            "authorId": "35268081",
+            "name": "D. Paudel"
+          },
+          {
+            "authorId": "2273557728",
+            "name": "Federico Tombari"
+          },
+          {
+            "authorId": "2246990749",
+            "name": "Luc Van Gool"
+          },
+          {
+            "authorId": "2333407747",
+            "name": "Le-Yi Wu"
+          },
+          {
+            "authorId": "151469503",
+            "name": "Yifan Zhao"
+          },
+          {
+            "authorId": "2335071115",
+            "name": "Jinjie Zhang"
+          },
+          {
+            "authorId": "47002988",
+            "name": "Yin-Chuan Li"
+          },
+          {
+            "authorId": "2324305529",
+            "name": "Ying-Cong Chen"
+          },
+          {
+            "authorId": "2328078515",
+            "name": "Zixu Li"
+          },
+          {
+            "authorId": "2349941869",
+            "name": "Zhiwei Chen"
+          },
+          {
+            "authorId": "2350528847",
+            "name": "Zhiheng Fu"
+          },
+          {
+            "authorId": "2373581741",
+            "name": "Wenbo Wang"
+          },
+          {
+            "authorId": "2283010363",
+            "name": "Yu-Peng Hu"
+          },
+          {
+            "authorId": "2276415372",
+            "name": "Wei-Li Guan"
+          },
+          {
+            "authorId": "2345011961",
+            "name": "Liqiang Nie"
+          },
+          {
+            "authorId": "2335751311",
+            "name": "Taku Murakawa"
+          },
+          {
+            "authorId": "2261277984",
+            "name": "Toru Tamaki"
+          },
+          {
+            "authorId": "2215813580",
+            "name": "Yi Wen"
+          },
+          {
+            "authorId": "2269731237",
+            "name": "Zhenglin Du"
+          },
+          {
+            "authorId": "2354707639",
+            "name": "Zhengyang Li"
+          },
+          {
+            "authorId": "2203204705",
+            "name": "Lingling Li"
+          },
+          {
+            "authorId": "2287033797",
+            "name": "Li-Cheng Jiao"
+          },
+          {
+            "authorId": "2297947217",
+            "name": "Wen-Ping Ma"
+          }
+        ]
+      },
+      "ai_results": {
+        "summary": "EgoCross Challenge benchmarks MLLMs on cross-domain egocentric video QA across surgery, industry, sports, and animal views.",
+        "category": "Vision-Language Models"
+      },
+      "map_coords": {
+        "pca": {
+          "x": -0.15031396664956279,
+          "y": 0.29280165672421704
+        },
+        "umap": {
+          "x": -0.17032112181186676,
+          "y": 18.04133415222168
         }
       }
     },
@@ -826,12 +997,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.22418010261639124,
-          "y": 0.0899472679060372
+          "x": -0.22705143851662307,
+          "y": 0.08708090817819594
         },
         "umap": {
-          "x": 6.926236152648926,
-          "y": -0.05268476530909538
+          "x": 1.243177056312561,
+          "y": 17.266597747802734
         }
       }
     },
@@ -885,12 +1056,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1429444698598374,
-          "y": 0.14813773249806644
+          "x": -0.15812367911402134,
+          "y": 0.19393290636644142
         },
         "umap": {
-          "x": 7.432724475860596,
-          "y": 0.9373689889907837
+          "x": 0.7762147188186646,
+          "y": 18.219812393188477
         }
       }
     },
@@ -944,12 +1115,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.2553153505529623,
-          "y": -0.0384124654799531
+          "x": -0.24783526392242364,
+          "y": -0.06822061258852648
         },
         "umap": {
-          "x": 5.952582359313965,
-          "y": -0.5207492709159851
+          "x": 2.0272579193115234,
+          "y": 17.90251922607422
         }
       }
     },
@@ -995,12 +1166,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.049428571252329995,
-          "y": 0.047357680438451254
+          "x": 0.049477695214952364,
+          "y": 0.05201443475963363
         },
         "umap": {
-          "x": 7.8928046226501465,
-          "y": -2.0816879272460938
+          "x": 1.814945101737976,
+          "y": 15.286760330200195
         }
       }
     },
@@ -1046,12 +1217,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.08901883747340915,
-          "y": -0.08763391747160858
+          "x": 0.0998482314350641,
+          "y": -0.10950196270166078
         },
         "umap": {
-          "x": 7.572030544281006,
-          "y": -2.8701412677764893
+          "x": 1.9483755826950073,
+          "y": 15.927865982055664
         }
       }
     },
@@ -1108,12 +1279,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.13598907118995193,
-          "y": 0.22101868562940652
+          "x": 0.13058460854496956,
+          "y": 0.19108956093640947
         },
         "umap": {
-          "x": 8.955070495605469,
-          "y": -2.1877756118774414
+          "x": 0.9206327199935913,
+          "y": 14.745418548583984
         }
       }
     },
@@ -1163,12 +1334,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.2075768553090554,
-          "y": -0.08856947333662976
+          "x": 0.20849942283808154,
+          "y": -0.05490181281332477
         },
         "umap": {
-          "x": 7.343727111816406,
-          "y": -3.492391586303711
+          "x": 2.17716646194458,
+          "y": 14.582868576049805
         }
       }
     },
@@ -1222,12 +1393,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.3531837069890649,
-          "y": 0.049887758138583156
+          "x": 0.35330621653502015,
+          "y": 0.057661609877280404
         },
         "umap": {
-          "x": 8.428223609924316,
-          "y": -3.3320376873016357
+          "x": 1.6868175268173218,
+          "y": 14.508119583129883
         }
       }
     },
@@ -1285,12 +1456,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.05418403705552729,
-          "y": -0.2690924618192836
+          "x": 0.06434209709076018,
+          "y": -0.2221656944408109
         },
         "umap": {
-          "x": 5.8299736976623535,
-          "y": -2.9482381343841553
+          "x": 3.5933892726898193,
+          "y": 15.892048835754395
         }
       }
     },
@@ -1348,12 +1519,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.06378783420743507,
-          "y": -0.2140212669479661
+          "x": 0.07421356199508218,
+          "y": -0.18302192079472787
         },
         "umap": {
-          "x": 6.084188938140869,
-          "y": -3.0376360416412354
+          "x": 4.160537242889404,
+          "y": 15.011034965515137
         }
       }
     },
@@ -1394,12 +1565,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.06526214144206635,
-          "y": 0.011839306703525305
+          "x": 0.07123769679105212,
+          "y": -0.00848169909154269
         },
         "umap": {
-          "x": 8.194527626037598,
-          "y": -2.542313814163208
+          "x": 1.5370559692382812,
+          "y": 15.486038208007812
         }
       }
     },
@@ -1453,12 +1624,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.15843503777115248,
-          "y": 0.012119745468486605
+          "x": -0.1476175912395406,
+          "y": -0.054050172027855614
         },
         "umap": {
-          "x": 4.870602607727051,
-          "y": -0.22015084326267242
+          "x": 3.4515388011932373,
+          "y": 18.383010864257812
         }
       }
     },
@@ -1512,12 +1683,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.249178078112239,
-          "y": -0.025713991515406157
+          "x": -0.2327346000360167,
+          "y": -0.10650017801935945
         },
         "umap": {
-          "x": 5.16913366317749,
-          "y": 0.19067594408988953
+          "x": 2.6459693908691406,
+          "y": 18.496307373046875
         }
       }
     },
@@ -1571,12 +1742,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.12077422274286223,
-          "y": -0.23881026969121294
+          "x": 0.1317616843190304,
+          "y": -0.19894684831511156
         },
         "umap": {
-          "x": 6.358879089355469,
-          "y": -3.468214273452759
+          "x": 3.7951130867004395,
+          "y": 14.9464693069458
         }
       }
     },
@@ -1626,12 +1797,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.24718189688897388,
-          "y": -0.033253928209544335
+          "x": -0.23594080602777406,
+          "y": -0.08661796420665133
         },
         "umap": {
-          "x": 5.49931526184082,
-          "y": -0.10238263756036758
+          "x": 2.7870776653289795,
+          "y": 17.9354190826416
         }
       }
     },
@@ -1688,12 +1859,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.32682090424844695,
-          "y": 0.1365296351933873
+          "x": 0.3228681186004113,
+          "y": 0.13612943799544283
         },
         "umap": {
-          "x": 8.667548179626465,
-          "y": -3.87562894821167
+          "x": 1.2188160419464111,
+          "y": 13.975375175476074
         }
       }
     },
@@ -1735,12 +1906,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.05439616154156834,
-          "y": -0.02042084866623318
+          "x": 0.05747601015576099,
+          "y": -0.0004267953272130922
         },
         "umap": {
-          "x": 7.586562156677246,
-          "y": -2.1269593238830566
+          "x": 2.377068042755127,
+          "y": 15.171523094177246
         }
       }
     },
@@ -1751,10 +1922,10 @@
       "permalink": "/publication/refam-attention-magnets-for-zero-shot-referral-segmentation",
       "excerpt": "Most existing approaches to referring segmentation achieve strong performance only through fine-tuning or by composing multiple pre-trained models, of...",
       "date": "2026-01-18",
-      "venue": "ArXiv",
+      "venue": "TMLR",
       "paperurl": "https://arxiv.org/pdf/2509.22650.pdf",
       "citation": "Anna Kukleva, Enis Simsar, **Alessio Tonioni**, Muhammad Ferjad Naeem, Federico Tombari, Jan Eric Lenssen, Bernt Schiele. \"RefAM: Attention Magnets for Zero-Shot Referral Segmentation.\" ArXiv, 2025.",
-      "pubtype": "review",
+      "pubtype": "journal",
       "local_file": "_publications/2025-refam-attention-magnets-for-zero-shot-referral-segmentation.md",
       "abstract": "Most existing approaches to referring segmentation achieve strong performance only through fine-tuning or by composing multiple pre-trained models, often at the cost of additional training and architectural modifications. Meanwhile, large-scale generative diffusion models encode rich semantic information, making them attractive as general-purpose feature extractors. In this work, we introduce a new method that directly exploits features, attention scores, from diffusion transformers for downstream tasks, requiring neither architectural modifications nor additional training. To systematically evaluate these features, we extend benchmarks with vision-language grounding tasks spanning both images and videos. Our key insight is that stop words act as attention magnets: they accumulate surplus attention and can be filtered to reduce noise. Moreover, we identify global attention sinks (GAS) emerging in deeper layers and show that they can be safely suppressed or redirected onto auxiliary tokens, leading to sharper and more accurate grounding maps. We further propose an attention redistribution strategy, where appended stop words partition background activations into smaller clusters, yielding sharper and more localized heatmaps. Building on these findings, we develop RefAM, a simple training-free grounding framework that combines cross-attention maps, GAS handling, and redistribution. Across zero-shot referring image and video segmentation benchmarks, our approach consistently outperforms prior methods, establishing a new state of the art without fine-tuning or additional components.",
       "pdf_path": "_pdf_cache/refam-attention-magnets-for-zero-shot-referral-segmentation.pdf",
@@ -1802,12 +1973,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.19951691598804652,
-          "y": 0.027509505017866205
+          "x": -0.19281642949579114,
+          "y": -0.01471300391335293
         },
         "umap": {
-          "x": 5.97750186920166,
-          "y": 0.3274763524532318
+          "x": 2.0115482807159424,
+          "y": 18.475461959838867
         }
       }
     },
@@ -1864,12 +2035,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.023486736716471255,
-          "y": -0.02142295750179284
+          "x": 0.024923738874489034,
+          "y": -0.002226462723649521
         },
         "umap": {
-          "x": 7.194457530975342,
-          "y": -2.6183362007141113
+          "x": 2.9094040393829346,
+          "y": 15.12803840637207
         }
       }
     },
@@ -2047,12 +2218,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.20516559704871998,
-          "y": 0.2552009446398909
+          "x": -0.21513066689832444,
+          "y": 0.24606239988114675
         },
         "umap": {
-          "x": 7.731358528137207,
-          "y": -0.0896918997168541
+          "x": 0.41818326711654663,
+          "y": 17.336214065551758
         }
       }
     },
@@ -2114,12 +2285,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.13717005373666397,
-          "y": -0.22034528297033582
+          "x": -0.12192725965945735,
+          "y": -0.23384951942932405
         },
         "umap": {
-          "x": 5.631954669952393,
-          "y": -1.4176218509674072
+          "x": 3.74322247505188,
+          "y": 16.946369171142578
         }
       }
     },
@@ -2169,12 +2340,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.03583843430277848,
-          "y": -0.21324190065535464
+          "x": -0.0199151387004182,
+          "y": -0.23599021574899176
         },
         "umap": {
-          "x": 5.221671104431152,
-          "y": -1.7509922981262207
+          "x": 3.138651132583618,
+          "y": 16.680736541748047
         }
       }
     },
@@ -2185,10 +2356,10 @@
       "permalink": "/publication/editing-everything-everywhere-all-at-once",
       "excerpt": "Editing multiple elements of an image in a single forward pass is a practical alternative to multi-turn image manipulation, offering improved efficien...",
       "date": "2026-07-05",
-      "venue": "ArXiv",
+      "venue": "ECCV",
       "paperurl": "https://arxiv.org/pdf/2606.31278.pdf",
       "citation": "Fabio Quattrini, Carmine Zaccagnino, Enis Simsar, Marta Tintor\u00e9 Gazulla, Rita Cucchiara, **Alessio Tonioni**, Silvia Cascianelli. \"Editing Everything Everywhere All at Once.\" ArXiv, 2026.",
-      "pubtype": "review",
+      "pubtype": "conference",
       "local_file": "_publications/2026-editing-everything-everywhere-all-at-once.md",
       "abstract": "Editing multiple elements of an image in a single forward pass is a practical alternative to multi-turn image manipulation, offering improved efficiency and potentially better harmonization. However, when several instructions target different regions, semantic interference often leads to attribute leakage and poor edit disentanglement, especially as the number of edits increases. In this work, we propose MICE (Multi-Instance Concurrent Editing), a training-free strategy for scalable multi-instance image editing with Multimodal Diffusion Transformers. MICE modifies the additive bias of joint attention to regulate interactions between instance-specific edit instructions, latent, and context tokens identified via user-provided segmentation masks. Specifically, MICE allows intra-instance attention, penalizes interactions between neighboring region tokens, and suppresses unrelated cross-instance attention. As a result, our method enforces attribute binding while preserving global visual consistency. We evaluate MICE on LoMOE-Bench and introduce MICE-Bench, a more challenging benchmark with an average of 8.5 concurrent edits per image. The experiments demonstrate that our approach outperforms strong baselines and recent competitors in terms of visual quality preservation and faithfulness to the editing instructions.",
       "pdf_path": "_pdf_cache/editing-everything-everywhere-all-at-once.pdf",
@@ -2236,12 +2407,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.2352779852424259,
-          "y": -0.056501069312749196
+          "x": -0.21908148143415654,
+          "y": -0.13220243888784203
         },
         "umap": {
-          "x": 5.242373466491699,
-          "y": -0.6557237505912781
+          "x": 3.198298931121826,
+          "y": 18.512887954711914
         }
       }
     },
@@ -2295,12 +2466,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.1645793027084076,
-          "y": 0.12124018453807305
+          "x": -0.1972937184807633,
+          "y": 0.2319943351683788
         },
         "umap": {
-          "x": 7.652454853057861,
-          "y": 1.1340839862823486
+          "x": -0.005454594269394875,
+          "y": 18.58221435546875
         }
       }
     },
@@ -2354,12 +2525,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.11817797273712252,
-          "y": 0.1421676522367885
+          "x": -0.12270772192713544,
+          "y": 0.1406938962390685
         },
         "umap": {
-          "x": 7.138098239898682,
-          "y": 0.49052894115448
+          "x": 0.7017273902893066,
+          "y": 17.74522590637207
         }
       }
     },
@@ -2412,12 +2583,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.311995747466055,
-          "y": 0.03924835375769479
+          "x": 0.31415523731809947,
+          "y": 0.04616775651940012
         },
         "umap": {
-          "x": 7.6465044021606445,
-          "y": -4.027069091796875
+          "x": 2.0934152603149414,
+          "y": 14.121809005737305
         }
       }
     },
@@ -2471,12 +2642,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.20963779948500966,
-          "y": 0.09642833823762309
+          "x": -0.22174634955907954,
+          "y": 0.13054352272164158
         },
         "umap": {
-          "x": 7.9247307777404785,
-          "y": 0.6000910401344299
+          "x": 0.5891969203948975,
+          "y": 18.62947654724121
         }
       }
     },
@@ -2522,12 +2693,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.07558229790928732,
-          "y": -0.057450405409458505
+          "x": -0.06143405968542149,
+          "y": -0.12392488856064306
         },
         "umap": {
-          "x": 4.698116302490234,
-          "y": -0.9840756058692932
+          "x": 3.309591054916382,
+          "y": 17.56664276123047
         }
       }
     },
@@ -2589,12 +2760,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.14718974708117863,
-          "y": -0.055984189094018026
+          "x": -0.12991705614684876,
+          "y": -0.13372255674388558
         },
         "umap": {
-          "x": 4.719079494476318,
-          "y": -0.6186818480491638
+          "x": 3.522822141647339,
+          "y": 17.962682723999023
         }
       }
     },
@@ -2660,12 +2831,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.19665138029493723,
-          "y": -0.055374717146880074
+          "x": 0.19913106877465056,
+          "y": -0.019770385586048714
         },
         "umap": {
-          "x": 8.819271087646484,
-          "y": -3.1059577465057373
+          "x": 2.7094013690948486,
+          "y": 13.734562873840332
         }
       }
     },
@@ -2711,12 +2882,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": -0.04991444647859707,
-          "y": -0.1815856916696472
+          "x": -0.04350824872250942,
+          "y": -0.14763130902739074
         },
         "umap": {
-          "x": 5.708685398101807,
-          "y": -2.391638994216919
+          "x": 4.043963432312012,
+          "y": 15.838919639587402
         }
       }
     },
@@ -2766,12 +2937,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.37489598928562645,
-          "y": 0.10030832067255548
+          "x": 0.37329706359031545,
+          "y": 0.10709368401301061
         },
         "umap": {
-          "x": 7.807307243347168,
-          "y": -3.4659361839294434
+          "x": 1.7087364196777344,
+          "y": 13.513045310974121
         }
       }
     },
@@ -2837,12 +3008,12 @@
       },
       "map_coords": {
         "pca": {
-          "x": 0.07152548740674532,
-          "y": -0.25353238047266147
+          "x": 0.07817299780043702,
+          "y": -0.19248800510291889
         },
         "umap": {
-          "x": 6.342991352081299,
-          "y": -2.7390177249908447
+          "x": 3.4866650104522705,
+          "y": 15.325122833251953
         }
       }
     }
@@ -2894,8 +3065,8 @@
     ],
     "most_influential_year": {
       "year": 2023,
-      "count": 312
+      "count": 318
     }
   },
-  "last_updated": "2026-07-05 10:17:46"
+  "last_updated": "2026-10-15 23:09:43"
 }

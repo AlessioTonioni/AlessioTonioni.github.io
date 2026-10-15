@@ -1,3 +1,10 @@
+- date: 2026-10-15
+  content: Turns out MLLMs get pretty dizzy watching first-person surgery and extreme
+    sports, so at the EgoVis workshop we organized at CVPR, Yuqian and the team ran
+    the first [EgoCross](/publication/the-first-egocross-challenge-at-egovis-2026-cross-domain-egocentric-video-question-answering)
+    challenge to see if anyone's models could actually keep up.
+  highlight: false
+  ai_generated: true
 - date: 2026-07-05
   content: Cleaning data is overrated compared to mixing it like a mad scientist,
     so Matteo and the team built [DCVLM](/publication/datacomp-vlm-improved-open-datasets-for-vision-language-models),
