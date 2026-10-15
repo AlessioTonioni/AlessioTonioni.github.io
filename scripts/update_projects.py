@@ -6,6 +6,7 @@ import os
 GITHUB_USER = "AlessioTonioni"
 API_URL = f"https://api.github.com/users/{GITHUB_USER}/repos?per_page=100&type=owner"
 DATA_FILE = os.path.join(os.path.dirname(__file__), '..', '_data', 'projects.yml')
+FA_VARIABLES_FILE = os.path.join(os.path.dirname(__file__), '..', '_sass', 'vendor', 'font-awesome', '_variables.scss')
 
 import requests
 try:
@@ -29,6 +30,12 @@ def get_repos():
     except Exception as e:
         print(f"Error fetching repos: {e}")
         return []
+
+def load_available_icons():
+    """Icon names defined in the vendored Font Awesome SCSS."""
+    import re
+    with open(FA_VARIABLES_FILE) as f:
+        return set(re.findall(r'^\$fa-var-([\w-]+):', f.read(), re.MULTILINE))
 
 def update_projects_file():
     repos = get_repos()
@@ -66,20 +73,25 @@ def update_projects_file():
             return 'fab fa-html5'
         return 'fas fa-code'
 
+    available_icons = load_available_icons()
+
     def guess_icon(repo):
         if have_gemini and os.environ.get("GEMINI_API_KEY"):
             try:
                 client = genai.Client()
                 desc = repo.get('description') or repo.get('name') or ''
-                prompt = f"Return exactly one FontAwesome v5 class string (like 'fas fa-code' or 'fas fa-robot') that best represents a github repository with this description: '{desc}'. Return ONLY the class string, nothing else. No quotes."
+                prompt = f"Return exactly one Font Awesome 5.5.0 (free) class string (like 'fas fa-code' or 'fas fa-robot') that best represents a github repository with this description: '{desc}'. Return ONLY the class string, nothing else. No quotes."
                 interaction = client.interactions.create(
                     model='gemini-3.8-flash',
                     input=prompt,
                     store=False,
                 )
                 icon = (interaction.output_text or '').strip().replace('`', '').strip()
-                if icon.startswith('fas fa-') or icon.startswith('fab fa-') or icon.startswith('fa-'):
+                # The site bundles an old Font Awesome, so newer icons render blank
+                name = icon.split('fa-', 1)[-1]
+                if (icon.startswith('fas fa-') or icon.startswith('fab fa-')) and name in available_icons:
                     return icon
+                print(f"  [Icon '{icon}' not in bundled Font Awesome, using default]")
             except Exception as e:
                 print(f"  [Gemini icon generation failed: {e}]")
         return guess_icon_default(repo)
