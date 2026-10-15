@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import urllib.request
-import json
 import yaml
 import os
 
@@ -9,7 +7,7 @@ GITHUB_USER = "AlessioTonioni"
 API_URL = f"https://api.github.com/users/{GITHUB_USER}/repos?per_page=100&type=owner"
 DATA_FILE = os.path.join(os.path.dirname(__file__), '..', '_data', 'projects.yml')
 
-import ssl
+import requests
 try:
     from google import genai
     from dotenv import load_dotenv
@@ -19,15 +17,15 @@ except ImportError:
     have_gemini = False
 
 def get_repos():
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-    
-    req = urllib.request.Request(API_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    # Anonymous requests share a 60/hour limit per IP; a token avoids that
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers['Authorization'] = f"Bearer {token}"
     try:
-        with urllib.request.urlopen(req, context=ctx) as response:
-            data = json.loads(response.read().decode())
-            return data
+        response = requests.get(API_URL, headers=headers, timeout=30)
+        response.raise_for_status()
+        return response.json()
     except Exception as e:
         print(f"Error fetching repos: {e}")
         return []
@@ -108,26 +106,32 @@ def update_projects_file():
         
     print("\n--- Available Repositories ---")
     
+    candidates = [
+        repo for repo in repos
+        if not (repo.get('fork') or repo.get('private')
+                or repo.get('html_url') in existing_map or repo.get('html_url') in ignored_urls)
+    ]
+    if not candidates:
+        print("No new repositories to propose.")
+        return
+
     with open(DATA_FILE, 'a') as f:
         f.write("\n# --- NEW REPOSITORIES FETCHED BY SCRIPT ---\n")
         f.write("# Uncomment any of the following to advertise them on your website:\n\n")
-        for repo in repos:
+        for repo in candidates:
             repo_url = repo.get('html_url')
-            if repo.get('fork') or repo.get('private') or repo_url in existing_map or repo_url in ignored_urls:
-                continue
-            
             print(f"Proposing: {repo.get('name')}")
-            
+
             desc = repo.get('description') or repo.get('name') or ''
             # Escape quotes in description to be safe
             desc = desc.replace('"', '\\"')
-            
+
             f.write(f"# - title: \"{repo.get('name')}\"\n")
             f.write(f"#   description: \"{desc}\"\n")
             f.write(f"#   url: \"{repo_url}\"\n")
             f.write(f"#   tags: [\"{repo.get('language') or 'Misc'}\"]\n")
             f.write(f"#   icon: \"{guess_icon(repo)}\"\n\n")
-            
+
     print(f"\nSuccessfully proposed new projects. Please check {DATA_FILE} and uncomment to finalize.")
 
 if __name__ == "__main__":

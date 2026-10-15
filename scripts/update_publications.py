@@ -53,6 +53,11 @@ def is_noise(title, venue):
             return True
     return False
 
+def is_noise_url(url):
+    """Checks if the publication URL points to a patent or defensive disclosure."""
+    noise_domains = ['patents.google.com', 'tdcommons.org']
+    return any(d in (url or '') for d in noise_domains)
+
 def get_existing_titles():
     """Reads all existing publication files and returns normalized titles."""
     existing = {}
@@ -104,6 +109,12 @@ def create_markdown(pub, existing_titles):
         scholarly.fill(pub)
     except:
         pass
+
+    # Patents and defensive disclosures only reveal themselves through the URL,
+    # which is available after fill
+    if is_noise_url(pub.get('pub_url', '')):
+        print(f"Skipping patent/disclosure: {title[:60]}")
+        return None
 
     # Re-extract with filled data
     bib = pub['bib']

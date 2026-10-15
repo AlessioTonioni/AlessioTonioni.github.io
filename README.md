@@ -15,13 +15,15 @@ This repository has been significantly refactored to include:
 
 ## 🛠️ Local Development & Updates
 
-### 📦 Run Publication Updates
-To check for new papers and generate news:
-1.  Ensure you have your `GEMINI_API_KEY` exported in your terminal: `export GEMINI_API_KEY=your_key_here`
-2.  Install requirements: `pip install scholarly pyyaml google-genai`
-3.  Run the script: `python scripts/update_publications.py`
-4.  Review the new markdown files in `_publications/` and the updates in `_data/news.yml`.
-5.  Commit and push: `git add . && git commit -m "Update publications" && git push`
+### 📦 Run the Routine Updates
+The update scripts live in `scripts/` and run in this order:
+1. `update_publications.py`: scrapes Google Scholar for new papers (patents and TD Commons disclosures are skipped) and writes `_publications/*.md` plus a Gemini-generated entry in `_data/news.yml`.
+2. `process_publications_stats.py`: Semantic Scholar references, Gemini summaries/categories, embeddings and 2D map, written to `assets/data/publications_enhanced.json`. Results are cached per title in `_data/*_cache.json`, so only new papers trigger API calls. The stats describe what your papers cite (references), not citations received.
+3. `update_projects.py`: proposes new GitHub repos as commented entries at the bottom of `_data/projects.yml`; uncomment the ones to feature.
+
+Setup: `python -m venv .venv && .venv/bin/pip install -r requirements.txt`, then export `GEMINI_API_KEY` (and optionally `GITHUB_TOKEN`, e.g. `$(gh auth token)`, to avoid GitHub's anonymous rate limit).
+
+The gitignored `scripts/local_update_run.sh` runs all three in sequence. Review the new publications and news before committing.
 
 ### 🖥️ Serve Locally
 1.  Ensure you have Docker installed and running.
